@@ -1,0 +1,3320 @@
+{
+	"gastroesphageal reflux disease": {
+        "filler": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        }
+    },
+    "stable angina pectoris": {
+        "pressure, heaviness, tightness, constriction": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "center chest, left chest": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "precipitated on exertion": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "relieved by rest": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "worsening with emotional stress, cold": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "radiation of chest pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "dyspnea": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "nausea": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "no nausea": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "vomiting": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "no vomiting": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "diaphoresis": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "no diaphoresis": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "presyncope": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "no presyncope": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "palpitations": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "no palpitations": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        }
+    },
+    "acute coronary syndrome (mi, unstable angina)": {
+        "at rest": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "frequency": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "longer duration": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "with less exertion than before": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "pain on exertion": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "no pain on exertion": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "radiation of chest pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "no radiation of chest pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        }
+    },
+    "myocardial infarction": {
+        "radiation of chest pain": {
+            "power": 4.1,
+            "prevalence": NaN,
+            "type": "CHAR",
+            "right arm": "{}={[7.30]\"add LR- for this and below\"}",
+            "left arm": "{}={[2.20],(),\"\"}",
+            "both arms": "{}={[9.70],(),\"\"}",
+            "right shoulder": "{}={[2.20],(),\"n=2, needs confirmation\"}"
+        },
+        "no radiation": {
+            "power": -0.68,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "pain on exertion": {
+            "power": 2.3,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no pain on exertion": {
+            "power": -0.76,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "sharp chest pain": {
+            "power": -0.3,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "no sharp chest pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "pleuritic chest pain": {
+            "power": -0.2,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "no pleuritic chest pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "positional chest pain": {
+            "power": -0.3,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "no positional chest pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "chest pain location": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR",
+            "inframmary": "{}={+[0.80],(),\"\"}"
+        },
+        "chest pain pressure": {
+            "power": 1.3,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "no chest pain pressure": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "chest wall tenderness": {
+            "power": -0.3,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no chest wall tenderness": {
+            "power": 1.3,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "vomiting": {
+            "power": 3.5,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no vomiting": {
+            "power": -0.87,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "nausea": {
+            "power": 2.4,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no nausea": {
+            "power": -0.72,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "smoking history": {
+            "power": 2.5,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no smoking history": {
+            "power": -0.85,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "current smoker": {
+            "power": 1.43,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no current smoker": {
+            "power": -0.83,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "male": {
+            "power": 1.5,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "female": {
+            "power": -0.24,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "third heart sound": {
+            "power": 3.2,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no third heart sound": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "hypotension": {
+            "power": 3.1,
+            "prevalence": NaN,
+            "type": "SIGN"
+        },
+        "no hypotension": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "crackles": {
+            "power": 2.1,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no crackles": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "diaphoresis": {
+            "power": 2.0,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no diaphoresis": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "past myocardial infarcations": {
+            "power": 1.5,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no past myocardial infractions": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "abnormal ecg": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG",
+            "any st-segment elevation": "{}={[11.00],\"\"}",
+            "new st-segment elevation": "{}={[5.70],(),\"5.7-54\"}",
+            "any st-segment depression": "{}={[3.20],(),\"\"}",
+            "new st-segment depression": "{}={[3.00],(),\"3.0-5.2\"}",
+            "no st-segment depression": "{}={[],(),\"\"}",
+            "any conduction defect": "{}={[2.70],(),\"\"}",
+            "new conduction defect": "{}={[6.30],(),\"\"}",
+            "no conduction defect": "{}={[],(),\"\"}",
+            "any q wave": "{}={[3.90],(),\"\"}",
+            "new q wave": "{}={[5.30],(),\"5.30-25\"}",
+            "no q wave": "{}={+-[],(),\"\"}",
+            "new t-wave inversion": "{}={+-[],(),\"\"}",
+            "no t-wave inversion": ""
+        },
+        "normal ecg": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "worse than previous angina or similar to previous mi": {
+            "power": 1.8,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "diabetes mellitus": {
+            "power": 1.18,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no diabetes mellitus": {
+            "power": -0.97,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "dyslipidemia": {
+            "power": 1.2,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no dyslipidemia": {
+            "power": -0.88,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "hypertension": {
+            "power": 1.1,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no hypertension": {
+            "power": -0.96,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "coronary artery disease": {
+            "power": -0.97,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no coronary artery disease": {
+            "power": 1.1,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "angina pectoris": {
+            "power": -0.89,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no angina pectoris": {
+            "power": 1.08,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "family history of mi": {
+            "power": 1.2,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no family history of mi": {
+            "power": -0.92,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "obesity": {
+            "power": -0.95,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no obesity": {
+            "power": 1.03,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "palpitations": {
+            "power": -0.47,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no palpitations": {
+            "power": 1.12,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "dyspnea": {
+            "power": -0.89,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no dyspnea": {
+            "power": 1.06,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        }
+    },
+    "aortic dissection": {
+        "chest pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no chest pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "back pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "severe": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "sudden": {
+            "power": 1.6,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "no sudden": {
+            "power": -0.3,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "sharp": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "ripping, tearing": {
+            "power": 1.2,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "not ripping, tearing": {
+            "power": -0.4,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "migrating pain": {
+            "power": 1.1,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "no migrating pain": {
+            "power": -0.6,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "radiation": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "hypertension": {
+            "power": 1.6,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no hypertension": {
+            "power": -0.5,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "pulse deficit": {
+            "power": 5.7,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no pulse deficit": {
+            "power": -0.7,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "focal neurologic deficit": {
+            "power": 6.6,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no focal neurologic deficit": {
+            "power": -0.7,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "abnormal chest xray": {
+            "power": 2.0,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "normal chest xray": {
+            "power": -0.3,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "diastolic murmur": {
+            "power": 1.4,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no diastolic murmur": {
+            "power": -0.9,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "abnormal mri": {
+            "power": 99.99,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "normal mri": {
+            "power": -0.01,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "abnormal ct": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "normal ct": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "abnormal tee": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "normal tee": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "abnormal aortography": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "normal aortography": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "marfan syndrome": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no marfan syndrome": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "marfan habitus": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no marfan habitus": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        }
+    },
+    "congestive heart failure": {
+        "myocardial infarction": {
+            "power": 3.1,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no myocardial infarction": {
+            "power": -0.69,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "coronary artery disease": {
+            "power": 1.8,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no coronary artery disease": {
+            "power": -0.68,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "dyslipidemia": {
+            "power": 1.7,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no dyslipidemia": {
+            "power": -0.89,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "diabetes mellitus": {
+            "power": 1.7,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no diabetes mellitus": {
+            "power": -0.86,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "hypertension": {
+            "power": 1.4,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no hypertension": {
+            "power": -0.71,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "smoking history": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "current smoker": {
+            "power": -0.84,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no smoker": {
+            "power": 1.4,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "chronic obstructive pulmonary disease": {
+            "power": -0.81,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no chronic obstructive pulmonary disease": {
+            "power": 1.1,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "paroxysmal nocturnal dyspnea": {
+            "power": 2.6,
+            "prevalence": NaN,
+            "type": "DUBJ"
+        },
+        "no paroxysmal nocturnal dyspnea": {
+            "power": -0.7,
+            "prevalence": NaN,
+            "type": "DUBJ"
+        },
+        "orthopnea": {
+            "power": 2.2,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no orthopnea": {
+            "power": -0.65,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "edema": {
+            "power": 2.1,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no edema": {
+            "power": -0.64,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "dyspnea on exertion": {
+            "power": 1.3,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no dyspnea on exertion": {
+            "power": -0.48,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "cough": {
+            "power": -0.93,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no cough": {
+            "power": 1.01,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "third heart sound": {
+            "power": 11.0,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no third heart sound": {
+            "power": -0.88,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "abdominojugular reflex": {
+            "power": 6.4,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no abdominojugular reflex": {
+            "power": -0.79,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "jugular venous distention": {
+            "power": 5.1,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no jugular venous distention": {
+            "power": -0.66,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "rales": {
+            "power": 2.8,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no rales": {
+            "power": -0.51,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "any murmur": {
+            "power": 2.6,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no murmur": {
+            "power": -0.81,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "lower extremity edema": {
+            "power": 2.3,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no lower extremity edema": {
+            "power": -0.64,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "valsalva maneuver": {
+            "power": 2.1,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no valsalva maneuver": {
+            "power": -0.41,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "hypotension": {
+            "power": 2.0,
+            "prevalence": NaN,
+            "type": "SIGN"
+        },
+        "no hypotension": {
+            "power": -0.97,
+            "prevalence": NaN,
+            "type": "SIGN"
+        },
+        "fourth heart sound": {
+            "power": 1.6,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no fourth heart sound": {
+            "power": -0.98,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "wheezing": {
+            "power": -0.52,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no wheezing": {
+            "power": 1.3,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "ascites": {
+            "power": -0.33,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no ascites": {
+            "power": 1.01,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "abnormal cxr": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG",
+            "pulmonary venous congestion": "{+[12.00],(),\"\"}",
+            "no pulmonary venous congestion": "",
+            "interstitial edema": "{+[12.00],(),\"\"}",
+            "no interstitial edema": "{-[0.68],(),\"\"}",
+            "alveolar edema": "{+[6.00],(),\"\"}",
+            "no alveolar edema": "{-[0.95],(),\"\"}",
+            "cardiomegaly": "{+[3.33],(),\"\"}",
+            "no cardiomegaly": "{-[0.33],(),\"\"}",
+            "pleural effusion": "{+[3.20],(),\"\"}",
+            "no pleural effusion": "{-[0.81],(),\"\"}",
+            "pneumonia": "{-[0.50],(),\"\"}",
+            "no pneumonia": "{+[1.01],(),\"\"}",
+            "hyperinflation": "{-[0.38],(),\"\"}",
+            "no hyperinflation": "{+[1.10],(),\"\"}"
+        },
+        "normal cxr": {
+            "power": -0.11,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "abnormal ecg": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "normal ecg": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "pericarditis": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "chest pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "improved by sitting up, leaning forward": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "infection": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "medications": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "autoimmune": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "malignancy": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "friction rub": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no friction rub": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "pericardial effusion": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "bnp": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG",
+            "bnp=>250": "{+[4.60],(),\"\"}",
+            "200=<bnp<=249": "{[3.70],(),\"\"}",
+            "150=<bnp<=199": "{[3.10],(),\"\"}",
+            "100=<bnp<=149": "{[2.70],(),\"\"}",
+            "80=<bnp<=99": "{[3.30],(),\"\"}",
+            "50=<bnp<=79": "{[1.70],(),\"\"}",
+            "bnp<50": "{[0.06],(),\"\"}"
+        },
+        "creatinine kinase": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG",
+            "ck=>1000": "{-[0.73],(),\"\"}",
+            "ck<1000": "{+[1.50],(),\"\"}"
+        },
+        "coronary artery bypass graft surgery": {
+            "power": 2.8,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no coronary artery bypass graft surgery": {
+            "power": -0.92,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "tachycardia": {
+            "power": 2.3,
+            "prevalence": NaN,
+            "type": "SIGN"
+        },
+        "no tachycardia": {
+            "power": -0.43,
+            "prevalence": NaN,
+            "type": "SIGN"
+        },
+        "displaced apical pulse": {
+            "power": 17.0,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no displaced apical pulse": {
+            "power": -0.35,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "dyspnea": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "palpitations": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "depressed left ventricular function": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "elevated cardiac enzympes": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "abnormal mri": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "abnormal gallium-67 scanning": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "abnormal anti-myosin antibody screening": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        }
+    },
+    "myocarditis": {
+        "filler": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        }
+    },
+    "costochondritis (chest wall syndrome)": {
+        "coronary artery disease": {
+            "power": -0.53,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no coronary artery disease": {
+            "power": 1.11,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "retrosternal": {
+            "power": -0.84,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "no retrosternal": {
+            "power": 1.26,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "localized": {
+            "power": 2.46,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "no localized": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "superficial": {
+            "power": 2.48,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "no superficial": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "related to positional": {
+            "power": 2.13,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "no related to positional": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "stabbing": {
+            "power": 2.11,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "no stabbing": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "related to movement": {
+            "power": 2.06,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "no related to movement": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "intermittent pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "no intermittent pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "radiation retrosternal": {
+            "power": -0.67,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "no radiation retrosternal": {
+            "power": 1.02,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "cough": {
+            "power": -0.3,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no cough": {
+            "power": 1.18,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "chest wall tenderness": {
+            "power": 2.07,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no chest wall tenderness": {
+            "power": -0.54,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "congestive heart failure": {
+            "power": -0.52,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no congestive heart failure": {
+            "power": 1.04,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "dyspnea": {
+            "power": -0.57,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no dyspnea": {
+            "power": 1.17,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "vomiting": {
+            "power": -0.5,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no vomiting": {
+            "power": 1.06,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "tightness": {
+            "power": -0.81,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "no tightness": {
+            "power": 1.11,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "respiratory infection": {
+            "power": -0.29,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no respiratory infection": {
+            "power": 1.11,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "worsening with exercise": {
+            "power": -0.68,
+            "prevalence": NaN,
+            "type": "AGRV"
+        },
+        "no worsening with exercise": {
+            "power": 1.11,
+            "prevalence": NaN,
+            "type": "AGRV"
+        },
+        "worsening with movement": {
+            "power": 2.17,
+            "prevalence": NaN,
+            "type": "AGRV"
+        },
+        "no worsening with movement": {
+            "power": -0.74,
+            "prevalence": NaN,
+            "type": "AGRV"
+        },
+        "worsening with breathing": {
+            "power": 1.26,
+            "prevalence": NaN,
+            "type": "AGRV"
+        },
+        "no worsening with breathing": {
+            "power": -0.94,
+            "prevalence": NaN,
+            "type": "AGRV"
+        },
+        "nervous appearance": {
+            "power": -0.74,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no nervous appearance": {
+            "power": 1.08,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "pallor": {
+            "power": -0.06,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no pallor": {
+            "power": 1.1,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "pressing pain": {
+            "power": -0.7,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "no pressing pain": {
+            "power": 1.08,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "duration": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DURA",
+            ">24 hours": "{+[1.33],(),\"\"}",
+            "<=24 hours": "{-[0.91],(),\"\"}"
+        },
+        "stinging": {
+            "power": 1.89,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "no stinging": {
+            "power": -0.65,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "localized muscle tension": {
+            "power": 2.44,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no localized muscle tension": {
+            "power": -0.52,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "severity": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "pain at noon time": {
+            "power": -0.4,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "no pain at noon time": {
+            "power": 1.03,
+            "prevalence": NaN,
+            "type": ""
+        }
+    },
+    "fibrositis": {
+        "filler": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        }
+    },
+    "cervical disc disease": {
+        "filler": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        }
+    },
+    "herpes zoster": {
+        "filler": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        }
+    },
+    "rib fracture": {
+        "recent trauma": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "chest pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        }
+    },
+    "sternoclavicular arthritis": {
+        "filler": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        }
+    },
+    "depression": {
+        "fatigue": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        }
+    },
+    "panic disorder": {
+        "chest pain": {
+            "power": 1.01,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no chest pain": {
+            "power": -0.99,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "fear of dying": {
+            "power": 4.04,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no fear of dying": {
+            "power": -0.82,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "diaphoresis": {
+            "power": 3.49,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no diaphoresis": {
+            "power": -0.69,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "dizziness": {
+            "power": 3.03,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no dizziness": {
+            "power": -0.84,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "palpitations": {
+            "power": 1.54,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no palpitations": {
+            "power": -0.83,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "dyspnea": {
+            "power": 1.3,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no dyspnea": {
+            "power": -0.92,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "nausea": {
+            "power": 1.98,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no nausea": {
+            "power": -0.9,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "anxiety attacks": {
+            "power": 4.2,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no anxiety attacks": {
+            "power": -0.09,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "positive patient health questionnaire(phq)": {
+            "power": 78.0,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "negative patient health questionnaire(phq)": {
+            "power": -0.2,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "positive symptom driven diagnostic system for primary care(sdds-pc)": {
+            "power": 4.9,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "negative symptom driven diagnostic system for primary care(sdds-pc)": {
+            "power": -0.35,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "positive 10-item scale": {
+            "power": 2.4,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "negative 10-item scale": {
+            "power": -0.4,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "positive brief panic disorder screen(bpds)": {
+            "power": -0.86,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "negative brief panic disorder screen(bpds)": {
+            "power": 1.36,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "positive autonomic nervous system questionnaire(ansq)": {
+            "power": 1.3,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "negative autonomic nervous system questionnaire(ansq)": {
+            "power": -0.6,
+            "prevalence": NaN,
+            "type": "DIAG"
+        }
+    },
+    "somatoform disorder": {
+        "filler": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        }
+    },
+	"cholangitis": {
+        "filler": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        }
+    },
+    "cholecystitis": {
+        "anorexia": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "no anorexia": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "vomiting": {
+            "power": 1.5,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no vomiting": {
+            "power": -0.6,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "fever": {
+            "power": 1.5,
+            "prevalence": NaN,
+            "type": "SIGN"
+        },
+        "no fever": {
+            "power": -0.9,
+            "prevalence": NaN,
+            "type": "SIGN"
+        },
+        "guarding": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "no guarding": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "murphy sign": {
+            "power": 2.8,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no murphy sign": {
+            "power": -0.5,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "nausea": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "no nausea": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "rebound tenderness": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "no rebound tenderness": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "rectal tenderness": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "no rectal tenderness": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "abnormal alkaline phosphatase": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "normal alkaline phosphatase": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "abnormal alt": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "normal alt": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "abnormal ast": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "normal ast": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "abnormal total bilirubin": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "normal total bilirubin": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "leukocytosis": {
+            "power": 1.5,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "no leukocytosis": {
+            "power": -0.6,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "right upper quadrant tenderness": {
+            "power": 1.6,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no right upper quadrant tenderness": {
+            "power": -0.4,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "abnormal ultrasound": {
+            "power": 4.4,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "normal ultrasound": {
+            "power": -0.15,
+            "prevalence": NaN,
+            "type": "DIAG"
+        }
+    },
+    "choledocholithiasis": {
+        "filler": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        }
+    },
+    "cholelithiasis": {
+        "filler": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        }
+    },
+    "pancreatitis": {
+        "filler": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        }
+    },
+    "peptic ulcer disease": {
+        "duodenal ulcers": {
+            "power": 3.9,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "no duodenal ulcers": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "aspirin": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "nonsteroidal anti-inflammatory drugs": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "age >50": {
+            "power": 1.5,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "age <=50": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "male": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "female": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "family history of peptic ulcer disease": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "no family history of peptic ulcer disease": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "peptic ulcer disease": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "no peptic ulcer disease": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "stress": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "no stress": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "smoking": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "smoking history": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "no smoking history": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "chronic renal failure": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "no chronic renal failure": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "chronic obstructive pulmonary disease": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "no chronic obstructive pulmonary disease": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "alcoholism": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "no alcoholism": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "alcohol": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "h. pylori infection": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "abdominal pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "no abdominal pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "chest pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "no chest pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "abdominal cramps": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "no abdominal cramps": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "heartburn": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "no heartburn": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "bloating": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "no bloating": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "nausea": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "no nausea": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "vomiting": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "no vomiting": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "early satiety": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "no early satiety": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "gas": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "no gas": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "pain decreased by food intake": {
+            "power": 1.7,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "pain after meals": {
+            "power": 1.4,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "epigastric tenderness": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "pain at night": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "abnormal ugi": {
+            "power": 17.0,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "normal ugi": {
+            "power": -0.16,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "abnormal egd": {
+            "power": 95.0,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "normal egd": {
+            "power": -0.05,
+            "prevalence": NaN,
+            "type": ""
+        }
+    },
+    "stress cardiomyopathy \"cardiomyopathy\"": {
+        "stress": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "",
+            "physical, emotional": "{}={+-[],(),\"\"}"
+        },
+        "critical illness": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "chest pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "",
+            "substernal\n": "{"
+        }
+    },
+    "mitral stenosis": {
+        "filler": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        }
+    },
+    "mitral valve prolapse": {
+        "chest pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "",
+            "mild\n": "{"
+        }
+    },
+    "pulmonary hypertension": {
+        "chest pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "dyspnea": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "syncope": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        }
+    },
+    "right ventricular hypertrophy": {
+        "filler": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        }
+    },
+    "pulmonary embolism": {
+        "deep vein thrombosis": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no deep vent thrombosis": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "chest pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "cough": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "no cough": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "dyspnea": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        }
+    },
+    "tension pneumothorax": {
+        "chest pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "",
+            "sudden onset": "{}={+-[],(),\"\"}"
+        },
+        "dypsnea": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "",
+            "sudden onset": "{}={+-[],(),\"\"}",
+            "": "{"
+        }
+    },
+    "pleuritis": {
+        "chest pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no chest pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "autoimmune disease": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "medication": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST",
+            "procainamide, hydralazine, isoniazid\n": "{"
+        }
+    },
+    "pulmonary sarcoidosis": {
+        "chest pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no chest pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "cough": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no cough": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "dyspnea": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "arrhythmia": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "palpitations": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "syncope": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "dizziness": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        }
+    },
+    "acute chest syndrome": {
+        "filler": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        }
+    },
+    "malignancy": {
+        "lung cancer": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "chest pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "cough": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "hemoptysis": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "dyspnea": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        }
+    },
+    "esophageal rupture": {
+        "filler": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        }
+    },
+    "esophagitis": {
+        "medication": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "chest pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "odynophagia": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        }
+    },
+    "tietz's syndrome": {
+        "filler": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        }
+    },
+    "sternalis syndrome": {
+        "filler": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        }
+    },
+    "xiphoidalgia": {
+        "filler": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        }
+    },
+    "fibromyalgia": {
+        "filler": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        }
+    },
+    "common cold": {
+        "exposure to children": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "RISK"
+        },
+        "no exposure to children": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "RISK"
+        },
+        "stay at home parent": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "RISK"
+        },
+        "nasal congestion": {
+            "power": 1.29,
+            "prevalence": 0.71,
+            "type": "SUBJ"
+        },
+        "no nasal congestion": {
+            "power": -0.64,
+            "prevalence": 0.29,
+            "type": "SUBJ"
+        },
+        "fever": {
+            "power": -0.43,
+            "prevalence": 0.07,
+            "type": "SIGN"
+        },
+        "no fever": {
+            "power": 1.16,
+            "prevalence": 0.93,
+            "type": "SIGN"
+        },
+        "sore throat": {
+            "power": -0.86,
+            "prevalence": 0.82,
+            "type": "SUBJ"
+        },
+        "no sore throat": {
+            "power": 1.38,
+            "prevalence": 0.18,
+            "type": "SUBJ"
+        },
+        "rhinorrhea": {
+            "power": 1.01,
+            "prevalence": 0.89,
+            "type": "SUBJ"
+        },
+        "no rhinorrhea": {
+            "power": -0.93,
+            "prevalence": 0.11,
+            "type": "SUBJ"
+        },
+        "sneezing": {
+            "power": NaN,
+            "prevalence": 0.71,
+            "type": "SUBJ"
+        },
+        "no sneezing": {
+            "power": NaN,
+            "prevalence": 0.29,
+            "type": "SUBJ"
+        },
+        "headache": {
+            "power": -0.51,
+            "prevalence": 0.42,
+            "type": "SUBJ"
+        },
+        "no headache": {
+            "power": 2.86,
+            "prevalence": 0.58,
+            "type": "SUBJ"
+        },
+        "lymphadenopathy": {
+            "power": NaN,
+            "prevalence": 0.04,
+            "type": "PHYS",
+            "cervical": "{ALOC}={\"\"}"
+        },
+        "no lymphadenopathy": {
+            "power": NaN,
+            "prevalence": 0.96,
+            "type": "PHYS"
+        },
+        "rales": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no rales": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "sputum": {
+            "power": NaN,
+            "prevalence": 0.03,
+            "type": "SUBJ"
+        },
+        "no sputum": {
+            "power": NaN,
+            "prevalence": 0.97,
+            "type": "SUBJ"
+        },
+        "chills": {
+            "power": NaN,
+            "prevalence": 0.19,
+            "type": "SUBJ"
+        },
+        "no chills": {
+            "power": NaN,
+            "prevalence": 0.81,
+            "type": "SUBJ"
+        },
+        "myalgia": {
+            "power": -0.6,
+            "prevalence": 0.13,
+            "type": "SUBJ"
+        },
+        "no myalgia": {
+            "power": 2.35,
+            "prevalence": 0.87,
+            "type": "SUBJ"
+        },
+        "lacrimation": {
+            "power": NaN,
+            "prevalence": 0.31,
+            "type": "SUBJ"
+        },
+        "no lacrimation": {
+            "power": NaN,
+            "prevalence": 0.69,
+            "type": "SUBJ"
+        },
+        "extra bed rest": {
+            "power": 0.22,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no extra bed rest": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "sinus pain": {
+            "power": NaN,
+            "prevalence": 0.22,
+            "type": "SUBJ"
+        },
+        "no sinus pain": {
+            "power": NaN,
+            "prevalence": 0.78,
+            "type": "SUBJ"
+        },
+        "cough": {
+            "power": -0.96,
+            "prevalence": 0.36,
+            "type": "SUBJ"
+        },
+        "no cough": {
+            "power": 2.33,
+            "prevalence": 0.64,
+            "type": "SUBJ"
+        },
+        "mucopurulent discharge": {
+            "power": NaN,
+            "prevalence": 0.01,
+            "type": "SUBJ"
+        },
+        "no mucopurulent discharge": {
+            "power": NaN,
+            "prevalence": 0.01,
+            "type": "SUBJ"
+        },
+        "ili contact": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "RISK"
+        },
+        "no ili contact": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "RISK"
+        },
+        "weakness": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no weakness": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "anorexia": {
+            "power": NaN,
+            "prevalence": 0.22,
+            "type": "SUBJ"
+        },
+        "no anorexia": {
+            "power": NaN,
+            "prevalence": 0.22,
+            "type": "SUBJ"
+        }
+    },
+    "flu": {
+        "fever": {
+            "power": 1.8,
+            "prevalence": 0.87,
+            "type": "SIGN",
+            "100.0<t<104.0": "{RANGE}={F}",
+            "abrupt onset": "{DURATION}={0<DURATION<2,\"Needs verification\u201d}"
+        },
+        "no fever": {
+            "power": -0.49,
+            "prevalence": 0.13,
+            "type": "SIGN"
+        },
+        "headache": {
+            "power": 1.3,
+            "prevalence": 0.8,
+            "type": "SUBJ"
+        },
+        "no headache": {
+            "power": -0.75,
+            "prevalence": 0.19,
+            "type": "SUBJ"
+        },
+        "myalgia": {
+            "power": 1.3,
+            "prevalence": 0.83,
+            "type": "SUBJ"
+        },
+        "no myalgia": {
+            "power": -1.2,
+            "prevalence": 0.17,
+            "type": "SUBJ"
+        },
+        "positive rapid flu": {
+            "power": 6.0,
+            "prevalence": 0.05,
+            "type": "DIAG"
+        },
+        "negative rapid flu": {
+            "power": -0.44,
+            "prevalence": 0.5,
+            "type": "DIAG"
+        },
+        "weakness": {
+            "power": 1.05,
+            "prevalence": 0.82,
+            "type": "SUBJ"
+        },
+        "no weakness": {
+            "power": -0.81,
+            "prevalence": 0.18,
+            "type": "SUBJ"
+        },
+        "cough": {
+            "power": 1.35,
+            "prevalence": 0.84,
+            "type": "SUBJ"
+        },
+        "no cough": {
+            "power": -0.42,
+            "prevalence": 0.16,
+            "type": "SUBJ"
+        },
+        "anorexia": {
+            "power": 1.15,
+            "prevalence": 0.6,
+            "type": "SUBJ"
+        },
+        "no anorexia": {
+            "power": -0.83,
+            "prevalence": 0.4,
+            "type": "SUBJ"
+        },
+        "sore throat": {
+            "power": 1.1,
+            "prevalence": 0.7,
+            "type": "SUBJ"
+        },
+        "no sore throat": {
+            "power": -0.96,
+            "prevalence": 0.16,
+            "type": "SUBJ"
+        },
+        "rhinorrhea": {
+            "power": -0.95,
+            "prevalence": 0.83,
+            "type": "SUBJ"
+        },
+        "no rhinorrhea": {
+            "power": 1.31,
+            "prevalence": 0.17,
+            "type": "SUBJ"
+        },
+        "nasal congestion": {
+            "power": 1.2,
+            "prevalence": 0.91,
+            "type": "SUBJ"
+        },
+        "no nasal congestion": {
+            "power": -0.49,
+            "prevalence": 0.09,
+            "type": "SUBJ"
+        },
+        "lymphadenopathy": {
+            "power": 1.09,
+            "prevalence": 0.25,
+            "type": "PHYS",
+            "cervical": "{ALOC}={}"
+        },
+        "no lymphadenopathy": {
+            "power": -0.97,
+            "prevalence": 0.75,
+            "type": "PHYS"
+        },
+        "normal breath sounds": {
+            "power": NaN,
+            "prevalence": 0.58,
+            "type": "PHYS"
+        },
+        "abnormal breath sounds": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "normal leukocyte count": {
+            "power": -0.92,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "leukopenia": {
+            "power": 1.52,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "leukocytosis": {
+            "power": -0.92,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "nausea": {
+            "power": 1.29,
+            "prevalence": 0.11,
+            "type": "SUBJ"
+        },
+        "no nausea": {
+            "power": -0.84,
+            "prevalence": 0.89,
+            "type": "SUBJ"
+        },
+        "vomiting": {
+            "power": 1.29,
+            "prevalence": 0.11,
+            "type": "SUBJ"
+        },
+        "no vomiting": {
+            "power": -0.84,
+            "prevalence": 0.89,
+            "type": "SUBJ"
+        },
+        "influenza epidemic": {
+            "power": 1.62,
+            "prevalence": 0.86,
+            "type": "AUTO"
+        },
+        "no influenza epidemic": {
+            "power": -0.3,
+            "prevalence": 0.14,
+            "type": "AUTO"
+        },
+        "chills": {
+            "power": 1.1,
+            "prevalence": 0.83,
+            "type": "SUBJ"
+        },
+        "no chills": {
+            "power": -0.68,
+            "prevalence": 0.17,
+            "type": "SUBJ"
+        },
+        "sweating": {
+            "power": 2.9,
+            "prevalence": 0.81,
+            "type": "SUBJ"
+        },
+        "no sweating": {
+            "power": -0.6,
+            "prevalence": 0.19,
+            "type": "SUBJ"
+        },
+        "sputum": {
+            "power": 1.1,
+            "prevalence": 0.3,
+            "type": "SUBJ"
+        },
+        "no sputum": {
+            "power": -0.9,
+            "prevalence": 0.7,
+            "type": "SUBJ"
+        },
+        "ili contact": {
+            "power": 1.74,
+            "prevalence": 0.39,
+            "type": "RISK"
+        },
+        "no ili contact": {
+            "power": -0.81,
+            "prevalence": 0.61,
+            "type": "RISK"
+        },
+        "flu vaccine": {
+            "power": -0.63,
+            "prevalence": 0.08,
+            "type": "RISK"
+        },
+        "no flu vaccine": {
+            "power": -1.1,
+            "prevalence": 0.92,
+            "type": "RISK"
+        },
+        "acute onset of symptoms": {
+            "power": NaN,
+            "prevalence": 0.89,
+            "type": "DURATION"
+        },
+        "no acute onset of symptoms": {
+            "power": -0.79,
+            "prevalence": 0.11,
+            "type": "DURATION",
+            ">1day\n": "{"
+        }
+    },
+    "community-acquired pneumonia": {
+        "immunocomprimised": {
+            "power": 2.2,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "immunocompetent": {
+            "power": -0.85,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "fever": {
+            "power": 2.2,
+            "prevalence": 0.8,
+            "type": "SIGN",
+            "38<=t<=40": "{RANGE}={C}"
+        },
+        "no fever": {
+            "power": -0.67,
+            "prevalence": 0.2,
+            "type": "SIGN"
+        },
+        "night sweats": {
+            "power": 1.7,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no night sweats": {
+            "power": -0.83,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "chills": {
+            "power": 1.53,
+            "prevalence": 0.45,
+            "type": "SUBJ",
+            "shaking": "{CHAR}={}"
+        },
+        "no chills": {
+            "power": -0.76,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "sore throat": {
+            "power": -0.8,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no sore throat": {
+            "power": 1.8,
+            "prevalence": 0.1,
+            "type": "SUBJ"
+        },
+        "rhinorrhea": {
+            "power": -0.8,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no rhinorrhea": {
+            "power": 2.2,
+            "prevalence": 0.1,
+            "type": "SUBJ"
+        },
+        "crackles": {
+            "power": 2.15,
+            "prevalence": 0.38,
+            "type": "PHYS"
+        },
+        "no crackles": {
+            "power": -0.78,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "response to treatment": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "TMNT",
+            "antibiotics": "{}={\"\"}"
+        },
+        "no response to treatment": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "TMNT",
+            "antibiotics": "{}={\"\"}"
+        },
+        "sputum": {
+            "power": 1.3,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no sputum": {
+            "power": -0.55,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "positive sputum analysis": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "negative sputum analysis": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "tachypnea": {
+            "power": 2.7,
+            "prevalence": 0.45,
+            "type": "SIGN",
+            "24<rr<35": "{RANGE}={brpm}"
+        },
+        "normnypnea": {
+            "power": -0.66,
+            "prevalence": NaN,
+            "type": "SIGN",
+            "12<=rr<=20": "{RANGE}={brpm}"
+        },
+        "tachycardia": {
+            "power": 1.7,
+            "prevalence": NaN,
+            "type": "SIGN",
+            "100<=hr<=160": "{RANGE}={bpm}"
+        },
+        "normocardia": {
+            "power": -0.73,
+            "prevalence": NaN,
+            "type": "SIGN",
+            "60<=hr<=90": "{RANGE}={bpm}"
+        },
+        "rhonchi": {
+            "power": 1.45,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no rhonchi": {
+            "power": -0.81,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "positive blood culture": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "negative blood culture": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "dyspnea": {
+            "power": 1.4,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no dyspnea": {
+            "power": -0.67,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "normal cxr": {
+            "power": -0.01,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "abnormal cxr": {
+            "power": 9.99,
+            "prevalence": NaN,
+            "type": "DIAG",
+            "patchy infiltrates, consolidates": "{IMAG}={}"
+        },
+        "egophany": {
+            "power": 4.1,
+            "prevalence": 0.38,
+            "type": "PHYS"
+        },
+        "no egophany": {
+            "power": -0.89,
+            "prevalence": 0.62,
+            "type": "PHYS"
+        },
+        "tactile fremitus": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no tactile fremitus": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "normal procalcitonin": {
+            "power": -0.31,
+            "prevalence": 0.15,
+            "type": "DIAG",
+            "0<=pct<=24": "{RANGE}={mcg/L}"
+        },
+        "abnormal procalcitonin": {
+            "power": 4.87,
+            "prevalence": 0.74,
+            "type": "DIAG",
+            "25<=pct<=99": "{RANGE}={mcg/L}"
+        },
+        "normal c-reactive protein": {
+            "power": -0.22,
+            "prevalence": 0.48,
+            "type": "DIAG",
+            "0<=crp<=39": "{RANGE}={mg/L} "
+        },
+        "abnormal c-reactive protein": {
+            "power": 1.86,
+            "prevalence": 0.89,
+            "type": "DIAG",
+            "40<=crp<=1000": "{RANGE}={mg/L}"
+        },
+        "leukocytosis": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG",
+            "15000<=wbc<=30000": "{RANGE}={\"units\"}"
+        },
+        "normal wbc": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "leukopenia": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG",
+            "0<=wbc<=4000": "{RANGE}={\"units\"}"
+        },
+        "neutrophilia": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG",
+            "80<=diffneut<=99": "{RANGE}={%}"
+        },
+        "pleurisy": {
+            "power": NaN,
+            "prevalence": 0.3,
+            "type": "SUBJ"
+        },
+        "no pleurisy": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "referred pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ",
+            "abdomen": "{ALOC}={}"
+        },
+        "no referred pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ",
+            "abdomen": "{ALOC}={}"
+        },
+        "myalgia": {
+            "power": 1.3,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no myalgia": {
+            "power": -0.58,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "cough": {
+            "power": 1.8,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no cough": {
+            "power": -0.3,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "decreased breath sounds": {
+            "power": 2.4,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "normal breath sounds": {
+            "power": -0.71,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "dullness to percussion": {
+            "power": 3.25,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no dullness to percussion": {
+            "power": -0.86,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "asthma": {
+            "power": -0.1,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no asthma": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        }
+    },
+    "acute bronchitis": {
+        "sputum": {
+            "power": 3.13,
+            "prevalence": 0.63,
+            "type": "SUBJ",
+            "purulent": "{CHAR}={}"
+        },
+        "no sputum": {
+            "power": -0.26,
+            "prevalence": 0.37,
+            "type": "SUBJ"
+        },
+        "mucopurulent discharge": {
+            "power": 10.0,
+            "prevalence": 0.11,
+            "type": "SUBJ"
+        },
+        "no mucopurulent discharge": {
+            "power": -0.91,
+            "prevalence": 0.89,
+            "type": "SUBJ"
+        },
+        "rhinorrhea": {
+            "power": 1.74,
+            "prevalence": 0.5,
+            "type": "SUBJ"
+        },
+        "no rhinorrhea": {
+            "power": -0.26,
+            "prevalence": 0.5,
+            "type": "SUBJ"
+        },
+        "sore throat": {
+            "power": -0.74,
+            "prevalence": 0.5,
+            "type": "SUBJ"
+        },
+        "no sore throat": {
+            "power": 1.19,
+            "prevalence": 0.5,
+            "type": "SUBJ"
+        },
+        "dyspnea": {
+            "power": NaN,
+            "prevalence": 0.42,
+            "type": "SUBJ"
+        },
+        "no dyspnea": {
+            "power": NaN,
+            "prevalence": 0.58,
+            "type": "SUBJ"
+        },
+        "normal cxr": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "abnormal cxr": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "fever": {
+            "power": 1.05,
+            "prevalence": 0.22,
+            "type": "SIGN"
+        },
+        "no fever": {
+            "power": -0.99,
+            "prevalence": 0.78,
+            "type": "SIGN"
+        },
+        "wheezing": {
+            "power": 1.11,
+            "prevalence": 0.35,
+            "type": "PHYS"
+        },
+        "no wheezing": {
+            "power": -0.99,
+            "prevalence": 0.65,
+            "type": "PHYS"
+        },
+        "rales": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no rales": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "rhonchi": {
+            "power": NaN,
+            "prevalence": 0.17,
+            "type": "PHYS"
+        },
+        "no rhonchi": {
+            "power": NaN,
+            "prevalence": 0.83,
+            "type": "PHYS"
+        },
+        "egophany": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no egophany": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "normal breath sounds": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "decreased breath sounds": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "bronchophony": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no bronchophony": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "normal percussion": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "abnormal percussion": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS",
+            "dullness": "{}={}"
+        },
+        "pleural rub": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no pleural rub": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "normal leukocyte count": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "neutrophilia": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "chronic obstructive pulmonary disease": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no chronic obstructive pulmonary disease": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "cough": {
+            "power": 1.59,
+            "prevalence": 0.92,
+            "type": "SUBJ"
+        },
+        "no cough": {
+            "power": -0.15,
+            "prevalence": 0.08,
+            "type": "SUBJ"
+        },
+        "lymphadenopathy": {
+            "power": -1.09,
+            "prevalence": 0.19,
+            "type": "PHYS",
+            "cervical": "{ALOC}={}"
+        },
+        "no lymphadenopathy": {
+            "power": NaN,
+            "prevalence": 0.81,
+            "type": "PHYS"
+        }
+    },
+    "allergic rhinitis": {
+        "seasonal allergies": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no seasonal allergies": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "rhinorrhea": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no rhinorrhea": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "fever": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SIGN"
+        },
+        "no fever": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SIGN"
+        },
+        "allergen season": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "no allergen season": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        },
+        "allergen allergy": {
+            "power": 6.69,
+            "prevalence": NaN,
+            "type": "HIST",
+            "allergen": "{}={\"ex"
+        },
+        "no allergen allergy": {
+            "power": -0.15,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "cough": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no cough": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "asthma": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no asthma": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "eye irritation": {
+            "power": 1.16,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no eye irritation": {
+            "power": -0.9,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "lacrimation": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no lacrimation": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "recurrent symptoms": {
+            "power": 1.55,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no recurrent symptoms": {
+            "power": -0.75,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "abnormal skin prick test": {
+            "power": 2.27,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "normal skin prick test": {
+            "power": -0.46,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "abnormal intradermal test": {
+            "power": 1.88,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "normal intradermal test": {
+            "power": -0.59,
+            "prevalence": NaN,
+            "type": "DIAG"
+        }
+    },
+    "asthma exacerbation": {
+        "asthma": {
+            "power": 36.0,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no asthma": {
+            "power": -0.01,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "recent uri infection": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no recent uri infection": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "wheezing": {
+            "power": 1.92,
+            "prevalence": NaN,
+            "type": "SUBJ",
+            "episodic": "{CHAR}={}"
+        },
+        "no wheezing": {
+            "power": -0.86,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "shortness of breath": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no shortness of breath": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "chest pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no chest pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "fever": {
+            "power": -0.01,
+            "prevalence": NaN,
+            "type": "SIGN"
+        },
+        "no fever": {
+            "power": 1.01,
+            "prevalence": NaN,
+            "type": "SIGN"
+        },
+        "season": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "AUTO"
+        },
+        "no season": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "AUTO"
+        },
+        "cough": {
+            "power": 1.34,
+            "prevalence": NaN,
+            "type": "AUTO"
+        },
+        "no cough": {
+            "power": -0.86,
+            "prevalence": NaN,
+            "type": "AUTO"
+        }
+    }
+}

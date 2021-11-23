@@ -1,0 +1,38 @@
+#psychiatry_follow_up-tabpostlink,#m3-tabpostlink,#ort-tabpostlink,#home-tabpostlink, #profile-tabpostlink, #contact-tabpostlink, #family-tabpostlink, #allergies-tabpostlink,#other_detail-tabpostlink,#pain_updates-tabpostlink,#general_updates-tabpostlink,#screening-tabpostlink,#post_checkup_detail-tabpostlink,#procedure_detail-tabpostlink,#pre_op_allergies-tabpostlink,#pre_op_medications-tabpostlink,#disease-tabpostlink,#disease_detail-tabpostlink,#mad_refill_drug-tabpostlink,#follow_up_sx_detail-tabpostlink,#covid_detail-tabpostlink,#phq_9-tabpostlink,#focused_history-tabpostlink,#chronic_assessment-tabpostlink,#chronic_condition-tabpostlink,#padt-tabpostlink,#dast-tabpostlink,#soapp-tabpostlink,#comm-tabpostlink,#dmii-tabpostlink,#cad-tabpostlink,#chf-tabpostlink,#copd-tabpostlink,#htn-tabpostlink,
+#chronic-general-tabpostlink,#asthma-tabpostlink,#cancer_cc-tabpostlink,#cancer_history-tabpostlink,#cancer_assessments-tabpostlink,#cancer_medical_history-tabpostlink,#pre_op_post_op-tabpostlink,#oncology_general-tabpostlink,#oncology_medical_history-tabpostlink,#hospital_er_info-tabpostlink,#pain_ass_tabpostlink,#pain_assessments-tabpostlink,#treatment_history-tabpostlink,#opioid_overdose_risk-tabpostlink,#opioid_risk_tool-tabpostlink,#chronic-pain-tabpostlink,#general-assessment-tabpostlink,#taps1-assessment-tabpostlink,#taps2-assessment-tabpostlink,#internal_assessment-tabpostlink{
+		display: none !important;
+	}
+
+.common_conditions_button	li button { margin-bottom: 5px;  }
+
+
+.on_load_display_none_cls { display: none; }
+
+ input[readonly] { background-color: #fff !important; }
+   .bootstrap-tagsinput .badge{ padding: 0px 7px;  }
+
+	.custom-drop-li { display: none; z-index: 99; }
+.badge.badge-info {	font-weight: normal; }
+.reaction_suggestion_listul {
+	top: 100% !important;
+}
+/*.back_next_button ul { display: block; }*/
+.clone_purpose_medication_field_display_none, .clone_purpose_reading_field_display_none,.chronic_condition_clone_purpose_medication_field_display_none,.clone_purpose_medication_refill_medication_field_display_none{ display: none; }
+.elem_display_none, .clone_purpose_bp_reading_field_display_none, .clone_purpose_peak_flow_reading_field_display_none { display: none; }
+.currentreadingfld, .currentmedicationfld, .currentbpreadingfld, .currentpeakflowreadingfld{
+	margin-bottom: 15px;
+}
+#form_tab_23_copd #chronic_copd_question_267_section .radio_list .form-check{
+    padding-left: 0 !important;
+    margin-bottom: 7px !important;
+}
+
+#form_tab_26 .cancer_history_que_341_section .radio_list .form-check {
+    float: none !important;
+    padding-left: 0 !important;
+    margin-bottom: 7px !important;
+}
+.back_next_button_sticky { padding: 20px 0px;padding-bottom: 20px !important;background: #fff;position: sticky;bottom: 0; }
+
+.summary-page-previous-btn-left{text-align: left; position: relative; top:62px; z-index: 1;display: inline-block;}
+

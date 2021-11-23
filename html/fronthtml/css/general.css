@@ -1,0 +1,217 @@
+/*font family*/
+/*font-variables-here*/
+/*font-variables-end*/
+/*color-variables-here*/
+/*color-variables-end*/
+/* patient chart color */
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  scroll-behavior: smooth; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+p, span {
+  line-height: 24px; }
+
+img {
+  max-width: 100%; }
+
+.site_content {
+  display: block; }
+
+.site_content:after, .site_content:before {
+  display: table;
+  clear: both;
+  content: ""; }
+
+header, footer, section {
+  display: block; }
+
+header:after, header:before, footer:after, footer:before, section:after, section:before {
+  display: table;
+  clear: both;
+  content: ""; }
+
+.container {
+  margin: auto;
+  width: 1170px;
+  max-width: 100%; }
+
+.container:after, .container:before {
+  display: table;
+  clear: both;
+  content: ""; }
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+  position: absolute;
+  left: -9999px; }
+
+[type="radio"]:checked + label, [type="radio"]:not(:checked) + label {
+  position: relative;
+  padding-left: 28px;
+  cursor: pointer;
+  line-height: 20px;
+  display: inline-block;
+  color: #666; }
+
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #ddd;
+  border-radius: 100%;
+  background: #fff; }
+
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+  content: '';
+  width: 12px;
+  height: 12px;
+  background: #0c90db;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease; }
+
+[type="radio"]:not(:checked) + label:after {
+  opacity: 0;
+  -webkit-transform: scale(0);
+  transform: scale(0); }
+
+[type="radio"]:checked + label:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1); }
+
+[type="checkbox"]:checked, [type="checkbox"]:not(:checked) {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none; }
+
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0; }
+
+.switch label input[type="checkbox"]:checked + .lever:after {
+  background-color: #003394;
+  left: 1.5rem; }
+
+.switch label .lever:after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  background-color: #f1f1f1;
+  -webkit-border-radius: 1.3125rem;
+  border-radius: 1.3125rem;
+  left: -.3125rem;
+  top: -.1875rem;
+  -webkit-box-shadow: 0 0.0625rem 0.1875rem 0.0625rem rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0.0625rem 0.1875rem 0.0625rem rgba(0, 0, 0, 0.4);
+  width: 1.3125rem;
+  height: 1.3125rem;
+  -webkit-transition: left .3s ease,background .3s ease,-webkit-box-shadow 1s ease;
+  transition: left .3s ease,background .3s ease,-webkit-box-shadow 1s ease;
+  -o-transition: left .3s ease,background .3s ease,box-shadow 1s ease;
+  transition: left .3s ease,background .3s ease,box-shadow 1s ease;
+  transition: left .3s ease,background .3s ease,box-shadow 1s ease,-webkit-box-shadow 1s ease; }
+
+.switch label input[type="checkbox"] {
+  opacity: 0;
+  width: 0;
+  height: 0; }
+
+.switch label input[type="checkbox"]:checked + .lever {
+  background-color: #f4f8ff; }
+
+.switch label .lever {
+  content: "";
+  display: inline-block;
+  position: relative;
+  background-color: #818181;
+  -webkit-border-radius: .9375rem;
+  border-radius: .9375rem;
+  margin-right: .625rem;
+  vertical-align: middle;
+  margin: 0 1rem;
+  width: 2.5rem;
+  height: .9375rem;
+  -webkit-transition: background .3s ease;
+  -o-transition: background .3s ease;
+  transition: background .3s ease; }
+
+button:focus {
+  border: none;
+  outline: none; }
+
+select {
+  appearance: none; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-collapse: collapse;
+  display: table;
+  text-align: left;
+  border: 1px solid #c9c9c9; }
+
+table th {
+  padding: 15px;
+  border-top: 1px solid #c9c9c9;
+  text-transform: capitalize;
+  background: #f4f4f6;
+  border-right: 1px solid #c9c9c9; }
+
+table td {
+  padding: 15px;
+  border-top: 1px solid #c9c9c9;
+  border-bottom: 1px solid #c9c9c9;
+  border-right: 1px solid #c9c9c9;
+  font-size: 14px;
+  color: #1b1b1b; }
+
+.transition, a {
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out; }
+
+.transform-scale0 {
+  -ms-transform: scale(0);
+  -webkit-transform: scale(0);
+  transform: scale(0); }
+
+.transform-scale {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1); }
+
+.shadow {
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1); }
+
+.ShadowBlue {
+  box-shadow: 0px 0px 30px #ebf2fc; }
+
+/*# sourceMappingURL=general.css.map */

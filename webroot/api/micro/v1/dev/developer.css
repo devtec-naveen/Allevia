@@ -1,0 +1,162 @@
+.custom-drop{position:relative;}
+.custom-drop-li{background:#fff; position: absolute;top:42px;left: 0;width: 100%;max-height: 300px;overflow-x: auto;box-shadow: 2px 2px 15px rgba(0,0,0,0.2);border: 1px solid #ccc; z-index: 99;   }
+.custom-drop-li li { padding: 7px; }
+.custom-drop-li li:hover { background: #384685;color: #fff; }
+.tab_form_fild_bg .prev_given_birth_repeatable, .tab_form_fild_bg .biopsy_field_repeatable  {padding: 10px;border: 1px solid #ccc;border-radius: 5px;box-shadow: 5px 5px 10px rgba(0,0,0,0.1);margin-bottom: 15px;}
+.tab_form_fild_bg .prev_given_birth_repeatable.p_g_b_r_static, , .tab_form_fild_bg .biopsy_field_repeatable.p_f_r_static   { padding: 10px;border: 1px solid #ccc;border-radius: 5px;box-shadow: 5px 5px 10px rgba(0,0,0,0.0); margin-bottom: 15px; }
+.form-group .form-control.select2-container { height: 43px !important; }
+.form-group .form-control .select2-choice { background: none;line-height: 43px;height: 42px;display: flex;align-items: center; }
+.form-control .select2-choice .select2-arrow { margin-right: 0px;background: none !important; }
+.form-control .select2-choice .select2-arrow b { margin-top: 5px; }
+.TitleHead:hover h3 { letter-spacing: 0; }
+.medication_refill_medbox {padding: 10px;background: #ececec;padding-top: 24px;margin-bottom: 15px; }
+.step_head.step_head_deactive .step_tab ul li:not(.active) a:not(.active):hover .step_number i { background: url(../images/step_number.png) no-repeat; }
+.edit_medical_box .step_head.step_head_deactive .step_tab ul li { width: 150px; }
+.new_appointment_box .edit_medical_box .step_head.step_head_deactive .step_tab:before { width: 80%; }
+.step_head.step_head_deactive .step_tab ul li a.should_not_active .step_number i {  background: url(../images/step_number.png) no-repeat;}
+
+.new_appointment_form .col-md-3 a img{height:140px; margin-bottom:25px;}
+
+.step_head .step_tab ul li a small {position: absolute;top: -18px;left: 40%;width: 15px;height: 50px;background: red;border-radius: 50%;height: 15px;color: #fff;font-size: 10px;}
+
+/* 14-09-18 */ 
+label.error, .message.error, .error-message { color: red;  }
+.message.success { color: green; }
+.question_symptom_newapp.tab_form_fild_bg .row .col-md-4{display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center;}
+.question_symptom_newapp.tab_form_fild_bg .row .col-md-4 h4{margin: 0;}
+
+/* 05-03-19 */
+
+.name_dob_header_cls{ position: absolute; right: 12px; bottom:2px; font-size: 10px; color: #384685; /* background: #ececec; */ }
+
+.dropdown-menu { overflow: hidden; }
+.dropdown-menu a:hover { background: #384685;color: #fff !important; }
+.dropdown-menu a { border-bottom: 2px solid #f3f3f3; }
+.dropdown-menu a:last-child { border-bottom: none; }
+
+
+.workfolw_box ul{display:block; max-width:500px;}
+.workfolw_box ul:after,.workfolw_box ul:before{display:table; clear:both; content:"";}
+.workfolw_box ul li{float:left; width:33.3%; text-align:center; font-size:14px;}
+.workfolw_box2 ul{display:block; max-width:249px;}
+.workfolw_box2 ul:after,.workfolw_box2 ul:before{display:table; clear:both; content:"";}
+.workfolw_box2 ul li{float:left; width:50%; text-align:center; font-size:14px;}
+.cms_pages_content h2{font-size:22px; color:#384685; font-weight:bold;}
+.cms_pages_content h1{font-size:22px; color:#384685; font-weight:bold;}
+.about_des blockquote h2{font-size:22px; color:#384685; font-weight:bold;}
+.provider_list{padding:30px 0px;}
+.provider_list ul li{display:block; padding-bottom:30px;}
+.provider_list ul li:last-child{padding-bottom:0;}
+.provider_list ul li:after,.provider_list ul li:before{display:table; clear:both; content:"";}
+.provider_list ul li figure{float:left; max-width:185px;}
+.provider_list ul li figure img{max-height:120px;}
+.provider_list ul li figcaption{float:left; width:calc(100% - 185px); padding-left:40px;}
+
+
+/* 13-5-2019*/
+
+span.required{
+
+  color: red;
+}
+
+button.selected_chief_complaint{
+	background: #000 !important;
+}
+
+.TitleHead h3, .dashboard_head h2 {
+    text-transform: capitalize;
+}
+
+button.btn{
+    text-transform: lowercase;
+}
+
+/* 16-07-2019 */
+
+.grayed_out{
+
+	background: #889abb !important;
+}
+
+.new_appointment_form a.active {
+    border: solid 2px #b4d8ff;
+ }
+/* 02-08-2019 */
+ .new_appointment_box .edit_medical_box .step_head.step_head_deactive .step_tab::before {
+    width: 80% !important;
+}
+
+.edit_medical_box .step_head.step_head_deactive .step_tab ul li {
+    width: 140px;
+}
+
+.edit_medical_box .step_head .step_tab ul li a.grayed .step_number i{
+
+	background: url(../images/step_number_in_gray.png) no-repeat !important;
+}
+
+#regster_form button.btn, .quick_pick_chiefcom_btn button.btn, .quick_pick_chiefcom_medication button.btn, .question_symptom_newapp .btn{
+
+	text-transform: capitalize !important;
+}
+.question_symptom_newapp .btn{
+	font-size: 17px;
+}
+
+.question_symptom_newapp button.btn{
+
+	font-size: 14px;
+}
+button.btn, button.btn-info,button.btn:active, button.btn-info:active,.btn:active{
+
+	background: #384685;
+}
+
+ button.btn-info,button.btn-info:active{
+
+ 	background-color: #384685 !important;
+ }
+ .btn:active{
+ 	background-image: none !important;
+ }
+
+@media only screen and  (max-width:768px){
+ .name_dob_header_cls{  font-size: 9px;  }
+}
+
+@media only screen and (min-width:1024px) and (max-width:1169px){
+.workfolw_box ul{max-width:540px;}
+.workfolw_box2 ul	{max-width:300px;}
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px){
+.workfolw_box ul{max-width:540px;}
+.workfolw_box2 ul	{max-width:300px;}
+}
+
+@media only screen and (min-width:480px) and (max-width:767px){
+.workfolw_box ul{max-width:540px;}
+.workfolw_box2 ul	{max-width:355px;}
+.workfolw_box img{max-width:100% !important;}
+.workfolw_box2 img{max-width:300px !important;}
+}
+
+@media only screen and (min-width:0px) and (max-width:479px){
+.workfolw_box ul{max-width:540px;}
+.workfolw_box2 ul	{max-width:355px;}
+.workfolw_box img{max-width:100% !important;}
+.workfolw_box2 img{max-width:240px !important;}
+.cms_pages_content h2{font-size:18px;}
+.about_des blockquote h2{font-size:18px;}
+.provider_list ul li figure{float:none; width:100%;}
+.provider_list ul li figcaption{float:none; width:100%; padding-left:0;}
+}
+
+
+
+.blk-one-line { display: flex; }
+.blk-one-line .form-group  { width: 100%; }
+.blk-one-line label { min-width: 118px; padding-top: 10px;}
+.blk-one-line.alleries_conditions_reaction label { min-width: 75px; padding-top: 10px;}
+.display_none_at_load_time { display: none; }

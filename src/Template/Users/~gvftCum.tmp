@@ -1,0 +1,2298 @@
+<?php 
+use Cake\Utility\Security;
+use Cake\I18n\Time ; 
+use Cake\Routing\Router; 
+// pr($user_detail_old->chief_compliant_userdetail->chief_compliant_id->name); die; 
+$start_year = 1930; 
+	$curyearlast = date("Y");
+
+	$selected_chief_complnts = array();
+
+?>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/3.5.4/select2.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/3.5.4/select2.min.css" rel="stylesheet" type="text/css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/3.5.4/select2-bootstrap.min.css" rel="stylesheet" type="text/css">
+
+<link href="<?php echo WEBROOT ?>css/tagsinput.css" rel="stylesheet" type="text/css">
+<link href="<?php echo WEBROOT ?>css/jquery.timepicker.css" rel="stylesheet" type="text/css">
+
+<script src="<?php echo WEBROOT ?>js/tagsinput.js"></script>
+<script src="<?php echo WEBROOT ?>js/jquery.timepicker.js"></script>
+
+<?php $current_steps = explode(',', $next_steps) ;   ?>	
+<?php $session_user = $this->request->getSession()->read('Auth.User');
+
+//pr($login_user);die;
+	 ?>
+<div class="wraper">
+ <div class="inner_page_content">
+  <div class="dashboard_content_bg">
+   <div class="container">
+    <div class="dashboard_content_inner">
+     <div class="dashboard_menu ">
+      <ul>
+	
+	 <?php if(!empty($session_user) && $session_user['role_id'] == 2){ ?>
+
+	 	 <?php 
+	 	
+	 	$schedule_slug = $schedule_id.'-'.date('dmY');
+	  		if(!$this->General->is_access_pre_appointment_link($schedule_id)){	  			
+	 ?>
+	 		
+			  <li class="grayed_out">
+			  <a href="<?= SITE_URL?>users/new-appointmentstep2/<?= base64_encode($apt_id) ?>/<?= base64_encode($next_steps) ?>/<?= $step_id ?>/<?= base64_encode($schedule_slug) ?>">
+			   <i></i>
+			   <span  id="new_apt_chnge">Pre-appointment questionnaire</span>
+			  </a>
+			 </li>
+			<?php }else{ ?>
+				<li class="active">
+				  <a href="<?= SITE_URL?>users/new-appointmentstep2/<?= base64_encode($apt_id) ?>/<?= base64_encode($next_steps) ?>/<?= $step_id ?>/<?= base64_encode($schedule_slug) ?>">
+				   <i></i>
+				   <span>Pre-appointment questionnaire</span>
+				  </a>
+				</li>
+			<?php } ?>
+			
+	 	<li>
+	  <a href="<?= SITE_URL?>users/scheduled-appointments">
+	   <i></i>
+	   <span  id="prev_apt_chnge" >Scheduled Appointments</span>
+	  </a>
+	 </li>
+
+	   <li>
+	  <a href="<?= SITE_URL?>users/previous-appointment">
+	   <i></i>
+	   <span  id="prev_apt_chnge">Previous Appointments</span>
+	  </a>
+	 </li>
+
+	 <li>
+	  <a href="<?= SITE_URL?>users/medicalhistory">
+	   <i></i>
+	   <span id="med_his_chnge">Edit Medical History</span>
+	  </a>
+	 </li>
+	 <?php } ?>
+	 
+	   
+	
+	  </ul> 
+     </div>
+    
+	 <div class="dashboard_content animated fadeInRight ">
+	  <div class="new_appointment_box">
+	    <?= $this->Flash->render() ?>
+	  	
+	   <div class="dashboard_head">
+	   <h2 style="text-transform: none;">For appointment with <?php echo $apt_id_data->doctor->doctor_name; ?>, <?php echo Time::now()->i18nFormat('MM/dd/yyyy') ?></h2>
+	  </div> 
+
+	   <div class="edit_medical_box">
+	   <div class="step_head step_head_deactive">
+	    <div class="step_tab">
+	  <ul class="nav nav-tabs" id="myTab" role="tablist">
+	  	<?php $cnt_round_tab_num = 1; ?>
+	  	<?php if(in_array(1, $current_steps)) {  ?>
+	   <li class="nav-item <?= $tab_number==1   ? ' active ' : '' ?>">
+
+	   	<?php 
+echo $this->Form->postLink(
+    "post link", // first
+    null,  // second
+    ['data' => ['edited_tab' => 1], 'id' => 'home-tabpostlink'] // third
+);
+	   	?>
+	    <a class="nav-link  <?= $tab_number==1   ? ' active ' : '' ?>" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected=" <?= $tab_number==1  ? ' true ' : ' false ' ?>">
+		 <div class="step_number">
+		  <i><?= $cnt_round_tab_num ++ ?></i>
+		 </div>
+		 <span>Chief Complaint</span>
+		</a>
+	   </li>
+	   <?php 
+	}
+
+	if(in_array(6, $current_steps)) {  
+	?>
+	   
+	   <li class="nav-item   <?= ($tab_number==2 ) ? ' active ' : '' ?>">
+
+	   	<?php 
+echo $this->Form->postLink(
+    "post link", // first
+    null,  // second
+    ['data' => ['edited_tab' => 6], 'id' => 'other_detail-tabpostlink'] // third
+);
+	   	?>
+	    <a class="nav-link   <?= ($tab_number==6  ) ? ' active ' : '' ?>" id="other_detail-tab" data-toggle="tab" href="#other_detail" role="tab" aria-controls="other_detail" aria-selected="<?= $tab_number==6   ? ' true ' : ' false ' ?>">
+		 <div class="step_number">
+		  <i><?= $cnt_round_tab_num ++ ?></i>
+		 </div>
+		 <span>Other Details</span>
+		</a>
+	   </li>
+	   <?php 
+	}
+if(in_array(2, $current_steps)) {  
+	?>
+	   
+	   <li class="nav-item   <?= ($tab_number==2 ) ? ' active ' : '' ?>">
+
+	   	<?php 
+echo $this->Form->postLink(
+    "post link", // first
+    null,  // second
+    ['data' => ['edited_tab' => 2], 'id' => 'profile-tabpostlink'] // third
+);
+	   	?>
+	    <a class="nav-link   <?= ($tab_number==2  ) ? ' active ' : '' ?>" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="<?= $tab_number==2   ? ' true ' : ' false ' ?>">
+		 <div class="step_number">
+		  <i><?= $cnt_round_tab_num ++ ?></i>
+		 </div>
+		 <span>Details</span>
+		</a>
+	   </li>
+	   <?php 
+	}
+if(in_array(3, $current_steps)) {  	
+
+	   ?>
+	   
+	   <li class="nav-item   <?= ($tab_number==3 ) ? ' active ' : '' ?>">
+	   	<?php 
+echo $this->Form->postLink(
+    "post link", // first
+    null,  // second
+    ['data' => ['edited_tab' => 3], 'id' => 'contact-tabpostlink'] // third
+);
+	   	?>
+	    <a class="nav-link   <?= ($tab_number==3 ) ? ' active ' : '' ?>" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="<?= $tab_number==3  ? ' true ' : ' false ' ?>">
+		 <div class="step_number">
+		  <i><?= $cnt_round_tab_num ++ ?></i>
+		 </div>
+		 <span>Associated Symptoms</span>
+		</a>
+	   </li>
+	   <?php 
+	}
+	if(in_array(4, $current_steps)) {  
+// different condition for 4th tab because some steps start with 4th tab
+	   ?>
+	   
+	   <li class="nav-item   <?= ($tab_number == 4 || ( $tab_number <= 4 && 4 == $current_steps[0])) ? ' active ' : '' ?>">
+	   	<?php 
+echo $this->Form->postLink(
+    "post link", // first
+    null,  // second
+    ['data' => ['edited_tab' => 4], 'id' => 'family-tabpostlink'] // third
+);
+	   	?>
+	    <a class="nav-link   <?= ($tab_number == 4 || ( $tab_number <= 4 && 4 == $current_steps[0])) ? ' active ' : '' ?>" id="family-tab" data-toggle="tab" href="#family" role="tab" aria-controls="family" aria-selected="<?= ($tab_number == 4 || ( $tab_number <= 4 && 4 == $current_steps[0])) ? ' true ' : ' false ' ?>">
+		 <div class="step_number">
+		  <i><?= $cnt_round_tab_num ++ ?></i>
+		 </div>
+		 <span>Health Questionnaire</span>
+		</a>
+	   </li>
+	   <?php 
+	}
+	if(in_array(5, $current_steps)) {  
+	   ?>
+	   
+	   <li class="nav-item   <?= ($tab_number==5 ) ? ' active ' : '' ?>">
+	   	<?php 
+echo $this->Form->postLink(
+    "post link", // first
+    null,  // second
+    ['data' => ['edited_tab' => 5], 'id' => 'allergies-tabpostlink'] // third
+);
+	   	?>
+	    <a class="nav-link   <?= ($tab_number==5 ) ? ' active ' : '' ?>" id="allergies-tab" data-toggle="tab" href="#allergies" role="tab" aria-controls="allergies" aria-selected="<?= $tab_number==5  ? ' true ' : ' false ' ?>">
+		 <div class="step_number">
+		  <i><?= $cnt_round_tab_num ++ ?></i>
+		 </div>
+		 <span>Summary</span>
+		</a>
+	   </li>
+	<?php } ?>
+
+	  </ul>  
+	 </div>
+	   </div> 
+
+<script type="text/javascript">
+    $( document ).ready(function() {
+
+     $( "#home-tab" ).click(function() { $( '#home-tabpostlink' ).trigger('click'); });
+     $( "#profile-tab" ).click(function() { $( '#profile-tabpostlink' ).trigger('click'); });
+     $( "#contact-tab" ).click(function() { $( '#contact-tabpostlink' ).trigger('click'); });
+     $( "#family-tab" ).click(function() { $( '#family-tabpostlink' ).trigger('click'); });
+     $( "#allergies-tab" ).click(function() { $( '#allergies-tabpostlink' ).trigger('click'); });
+     $( "#other_detail-tab" ).click(function() { $( '#other_detail-tabpostlink' ).trigger('click'); });
+
+
+     // below code for back button edit 
+     // for tab 2 back button
+     $( "#profile-tab-backbtn" ).click(function() { $( '#home-tabpostlink' ).trigger('click'); });
+     // for tab 3 back button
+     $( "#contact-tab-backbtn" ).click(function() { $( '#profile-tabpostlink' ).trigger('click'); });
+     // for tab 4 back button
+     $( "#family-tab-backbtn" ).click(function() { $( '#contact-tabpostlink' ).trigger('click'); });
+     // for tab 5 back button
+     $( "#allergies-tab-backbtn" ).click(function() { $( '#family-tabpostlink' ).trigger('click'); });
+     $( "#other_detail-tab-backbtn" ).click(function() { $( '#other_detail-tabpostlink' ).trigger('click'); });
+
+
+
+    });
+
+</script>
+<style type="text/css">
+	#home-tabpostlink, #profile-tabpostlink, #contact-tabpostlink, #family-tabpostlink, #allergies-tabpostlink,#other_detail-tabpostlink{
+		display: none !important;
+	} 
+</style>
+
+	    	  <?= $this->Flash->render() ?>
+	   <div class="tab-content" id="myTabContent">
+	    <div class="tab_content_inner">
+	
+     	<?php 
+     	// convert next step id to array 
+
+// echo $next_steps ; 
+// echo 'hello' ; 
+// pr($current_steps) ;die; 
+if(in_array(1, $current_steps) && $tab_number == 1 ){
+     	echo $this->Form->create(null , array(   'autocomplete' => 'off', 
+										
+							'inputDefaults' => array(
+							'label' => false,
+							'div' => false,
+											
+							),'enctype' => 'multipart/form-data', 'id' => 'form_tab_1')); ?> 	 
+		  <div class="tab-pane fade  <?= ($tab_number==1 || 1==$current_steps[0]) ? '  show active ' : '' ?>" id="home" role="tabpanel" aria-labelledby="home-tab">
+
+
+<?php if(!($step_id == 5 || $step_id == 2)){ // for step id 5 (well woman exam) and step id 2 (Annual Exam) this section not appear  ?>		    	
+		    <div class="TitleHead">
+			 <h3>Chief complaint</h3>
+			</div>
+		<div style="font-size: 14px; ">What is the main reason you need to see your doctor for?&nbsp;<span class="required">*</span></div> 
+		    <div class="tab_form_fild_bg">	
+			   <div class="row">
+				<div class="col-md-8">
+				 <div class="form-group form_fild_row chief_compliant_select_div"> 
+
+
+			<div class="custom-drop">
+				<input type="text" id="main_chief_compliant_id"   class="form-control symptombox    <?php echo ($apt_id_data->specialization_id == 3 || $apt_id_data->specialization_id == 4) ? 'symptom_suggestion_ortho' : 'symptom_suggestion'; // symptom_suggestion_ortho class will be added to main chief complaint box when the specialization is orthopedics(3) or orthopedics_spine (4) otherwise symptom_suggestion class will be added ?>" name="main_chief_compliant_id" placeholder="Enter Chief Complaint" value="<?php echo  !empty($user_detail_old->chief_compliant_userdetail->chief_compliant_id->name) ? $user_detail_old->chief_compliant_userdetail->chief_compliant_id->name : '' ?>" required="true" /> 
+
+			      <ul class="<?php echo ($apt_id_data->specialization_id == 3 || $apt_id_data->specialization_id == 4) ? 'symptom_suggestion_ortho_listul' : 'symptom_suggestion_listul';  ?> custom-drop-li">
+					</ul>	
+
+			</div>
+
+<script type="text/javascript">
+	
+	$(document).ready(function() {
+		var ccmedid = '<?= !empty($user_detail_old->chief_compliant_userdetail->chief_compliant_id->id) ? $user_detail_old->chief_compliant_userdetail->chief_compliant_id->id : '' ; ?>';
+		if(ccmedid)
+			add_medicatin_quickpick(ccmedid);
+
+	}); 
+</script>
+			<?php /*	 	
+					<select class="form-control symptombox" name="main_chief_compliant_id" required="true" <?php // if($apt_id_data->specialization_id == 3){ echo 'multiple' ;   } ?>>
+<?php  /* if($apt_id_data->specialization_id != 3){  // for single selection this option is required ?>
+
+					 <option value="" >Choose Chief Complaint</option> 
+<?php   } */ /* ?>
+					 <option value="" >Choose Chief Complaint</option> 
+					<?php 	
+						foreach ($chief_compliant as $key => $value) {
+						
+
+					echo "<option value=".$value->id.">".$value->name."</option>"; 
+
+						}
+					?>
+
+				
+					</select>
+					*/ ?>
+				 </div>
+				</div>
+				
+				<div class="col-md-4">
+				 <div class="row"> 
+				  <!-- <div class="col-md-3">
+				   <div class="crose_year">
+					<button class="btn"><i class="fas fa-times"></i></button>
+				   </div>
+				  </div> -->
+				  
+				  <div class="col-md-12">
+				   <div class="form-group form_fild_row"> 
+<?php  $old_compliant_length =  !empty($user_detail_old->chief_compliant_userdetail->compliant_length) ? $user_detail_old->chief_compliant_userdetail->compliant_length : '' ?>				   	
+					<select class="form-control" name="chief_compliant_length" required="true">
+<option value="">How long?</option>		
+		
+				<?php 	
+						for ($i=1; $i < 14 ; $i++) { 
+							?>
+					<option <?php echo $old_compliant_length == $i. ($i>1 ?' days' : ' day') ? 'selected' : '' ?> value="<?php echo  $i. ($i>1 ?' days' : ' day') ?>"><?php echo  $i. ($i>1 ?' days' : ' day') ?></option>
+
+							<?php
+							
+						}
+						for ($i=2; $i < 7 ; $i++) { 
+							?>
+					<option <?php echo $old_compliant_length == $i. ($i>1 ?' weeks' : ' week') ? 'selected' : '' ?> value="<?php echo  $i. ($i>1 ?' weeks' : ' week') ?>"><?php echo  $i. ($i>1 ?' weeks' : ' week') ?></option>
+
+							<?php
+							
+						}
+						for ($i=2; $i < 12 ; $i++) { 
+							?>
+					<option <?php echo $old_compliant_length == $i. ($i>1 ?' months' : ' month') ? 'selected' : '' ?> value="<?php echo  $i. ($i>1 ?' months' : ' month') ?>"><?php echo  $i. ($i>1 ?' months' : ' month') ?></option>
+
+							<?php
+							
+						}
+						for ($i=1; $i < 11 ; $i++) { 
+							?>
+					<option <?php echo $old_compliant_length == $i. ($i>1 ?' years' : ' year') ? 'selected' : '' ?> value="<?php echo  $i. ($i>1 ?' years' : ' year') ?>"><?php echo  $i. ($i>1 ?' years' : ' year') ?></option>
+
+							<?php
+							
+						}
+					?>
+					<option <?php echo $old_compliant_length == "10+ years" ? 'selected' : '' ?> value="10+ years">10+ years</option>
+		
+					</select>
+				   </div>
+				  </div>
+				 </div>
+				</div>
+			   </div>  
+			   
+			   <!-- <div class="row">
+				<div class="col-md-6">
+				 <div class="form-group form_fild_row"> 
+				  <input type="text" class="form-control" placeholder="Chief complaint"/> 
+				 </div>
+				</div>
+				
+				<div class="col-md-6">
+				 <div class="row"> 
+				  <div class="col-md-5">
+				   <div class="crose_year">
+					<button class="btn">add symptom</button>
+				   </div>
+				  </div>
+				 </div>
+				</div>
+			   </div> -->  
+
+			   <!-- symptom part -->
+
+<?php /*	  // code commented as now we move this section below quick pikcs
+	   <div class="row medicalhistoryfld">
+	   	 <?php /*   // commented on 01-11-18 as not needed
+	    <div class="col-md-6">
+		 <div class="form-group form_fild_row"> 
+	      <!-- <input type="text" class="form-control"  name="medical_history[]" placeholder="Mononucleosis"/>  -->
+			<select class="form-control symptombox"   name="chief_compliant_id[]">
+						<option value="">Choose Symptom</option>
+					<?php 	
+						foreach ($chief_compliant as $key => $value) {
+						
+
+					echo "<option value=".$value->id.">".$value->name."</option>"; 
+
+						}
+					?>
+
+			</select>  		      
+	     </div>
+		</div>
+		
+		<div class="col-md-6">
+	     <div class="row"> 
+
+		  <div class="col-md-5 medicalhistoryfldadd">
+		   <div class="crose_year">
+		    <button  type="button"  class="btn">add Symptom</button>
+		   </div>
+		  </div>
+		 </div>
+		</div>
+*/ /* ?>		
+	   </div>  
+*/ ?>
+
+<!--  // code commented as now it is moved below the quickpicks
+
+<div class="row">
+	    <div class="col-md-6">
+		 <div class="form-group form_fild_row"> 
+
+		   <div class="crose_year">
+		    <button  type="button"  class="btn medicalhistoryfldadd">add Symptom</button>
+		   </div>
+		
+
+		 </div>
+		</div>
+	</div> -->
+
+<!-- *******************last field display none for cloned field issue start -->
+<?php /* // code commented as now we move this section below qickpicks
+	   <div class="row  symptom_field_display_none_onload">
+	    <div class="col-md-6">
+		 <div class="form-group form_fild_row"> 
+	      <!-- <input type="text" class="form-control"  name="medical_history[]" placeholder="Mononucleosis"/>  -->
+
+<div class="custom-drop">
+		<input type="text"    class="form-control    symptom_suggestion" name="chief_compliant_id[]" placeholder="Enter Symptom"/> 
+
+	      <ul class="symptom_suggestion_listul custom-drop-li">
+			</ul>	
+
+		</div>
+
+
+	      <?php /*  // commented on 17-12-18 as client need text box with suggestion here
+			<select class="form-control"   name="chief_compliant_id[]">
+						<option value="">Choose Symptom</option>
+					<?php 	
+						foreach ($chief_compliant_symptoms_tab1 as $key => $value) {
+						
+
+					echo "<option value=".$value->id.">".$value->name."</option>"; 
+
+						}
+					?>
+
+			</select>  
+			*/ /* ?>
+
+	     </div>
+		</div>
+		
+		<div class="col-md-6">
+	     <div class="row"> 
+
+		  <div class="col-md-5 medicalhistoryfldtimes">
+		   <div class="crose_year">
+		    <button  type="button"  class="btn"><i class="fas fa-times"></i></button>
+		   </div>
+		  </div>
+		 </div>
+		</div>
+	   </div> 
+	   */ ?>
+<style type="text/css">
+	.symptom_field_display_none_onload{ display: none; }
+	.medicalhistoryfld { margin-bottom: 10px;  }
+</style>	   
+<!-- **************last field display none for cloned field issue end --> 
+
+
+<script type="text/javascript">
+	
+$(document).ready(function() {
+ $(document).on("click",".medicalhistoryfldadd",function() {
+
+		var cloneob = $( ".symptom_field_display_none_onload" ).clone();
+
+$( cloneob ).addClass('medicalhistoryfld').removeClass('symptom_field_display_none_onload');
+$( cloneob ).find('input').addClass('symptombox'); 
+// $( cloneob ).find('select').addClass('symptombox').select2(); // commented as select box is not used now
+		$(cloneob).insertAfter( ".medicalhistoryfld:last" );
+		
+		 
+		 // $(this).addClass('medicalhistoryfldtimes').removeClass('medicalhistoryfldadd');
+		 // $(this).find('.btn').html('<i class="fas fa-times"></i>');
+
+	});
+ $(document).on("click",".medicalhistoryfldtimes button",function() {
+ 	$(this).parents('.medicalhistoryfld').remove();
+ });
+
+
+/*
+// commented on 26-12-18 as now we are not using select box, instead we are using text box now
+  
+$(".symptombox").select2({
+  allowClear:true,
+  placeholder: 'Choose Chief Complaint'
+});
+*/
+
+
+
+
+}); 
+
+
+
+</script> 	   
+
+
+			   <!-- symptom part -->
+
+
+			    <?php if(!empty($user_detail_old->chief_compliant_userdetail->chief_compliant_id->name)){
+
+				 	$selected_chief_complnts[] = $user_detail_old->chief_compliant_userdetail->chief_compliant_id->name;
+				 }
+
+				 if(!empty($user_detail_old->chief_compliant_userdetail->symptom_from_tab1))
+				 {
+ 						$old_selected_cc_data = unserialize(Security::decrypt( base64_decode($user_detail_old->chief_compliant_userdetail->symptom_from_tab1), SEC_KEY)) ;
+
+ 						$selected_chief_complnts = array_merge($selected_chief_complnts,$old_selected_cc_data );
+ 						
+
+
+ 				}
+
+ 				if(!empty($user_detail_old->chief_compliant_userdetail->sub_chief_compliant_id)){
+  						foreach ($user_detail_old->chief_compliant_userdetail->sub_chief_compliant_id as $ky => $ve) {
+
+  							$selected_chief_complnts[] = $ve->name;
+  						}
+  					}
+
+ 				//pr($selected_chief_complnts);die;
+ 				?>
+			   
+			   <div class="common_conditions_button chief_complaint_button symptomboxdiv">
+				<ul class="quick_pick_chiefcom_btn">
+
+				<?php 
+
+				$quick_pick_chiefcom = $default_med_chiefcom;
+				 //echo 'hi' ; pr($quick_pick_chiefcom); 
+				//pr($chief_compliant_symptoms_tab1->toArray());die;
+				if(!empty($quick_pick_chiefcom)){
+
+ 					$quick_pick_chiefcom = array_keys($quick_pick_chiefcom)	;
+
+					foreach ($chief_compliant_symptoms_tab1 as $key => $value) {
+						// pr($value); 
+						if(!in_array($value->id, $quick_pick_chiefcom)) continue; 
+
+						//echo $value->name;
+					
+				?>
+				 <li class="active">
+				  <button type="button" class="btn <?php if(!empty($selected_chief_complnts) && in_array($value->name,$selected_chief_complnts)){ echo 'selected_chief_complaint'; } ?>" chief_cmp_attrid_val="<?=  $value->name ?>" chief_cmp_attrid="<?=  $value->id ?>">
+				   <i class="fas fa-plus-circle"></i>
+				   <span><?= $value->name ?></span>
+				  </button> 
+				 </li>
+				<?php 
+					}
+				}
+				?>	
+
+
+				 
+				</ul>
+			   </div>
+
+
+<!-- we will display here the old data start ************************** -->
+<div class="tab_form_fild_bg">	
+		    <div class="TitleHead">
+			 <h3>additional symptoms</h3>
+			</div>
+		</div>
+<div class="tab_form_fild_bg">
+<?php //pr($user_detail_old);die;
+if(!empty($user_detail_old->chief_compliant_userdetail->symptom_from_tab1)){
+ $old_symptom_from_tab1 = unserialize(Security::decrypt( base64_decode($user_detail_old->chief_compliant_userdetail->symptom_from_tab1), SEC_KEY)) ; 
+ //pr($old_symptom_from_tab1); die; 
+ foreach ($old_symptom_from_tab1 as $ky => $ve) {
+
+ 
+?>
+
+
+
+<div class="row  medicalhistoryfld">
+	    <div class="col-md-6">
+		 <div class="form-group form_fild_row"> 
+	      <!-- <input type="text" class="form-control"  name="medical_history[]" placeholder="Mononucleosis"/>  -->
+
+<div class="custom-drop">
+		<input type="text"  value="<?= $ve ?>"  class="form-control    symptom_suggestion" name="chief_compliant_id[]" placeholder="Enter Symptom"/> 
+
+	      <ul class="symptom_suggestion_listul custom-drop-li">
+			</ul>	
+
+		</div>
+
+
+	      <?php /*  // commented on 17-12-18 as client need text box with suggestion here
+			<select class="form-control"   name="chief_compliant_id[]">
+						<option value="">Choose Symptom</option>
+					<?php 	
+						foreach ($chief_compliant_symptoms_tab1 as $key => $value) {
+						
+
+					echo "<option value=".$value->id.">".$value->name."</option>"; 
+
+						}
+					?>
+
+			</select>  
+			*/ ?>
+
+	     </div>
+		</div>
+		
+		<div class="col-md-6">
+	     <div class="row"> 
+
+		  <div class="col-md-5 medicalhistoryfldtimes">
+		   <div class="crose_year">
+		    <button  type="button"  class="btn"><i class="fas fa-times"></i></button>
+		   </div>
+		  </div>
+		 </div>
+		</div>
+	   </div>
+
+
+<?php
+}
+} ?>
+
+
+
+<?php
+
+//pr($user_detail_old->chief_compliant_userdetail->sub_chief_compliant_id);die;
+
+if(!empty($user_detail_old->chief_compliant_userdetail->sub_chief_compliant_id)){
+  foreach ($user_detail_old->chief_compliant_userdetail->sub_chief_compliant_id as $ky => $ve) {
+
+ // pr($ve); die; 
+?>
+
+
+
+<div class="row  medicalhistoryfld">
+	    <div class="col-md-6">
+		 <div class="form-group form_fild_row"> 
+	      <!-- <input type="text" class="form-control"  name="medical_history[]" placeholder="Mononucleosis"/>  -->
+
+<div class="custom-drop">
+		<input type="text"  value="<?= $ve->name ?>"  class="form-control    symptom_suggestion" name="chief_compliant_id[]" placeholder="Enter Symptom"/> 
+
+	      <ul class="symptom_suggestion_listul custom-drop-li">
+			</ul>	
+
+		</div>
+
+
+	      <?php /*  // commented on 17-12-18 as client need text box with suggestion here
+			<select class="form-control"   name="chief_compliant_id[]">
+						<option value="">Choose Symptom</option>
+					<?php 	
+						foreach ($chief_compliant_symptoms_tab1 as $key => $value) {
+						
+
+					echo "<option value=".$value->id.">".$value->name."</option>"; 
+
+						}
+					?>
+
+			</select>  
+			*/ ?>
+
+	     </div>
+		</div>
+		
+		<div class="col-md-6">
+	     <div class="row"> 
+
+		  <div class="col-md-5 medicalhistoryfldtimes">
+		   <div class="crose_year">
+		    <button  type="button"  class="btn"><i class="fas fa-times"></i></button>
+		   </div>
+		  </div>
+		 </div>
+		</div>
+	   </div>
+
+
+<?php
+}
+}
+?>
+<!-- we will display here the old data end ************************** -->
+
+
+<div class="row medicalhistoryfld">
+	   	 <?php /*   // commented on 01-11-18 as not needed
+	    <div class="col-md-6">
+		 <div class="form-group form_fild_row"> 
+	      <!-- <input type="text" class="form-control"  name="medical_history[]" placeholder="Mononucleosis"/>  -->
+			<select class="form-control symptombox"   name="chief_compliant_id[]">
+						<option value="">Choose Symptom</option>
+					<?php 	
+						foreach ($chief_compliant as $key => $value) {
+						
+
+					echo "<option value=".$value->id.">".$value->name."</option>"; 
+
+						}
+					?>
+
+			</select>  		      
+	     </div>
+		</div>
+		
+		<div class="col-md-6">
+	     <div class="row"> 
+
+		  <div class="col-md-5 medicalhistoryfldadd">
+		   <div class="crose_year">
+		    <button  type="button"  class="btn">add Symptom</button>
+		   </div>
+		  </div>
+		 </div>
+		</div>
+*/ ?>		
+	   </div>
+
+
+	<div class="row">
+		    <div class="col-md-6">
+			 <div class="form-group form_fild_row"> 
+
+			   <div class="crose_year">
+			    <button  type="button"  class="btn medicalhistoryfldadd">add a Symptom</button>
+			   </div>
+			
+
+			 </div>
+			</div>
+		</div>
+	</div>
+
+
+<div class="row  symptom_field_display_none_onload">
+	    <div class="col-md-6">
+		 <div class="form-group form_fild_row"> 
+	      <!-- <input type="text" class="form-control"  name="medical_history[]" placeholder="Mononucleosis"/>  -->
+
+<div class="custom-drop">
+		<input type="text"    class="form-control    symptom_suggestion" name="chief_compliant_id[]" placeholder="Enter Symptom"/> 
+
+	      <ul class="symptom_suggestion_listul custom-drop-li">
+			</ul>	
+
+		</div>
+
+
+	      <?php /*  // commented on 17-12-18 as client need text box with suggestion here
+			<select class="form-control"   name="chief_compliant_id[]">
+						<option value="">Choose Symptom</option>
+					<?php 	
+						foreach ($chief_compliant_symptoms_tab1 as $key => $value) {
+						
+
+					echo "<option value=".$value->id.">".$value->name."</option>"; 
+
+						}
+					?>
+
+			</select>  
+			*/ ?>
+
+	     </div>
+		</div>
+		
+		<div class="col-md-6">
+	     <div class="row"> 
+
+		  <div class="col-md-5 medicalhistoryfldtimes">
+		   <div class="crose_year">
+		    <button  type="button"  class="btn"><i class="fas fa-times"></i></button>
+		   </div>
+		  </div>
+		 </div>
+		</div>
+	   </div>
+
+
+
+
+
+<script type="text/javascript">
+
+
+
+
+	$(document).ready(function() {
+
+ $(document).on("click","ul.quick_pick_chiefcom_btn button",function() {
+ 	// var chief_cmp_attrid =  $(this).attr('chief_cmp_attrid');
+ 	var chief_cmp_attrid = $('.chief_compliant_select_div input').attr('chief_cmp_attrid');
+ 	if(!chief_cmp_attrid){
+ 		 chief_cmp_attrid =  $(this).attr('chief_cmp_attrid');
+ 	}
+
+ 	// if id found then call medication quick pick
+ 	if(chief_cmp_attrid){
+ 		add_medicatin_quickpick(chief_cmp_attrid);
+ 		$(this).addClass('selected_chief_complaint');
+
+ 	}
+ 	 
+
+ }); 
+
+/* 
+// commented on 26-12-18 as now we will update quickpick at the time of selecting from suggestion box
+ $(document).on("input",".chief_compliant_select_div input",function() {
+ 	// var chief_cmp_attrid =  $(this).attr('chief_cmp_attrid');
+ 	// var chief_cmp_attrid = $(this).val();
+ 	var chief_cmp_attrid = $(this).attr('chief_cmp_attrid');;
+
+ 	// if id found then call medication quick pick
+ 	if(chief_cmp_attrid)
+ 		add_medicatin_quickpick(chief_cmp_attrid); 
+ }); 
+
+*/ 
+// chief_cmp_attrid_val
+ $(document).on("click",".symptomboxdiv button",function() {
+ 	var  index_id = $(this).attr('chief_cmp_attrid'); 
+ 	var flag = true; 
+ 	var symptomflag = true; 
+
+
+/* 
+// commentd on 26-12-18 , now we are not using select box instead we are using input box now , that's why we commented this code 
+
+
+   if($('select[name=main_chief_compliant_id]').val()){ 
+   		symptomflag = true ; 
+   } else{
+   		symptomflag = false ; 
+   }
+
+
+ 	if(!symptomflag){   // for main chief compliant , this if block will run only when the main chief compliant field is empty
+	$('select.symptombox').each(function(i, obj) {
+	    if($(obj).val()===""){
+	    	flag = false; 
+	    	// alert(index);
+	    	// $(obj).val(index);
+	    	$(obj).select2('val',index)  // for select 2
+	    	return false; 
+	    }
+	});
+	if(flag){
+		$( ".medicalhistoryfldadd" ).trigger( "click" );
+		$('select.symptombox').each(function(i, obj) {
+		    if($(obj).val()===""){
+		    	// $(obj).val(index);
+		    	$(obj).select2('val',index)  // for select 2
+		    	return false; 
+		    }
+		});
+
+	}
+
+}
+*/ 
+
+	// for symtom start 
+if(symptomflag){ // for main chief compliant , this if block will run only when the main chief compliant field is not empty
+ 	// var  index = $(this).attr('condval');
+ 	var  index = $(this).attr('chief_cmp_attrid_val'); 
+// alert(index); 
+// check that option is pre existing or not start
+	var ccav = index; 
+	var pre_exist_flg = false; 
+	$('.symptom_suggestion').each(function( index, element ) {
+	     if(($(element).val()).indexOf(ccav) != -1) pre_exist_flg = true;  
+	  });
+
+	if(pre_exist_flg){
+		alert(ccav + ' is already chosen before.')
+		// $(this).parents('.symptom_suggestion_listul').empty();
+     	return; 
+	}
+// check that option is pre existing or not end
+
+
+
+ 	var flag = true; 
+	$('input.symptombox').each(function(i, obj) {
+	    if($(obj).val()===""){
+	    	flag = false; 
+	    	$(obj).val(index);
+	    	$(obj).attr('chief_cmp_attrid', index_id ); // add the id also as input attribute
+
+	    	return false; 
+	    }
+	});
+	if(flag){
+		$( ".medicalhistoryfldadd" ).trigger( "click" );
+		$('input.symptombox').each(function(i, obj) {
+		    if($(obj).val()===""){
+		    	$(obj).val(index);
+		    	$(obj).attr('chief_cmp_attrid', index_id ); // add the id also as input attribute
+		    	return false; 
+		    }
+		});
+
+	}
+}
+
+
+	// for symptom end
+
+
+
+		 });	
+ 	});
+
+
+
+// ********************** code for main chief complaint search start (this code will work only for orhthopedics only, the class 'symptom_suggestion_ortho' will be added in orthopedics symptom ) ********************
+
+
+// ajax search for add symptoms main start
+
+
+searchRequest = null; 
+$(document).on("keyup click", ".symptom_suggestion_ortho", function () {    
+
+
+        value = $(this).val();
+
+
+        if(!value || ($.trim(value) == '')){
+        	return; 
+        }
+        value = $.trim(value); 
+
+        if(value){
+        	value = value.split(',');
+        	value = value[value.length - 1] ; 
+        }
+    
+            if (searchRequest != null) 
+                searchRequest.abort();
+            var curele = this;
+            searchRequest = $.ajax({
+                type: "GET",
+
+               
+                url: "<?php echo SITE_URL; ?>"+"<?php echo $apt_id_data->specialization_id == 3 ? '/users/getsymptomsuggestionortho' : '/users/getsymptomsuggestionorthospine'; // for ortho specialization id is 3 and for ortho spine id is 4 ?>", // this function get the suggestion related to orhtopedics module only 
+                data: {
+                	// 'search_type' : 1, // 1 for searching medical  condition
+                    'search_keyword' : value
+                },
+                dataType: "text",
+                success: function(msg){
+                	var msg = JSON.parse(msg);
+                	var temphtml = '' ; 
+                	$.each(msg, function(index, element) {
+                		// alert(index); 
+                		// alert(element); 
+                		temphtml += '<li  symptom_suggestion_attrid ="'+index+'"  symptom_suggestion_attr ="'+element+'" >'+element+'</li>' ; 
+
+					});
+					// $(curele).next('.symptom_suggestion_listul').html(temphtml);
+            $(curele).parents('.custom-drop').find('.symptom_suggestion_ortho_listul').html(temphtml);
+
+                    //we need to check if the value is the same
+
+                }
+            });
+        
+    });
+
+
+$(document).on("click touchstart", ".symptom_suggestion_ortho_listul li", function () {  
+
+	var diag_sugg_atr = $(this).attr('symptom_suggestion_attr');
+
+	var diag_sugg_atrid = $(this).attr('symptom_suggestion_attrid'); // get also id of the symptom
+	
+
+	// var tmptext = $(this).parents('.symptom_suggestion_listul').prev('.symptom_suggestion');
+	var tmptext = $(this).parents('.custom-drop').find('.symptom_suggestion_ortho'); // symptom_suggestion_main class added in case of orthopedics , because in orthopedics the suggestion will be limited
+	var ttext = $(tmptext).val();
+	$(tmptext).attr('chief_cmp_attrid', diag_sugg_atrid );
+	
+	if(ttext){
+		if(ttext.charAt(ttext.length-1) == ','){
+			$(tmptext).val(ttext+' '+diag_sugg_atr); 
+		} else {
+			ttext = ttext.substr(0, ttext.lastIndexOf(","));
+			if(ttext)
+				$(tmptext).val(ttext+', '+diag_sugg_atr); 
+			else
+				$(tmptext).val(ttext+' '+diag_sugg_atr); 
+
+		}
+	}else{
+		$(tmptext).val(diag_sugg_atr); 
+	}
+	
+	$(this).parents('.symptom_suggestion_ortho_listul').empty();
+
+	// checking if the field is for chief complaint and not symptom then call quickpicks
+	if($(tmptext).attr('name') == "main_chief_compliant_id"){
+
+		add_medicatin_quickpick(diag_sugg_atrid); // call medication quick pick 
+		$("#main_chief_compliant_id").valid();  // validate single element in jquery validate js
+	}
+
+}); 
+
+
+//  ajax search for add symptoms end
+
+
+
+
+// *********************** code for main chief complaint search end **************
+
+
+
+
+/*
+// code commented on 26-12-18 , as now chief compliant input is also changed to text input same as add symptom input
+
+	$(document).ready(function() {
+
+ $(document).on("click","ul.quick_pick_chiefcom_btn button",function() {
+ 	// var chief_cmp_attrid =  $(this).attr('chief_cmp_attrid');
+ 	var chief_cmp_attrid = $('.chief_compliant_select_div select').val();
+ 	if(!chief_cmp_attrid){
+ 		 chief_cmp_attrid =  $(this).attr('chief_cmp_attrid');
+ 	}
+
+
+ 	add_medicatin_quickpick(chief_cmp_attrid); 
+
+ }); 
+
+
+ $(document).on("change",".chief_compliant_select_div select",function() {
+ 	// var chief_cmp_attrid =  $(this).attr('chief_cmp_attrid');
+ 	var chief_cmp_attrid = $(this).val();
+ 	if(!chief_cmp_attrid){
+ 		 chief_cmp_attrid =  $(this).attr('chief_cmp_attrid');
+ 	}
+
+ 	add_medicatin_quickpick(chief_cmp_attrid); 
+
+ }); 
+
+// chief_cmp_attrid_val
+ $(document).on("click",".symptomboxdiv button",function() {
+ 	var  index = $(this).attr('chief_cmp_attrid'); 
+ 	var flag = true; 
+ 	var symptomflag = true; 
+
+   if($('select[name=main_chief_compliant_id]').val()){ 
+   		symptomflag = true ; 
+   } else{
+   		symptomflag = false ; 
+   }
+
+ 	if(!symptomflag){   // for main chief compliant , this if block will run only when the main chief compliant field is empty
+	$('select.symptombox').each(function(i, obj) {
+	    if($(obj).val()===""){
+	    	flag = false; 
+	    	// alert(index);
+	    	// $(obj).val(index);
+	    	$(obj).select2('val',index)  // for select 2
+	    	return false; 
+	    }
+	});
+	if(flag){
+		$( ".medicalhistoryfldadd" ).trigger( "click" );
+		$('select.symptombox').each(function(i, obj) {
+		    if($(obj).val()===""){
+		    	// $(obj).val(index);
+		    	$(obj).select2('val',index)  // for select 2
+		    	return false; 
+		    }
+		});
+
+	}
+
+}
+
+
+	// for symtom start 
+if(symptomflag){ // for main chief compliant , this if block will run only when the main chief compliant field is not empty
+ 	// var  index = $(this).attr('condval');
+ 	var  index = $(this).attr('chief_cmp_attrid_val'); 
+
+ 	var flag = true; 
+	$('input.symptombox').each(function(i, obj) {
+	    if($(obj).val()===""){
+	    	flag = false; 
+	    	$(obj).val(index);
+	    	return false; 
+	    }
+	});
+	if(flag){
+		$( ".medicalhistoryfldadd" ).trigger( "click" );
+		$('input.symptombox').each(function(i, obj) {
+		    if($(obj).val()===""){
+		    	$(obj).val(index);
+		    	return false; 
+		    }
+		});
+
+	}
+}
+
+
+	// for symptom end
+
+
+
+		 });	
+ 	});
+
+
+
+*/ 
+
+
+// ajax search for add symptoms start
+
+
+searchRequest = null; 
+$(document).on("keyup click", ".symptom_suggestion", function () {    
+
+
+        value = $(this).val();
+
+        if(!value || ($.trim(value) == '')){
+        	return; 
+        }
+        value = $.trim(value); 
+        if(value){
+        	value = value.split(',');
+        	value = value[value.length - 1] ; 
+        }
+    
+            if (searchRequest != null) 
+                searchRequest.abort();
+            var curele = this;
+            searchRequest = $.ajax({
+                type: "GET",
+                url: "<?php echo SITE_URL; ?>"+"/users/getsymptomsuggestion",
+                data: {
+                	// 'search_type' : 1, // 1 for searching medical  condition
+                    'search_keyword' : value
+                },
+                dataType: "text",
+                success: function(msg){
+                	var msg = JSON.parse(msg);
+                	var temphtml = '' ; 
+                	$.each(msg, function(index, element) {
+                		// alert(index); 
+                		// alert(element); 
+                		temphtml += '<li  symptom_suggestion_attrid ="'+index+'"  symptom_suggestion_attr ="'+element+'" >'+element+'</li>' ; 
+
+					});
+					// $(curele).next('.symptom_suggestion_listul').html(temphtml);
+            $(curele).parents('.custom-drop').find('.symptom_suggestion_listul').html(temphtml);
+
+                    //we need to check if the value is the same
+
+                }
+            });
+        
+    });
+
+
+$(document).on("click touchstart", ".symptom_suggestion_listul li", function () {  
+
+	var diag_sugg_atr = $(this).attr('symptom_suggestion_attr');
+// 	$(this).parents('.symptom_suggestion_listul').empty();
+// return;
+	var pre_exist_flg = false; 
+	$('.symptom_suggestion').each(function( index, element ) {
+	     if(($(element).val()).indexOf(diag_sugg_atr) != -1) pre_exist_flg = true;  
+	  });
+
+	if(pre_exist_flg){
+		alert(diag_sugg_atr + ' is already chosen before.')
+		$(this).parents('.symptom_suggestion_listul').empty();
+     	return; 
+	}
+
+// alert(diag_sugg_atr);
+
+	var diag_sugg_atrid = $(this).attr('symptom_suggestion_attrid'); // get also id of the symptom
+	
+
+
+	// var tmptext = $(this).parents('.symptom_suggestion_listul').prev('.symptom_suggestion');
+	var tmptext = $(this).parents('.custom-drop').find('.symptom_suggestion');
+	// console.log(tmptext);
+	var ttext = $(tmptext).val();
+	$(tmptext).attr('chief_cmp_attrid', diag_sugg_atrid );
+	if(ttext){
+		if(ttext.charAt(ttext.length-1) == ','){
+			$(tmptext).val(ttext+' '+diag_sugg_atr); 
+		} else {
+			ttext = ttext.substr(0, ttext.lastIndexOf(","));
+			if(ttext)
+				$(tmptext).val(ttext+', '+diag_sugg_atr); 
+			else
+				$(tmptext).val(ttext+' '+diag_sugg_atr); 
+
+		}
+	}else{
+		$(tmptext).val(diag_sugg_atr); 
+	}
+	
+	$(this).parents('.symptom_suggestion_listul').empty();
+
+	// checking if the field is for chief complaint and not symptom then call quickpicks
+	if($(tmptext).attr('name') == "main_chief_compliant_id"){
+
+		add_medicatin_quickpick(diag_sugg_atrid); // call medication quick pick 
+		$("#main_chief_compliant_id").valid();  // validate single element in jquery validate js
+	}
+
+}); 
+
+
+//  ajax search for add symptoms end
+
+
+
+
+</script>
+
+
+
+<?php /*    // commented as these js code were using in the multiselect chief compliant and now are using single select chief compliatnt			   
+<script type="text/javascript">
+	$(document).ready(function() {
+
+ $(document).on("click","ul.quick_pick_chiefcom_btn button",function() {
+ 	// var chief_cmp_attrid =  $(this).attr('chief_cmp_attrid');
+ 	var chief_cmp_attrid = $('.chief_compliant_select_div select').val();
+ 	if(!chief_cmp_attrid){
+ 		 chief_cmp_attrid =  $(this).attr('chief_cmp_attrid');
+ 	}
+
+
+ 	add_medicatin_quickpick(chief_cmp_attrid); 
+
+ }); 
+
+
+ $(document).on("change",".chief_compliant_select_div select",function() {
+ 	// var chief_cmp_attrid =  $(this).attr('chief_cmp_attrid');
+ 	var chief_cmp_attrid = $(this).val();
+ 	if(!chief_cmp_attrid){
+ 		 chief_cmp_attrid =  $(this).attr('chief_cmp_attrid');
+ 	}
+
+ 	add_medicatin_quickpick(chief_cmp_attrid); 
+
+ }); 
+
+
+ $(document).on("click",".symptomboxdiv button",function() {
+ 	var  index = $(this).attr('chief_cmp_attrid'); 
+ 	var flag = true; 
+ 	var temp = '' ; 
+	$('select.symptombox').each(function(i, obj) {
+
+		if($.isArray( $(obj).val())){ // multiselect select2 value is array 
+			temp = $(obj).val(); 
+			if(temp.indexOf(index) != -1){ // checking if the option is already in  the multiselect box
+				flag = false; 
+				alert('Already added.');
+				return false; 
+			}
+			temp.push(index); 
+				
+			$(obj).select2('val',temp)  // for select 2
+			flag = false; 
+			add_medicatin_quickpick(index); // if we don't call this function manually quick pick will load on second click 
+				// event.stopPropagation();
+			return false; 
+		} else if($(obj).val()===""){
+	    	flag = false; 
+	    	// alert(index);
+	    	// $(obj).val(index);
+	    	$(obj).select2('val',index)  // for select 2
+	    	return false; 
+	    }
+	});
+	if(flag){
+
+		$( ".medicalhistoryfldadd" ).trigger( "click" );
+		$('select.symptombox').each(function(i, obj) {
+		    if($(obj).val()===""){
+		    	// $(obj).val(index);
+		    	$(obj).select2('val',index)  // for select 2
+		    	return false; 
+		    }
+		});
+
+	}
+
+		 });	
+ 	});
+
+
+</script>
+
+*/ ?>
+
+</div>
+<?php } // for step id 5 (well woman exam) and step id 2 (annual exam) this section not appear  ?>	   
+
+<div class="tab_form_fild_bg">	
+		    <div class="TitleHead">
+			 <h3>Current medication</h3>
+			</div>
+		</div>
+<div class="tab_form_fild_bg">	
+
+<!-- fill the old data when edited start ******************************************************  -->
+<?php 
+if(!empty($user_detail_old->chief_compliant_userdetail->compliant_medication_detail)){
+	$cmd_old = $user_detail_old->chief_compliant_userdetail->compliant_medication_detail;
+
+	foreach ($cmd_old as $ky => $ve) {
+
+?>
+
+<div class="row  currentmedicationfld">
+	    <div class="col-md-4">
+		 <div class="form-group form_fild_row"> 
+	      <!-- <input type="text" class="form-control"  name="medical_history[]" placeholder="Mononucleosis"/>  -->
+	      <?php /*
+			<select class="form-control med_box_for_select2" name="medication_name_id[]">
+						<option value="">Current Medication</option>
+					<?php 	
+						foreach ($chief_compliant_medication as $key => $value) {
+						
+
+					echo "<option value=".$value->id.">".$value->layman_name." ( ".$value->doctor_specific_name." ) "."</option>"; 
+
+						}
+					?>
+
+				
+			</select>  
+			*/ ?>	
+
+<div class="custom-drop">
+		<input type="text" value="<?php echo  !empty($ve['medication_name_name']) ? $ve['medication_name_name'] : ''; ?>"   class="form-control  med_suggestion" name="medication_name_name[]" placeholder="Enter Medication"/> 
+	      <ul class="med_suggestion_listul custom-drop-li">
+			</ul>	
+
+		</div>
+
+
+	     </div>
+		</div>
+
+
+			<div class="col-md-2">
+				 <div class="form-group form_fild_row"> 
+				  <input name="medication_dose[]"  value="<?php echo  !empty($ve['medication_dose']) ? $ve['medication_dose'] : ''; ?>"   type="text" class="form-control" placeholder="Dose"/> 
+				 </div>
+				</div>
+				
+				<div class="col-md-2">
+				 <div class="form-group form_fild_row"> 
+				  <!-- <input type="text" name="medication_how_often[]" class="form-control" placeholder="How often?"/>  -->
+
+				<select class="form-control" name="medication_how_often[]">
+					<option value="">how often?</option>
+				<?php 	
+						foreach ($length_arr as $key => $value) {
+
+					echo "<option ".(!empty($ve['medication_how_often']) && $ve['medication_how_often'] == $key ? "selected" : '' )." value=".$key.">".$value."</option>"; 
+
+						}
+					?>
+					</select>
+
+				 </div>
+				</div>
+			    <div class="col-md-3">
+				 <div class="form-group form_fild_row"> 
+				  <!-- <input type="text" name="medication_how_taken[]" class="form-control" placeholder="How is it taken?"/>  -->
+<?php /*
+			<select class="form-control" name="medication_how_taken[]">
+						<option value="">How is it taken?</option>
+					<?php 	
+						foreach ($how_it_taken_arr as $key => $value) {
+						
+
+					echo "<option value='".$value."'>".$value."</option>"; 
+
+						}
+					?>
+
+				
+			</select> 
+*/ ?>
+
+<div class="custom-drop">
+
+<input type="text" name="medication_how_taken[]"  value="<?php echo  !empty($ve['medication_how_taken']) ? $ve['medication_how_taken'] : ''; ?>"  class="form-control how_taken_suggestion" placeholder="How is it taken?"/> 
+	      <ul class="how_taken_suggestion_listul custom-drop-li">
+			</ul>	
+
+		</div>
+
+
+
+				 </div>
+				</div>
+
+		
+		<div class="col-md-1">
+	     <div class="row"> 
+
+		  <div class=" currentmedicationfldtimes">
+		   <div class="crose_year">
+		    <button  type="button"  class="btn"><i class="fas fa-times"></i></button>
+		   </div>
+		  </div>
+		 </div>
+		</div>
+	   </div>
+<?php 
+}
+}
+
+?>
+<!-- fill the old data when edited end ******************************************************* -->
+
+
+
+	   <div class="row currentmedicationfld">
+	   	<?php /*  // commented on 01-11-18 as not needed
+	    <div class="col-md-3">
+		 <div class="form-group form_fild_row"> 
+	      <!-- <input type="text" class="form-control"  name="medical_history[]" placeholder="Mononucleosis"/>  -->
+			<select class="form-control medicationbox" name="medication_name_id[]">
+						<option value="">Current Medication/Birth Control</option>
+					<?php 	
+						foreach ($chief_compliant_medication as $key => $value) {
+						
+
+					echo "<option value=".$value->id.">".$value->layman_name."</option>"; 
+
+						}
+					?>
+
+				
+			</select>  		      
+	     </div>
+		</div>
+
+
+			<div class="col-md-2">
+				 <div class="form-group form_fild_row"> 
+				  <input name="medication_dose[]" type="text" class="form-control" placeholder="Dose"/> 
+				 </div>
+				</div>
+				
+				<div class="col-md-2">
+				 <div class="form-group form_fild_row"> 
+				  <!-- <input type="text" name="medication_how_often[]" class="form-control" placeholder="How often?"/>  -->
+
+				<select class="form-control" name="medication_how_often[]">
+					<option value="">how often?</option>
+				<?php 	
+						foreach ($length_arr as $key => $value) {
+							
+
+					echo "<option value=".$key.">".$value."</option>"; 
+
+						}
+					?>
+					</select>
+
+				 </div>
+				</div>
+			    <div class="col-md-3">
+				 <div class="form-group form_fild_row"> 
+				  <!-- <input type="text" name="medication_how_taken[]" class="form-control" placeholder="How is it taken?"/>  -->
+
+
+<?php /*
+
+			<select class="form-control" name="medication_how_taken[]">
+						<option value="">How is it taken?</option>
+					<?php 	
+						foreach ($how_it_taken_arr as $key => $value) {
+						
+
+					echo "<option value='".$value."'>".$value."</option>"; 
+
+						}
+					?>
+
+				
+			</select> 
+
+			*/ /* ?>
+
+
+<div class="custom-drop">
+
+<input type="text" name="medication_how_taken[]" class="form-control how_taken_suggestion" placeholder="How is it taken?"/> 
+	      <ul class="how_taken_suggestion_listul custom-drop-li">
+			</ul>	
+
+		</div>
+
+
+
+
+
+				 </div>
+				</div>
+
+		
+		<div class="col-md-2">
+	     <div class="row"> 
+
+		  <div class=" currentmedicationfldadd">
+		   <div class="crose_year">
+		    <button  type="button"  class="btn">add More</button>
+		   </div>
+		  </div>
+		 </div>
+		</div>
+		*/ ?>
+	   </div> 
+
+
+<div class="row">
+	    <div class="col-md-6">
+		 <div class="form-group form_fild_row"> 
+
+		   <div class="crose_year">
+		    <button  type="button"  class="btn currentmedicationfldadd">add a medication</button>
+		   </div>
+		
+
+		 </div>
+		</div>
+	</div>
+
+<!-- **********   medication field for clone purpose display none  start ************* -->
+
+
+<div class="row clone_purpose_medication_field_display_none">
+	    <div class="col-md-4">
+		 <div class="form-group form_fild_row"> 
+	      <!-- <input type="text" class="form-control"  name="medical_history[]" placeholder="Mononucleosis"/>  -->
+	      <?php /*
+			<select class="form-control med_box_for_select2" name="medication_name_id[]">
+						<option value="">Current Medication</option>
+					<?php 	
+						foreach ($chief_compliant_medication as $key => $value) {
+						
+
+					echo "<option value=".$value->id.">".$value->layman_name." ( ".$value->doctor_specific_name." ) "."</option>"; 
+
+						}
+					?>
+
+				
+			</select>  
+			*/ ?>	
+
+<div class="custom-drop">
+		<input type="text"    class="form-control  med_suggestion" name="medication_name_name[]" placeholder="Enter Medication"/> 
+	      <ul class="med_suggestion_listul custom-drop-li">
+			</ul>	
+
+		</div>
+
+
+	     </div>
+		</div>
+
+
+			<div class="col-md-2">
+				 <div class="form-group form_fild_row"> 
+				  <input name="medication_dose[]" type="text" class="form-control" placeholder="Dose"/> 
+				 </div>
+				</div>
+				
+				<div class="col-md-2">
+				 <div class="form-group form_fild_row"> 
+				  <!-- <input type="text" name="medication_how_often[]" class="form-control" placeholder="How often?"/>  -->
+
+				<select class="form-control" name="medication_how_often[]">
+					<option value="">how often?</option>
+				<?php 	
+						foreach ($length_arr as $key => $value) {
+							
+
+					echo "<option value=".$key.">".$value."</option>"; 
+
+						}
+					?>
+					</select>
+
+				 </div>
+				</div>
+			    <div class="col-md-3">
+				 <div class="form-group form_fild_row"> 
+				  <!-- <input type="text" name="medication_how_taken[]" class="form-control" placeholder="How is it taken?"/>  -->
+<?php /*
+			<select class="form-control" name="medication_how_taken[]">
+						<option value="">How is it taken?</option>
+					<?php 	
+						foreach ($how_it_taken_arr as $key => $value) {
+						
+
+					echo "<option value='".$value."'>".$value."</option>"; 
+
+						}
+					?>
+
+				
+			</select> 
+*/ ?>
+
+<div class="custom-drop">
+
+<input type="text" name="medication_how_taken[]" class="form-control how_taken_suggestion" placeholder="How is it taken?"/> 
+	      <ul class="how_taken_suggestion_listul custom-drop-li">
+			</ul>	
+
+		</div>
+
+
+
+				 </div>
+				</div>
+
+		
+		<div class="col-md-1">
+	     <div class="row"> 
+
+		  <div class=" currentmedicationfldtimes">
+		   <div class="crose_year">
+		    <button  type="button"  class="btn"><i class="fas fa-times"></i></button>
+		   </div>
+		  </div>
+		 </div>
+		</div>
+	   </div>
+<style type="text/css">
+	.clone_purpose_medication_field_display_none{ display: none; }
+</style>
+
+<!-- ************   medication field for clone purpose display none end *************** -->
+
+
+
+
+
+
+<script type="text/javascript">
+
+$(document).ready(function() {
+
+
+
+
+ $(document).on("click"," .currentmedicationfldadd",function() {
+
+		var cloneob = $( ".clone_purpose_medication_field_display_none" ).clone() ;
+
+$(cloneob).removeClass('clone_purpose_medication_field_display_none').addClass('currentmedicationfld');
+
+$( cloneob ).find('input.med_suggestion').addClass('medicationbox');
+// commented as select box is not used
+// $( cloneob ).find('select.med_box_for_select2').addClass('medicationbox').select2();
+
+	$(cloneob).insertAfter( ".currentmedicationfld:last" );
+		 // $(this).addClass('currentmedicationfldtimes').removeClass('currentmedicationfldadd');
+		 // $(this).find('.btn').html('<i class="fas fa-times"></i>');
+
+	});
+ $(document).on("click",".currentmedicationfldtimes",function() {
+ 	//alert('dfdfd');
+ 	var remove_medication = $(this).parents('.currentmedicationfld').find('.medicationbox').val();
+ 	//alert(remove_medication);
+ 	var flag = false;
+ 	$(this).parents('.currentmedicationfld').remove();
+
+ 	$('.medicationbox').each(function(){
+ 		
+ 		if(remove_medical == $(this).val()){
+
+ 			flag = true;
+ 		}
+ 		console.log($(this).val());
+ 	});
+
+ 	if(!flag){
+
+ 		$('.medicationboxdiv button').each(function(){
+
+ 			var attr = $(this).attr('chief_cmp_attrid_val');
+ 			if(remove_medication == attr){
+
+ 				$(this).removeClass('selected_chief_complaint');
+ 			}
+ 		})
+ 	}
+ }); 
+
+
+  
+$(".medicationbox").select2({
+  allowClear:true,
+  placeholder: 'Position'
+});
+
+
+
+
+
+
+
+
+
+
+}); 
+
+</script> 	   
+
+
+<?php 
+	foreach ($default_med_chiefcom as $key => $value) {
+		$default_med_chiefcom[$key] = explode(',', $default_med_chiefcom[$key]); 
+	}
+
+?>
+
+<div class="common_conditions_button chief_complaint_button medicationboxdiv">
+				<ul class="quick_pick_chiefcom_medication">
+
+
+
+
+
+				<?php 
+/*
+				$i = 1 ; 
+					foreach ($chief_compliant_medication as $key => $value) {
+						if($i>5) break; 
+						$i++ ; 
+				?>
+				 <li class="active">
+				  <button type="button" class="btn" chief_cmp_attrid="<?=  $value->id ?>">
+				   <i class="fas fa-plus-circle"></i>
+				   <span><?= $value->layman_name ?></span>
+				  </button> 
+				 </li>
+				<?php 
+					}
+
+					*/
+				?>	
+
+
+				 
+				</ul>
+
+<script type="text/javascript">
+
+   var medicatoin_arr = [];
+   <?php 	foreach ($chief_compliant_medication as $key => $value) { ?>
+
+   medicatoin_arr['<?php echo   $value->id ?>'] = "<?php echo  $value->layman_name." ( ".$value->doctor_specific_name." ) " ?>";
+
+	<?php } ?>
+
+
+
+function add_medicatin_quickpick(chief_cmp_id)	{
+
+
+	 var default_med_chiefcom = <?php echo  json_encode($default_med_chiefcom);  ?>; 
+
+   var temp_str = ''; 
+	 $.each(default_med_chiefcom, function(k, v) {
+
+	   // alert( k + "        " + v + "\n");
+	   temp_str = ''; 
+	   if(chief_cmp_id == k){
+	     $.each(v, function(k1, v1) {
+	     	//alert( k1 + "        " + v1 + "\n");
+
+			 temp_str += '<li class="active"><button type="button" class="btn" chief_cmp_attrid_val="'+medicatoin_arr[v1]+'"  chief_cmp_attrid="'+v1+'"> <i class="fas fa-plus-circle"></i>				   <span>'+medicatoin_arr[v1]+'</span> </button> </li>';
+
+
+	     });
+ $('.quick_pick_chiefcom_medication').html(temp_str);	     
+	 }
+
+
+	     // alert(temp_str);
+	  });
+
+}
+
+</script>				
+			   </div>
+
+
+
+
+<script type="text/javascript">
+	$(document).ready(function() {
+
+ $(document).on("click",".medicationboxdiv button",function() {
+ 	var  index = $(this).attr('chief_cmp_attrid');
+ 	var  indexval = $(this).attr('chief_cmp_attrid_val');
+ 	
+ 	var flag = true; 
+
+
+	$('input.medicationbox').each(function(i, obj) {
+	    if($(obj).val()===""){
+	    	flag = false; 
+	    	$(obj).val(indexval);
+	    	return false; 
+	    }
+	});
+	if(flag){
+		$( ".currentmedicationfldadd" ).trigger( "click" );
+		$('input.medicationbox').each(function(i, obj) {
+		    if($(obj).val()===""){
+		    	$(obj).val(indexval);
+		    	return false; 
+		    }
+		});
+
+	}
+
+	$(this).addClass('selected_chief_complaint');
+
+ 	/* commented on 18-12-18  as not required now will use input with suggestion
+	$('select.medicationbox').each(function(i, obj) {
+	    if($(obj).val()===""){
+	    	flag = false; 
+	    	// $(obj).val(index);
+	    		$(obj).select2('val',index)  // for select 2
+	    	return false; 
+	    }
+	});
+	if(flag){
+		$( ".currentmedicationfldadd" ).trigger( "click" );
+		$('select.medicationbox').each(function(i, obj) {
+		    if($(obj).val()===""){
+		    	// $(obj).val(index);
+		    		$(obj).select2('val',index)  // for select 2
+		    	return false; 
+		    }
+		});
+
+	}
+	*/
+
+
+
+
+
+
+		 });	
+
+
+
+// ajax search for add symptoms start
+
+
+searchRequest = null; 
+$(document).on("keyup click", ".med_suggestion", function () {    
+
+
+        value = $(this).val();
+        if(value){
+        	value = value.split(',');
+        	value = value[value.length - 1] ; 
+        }
+    
+            if (searchRequest != null) 
+                searchRequest.abort();
+            var curele = this;
+            searchRequest = $.ajax({
+                type: "GET",
+                url: "<?php echo SITE_URL; ?>"+"/users/getmedicationsuggestion",
+                data: {
+                	// 'search_type' : 1, // 1 for searching medical  condition
+                    'search_keyword' : value
+                },
+                dataType: "text",
+                success: function(msg){
+                	
+                	var msg = JSON.parse(msg);
+                	var temphtml = '' ; 
+                	$.each(msg, function(index, element) {
+                		// alert(index); alert(element);
+                		// as array is flipped in server side so now value will come in index now , it was necessary , other wise result will be not sorted 
+                		// alert(element);
+                		temphtml += '<li med_suggestion_attr ="'+index+'" >'+index+'</li>' ; 
+
+					});
+					$(curele).next('.med_suggestion_listul').html(temphtml);
+            
+                    //we need to check if the value is the same
+
+                }
+            });
+        
+    });
+
+
+$(document).on("click touchstart", ".med_suggestion_listul li", function () {  
+
+	var diag_sugg_atr = $(this).attr('med_suggestion_attr');
+
+	var tmptext = $(this).parents('.med_suggestion_listul').prev('.med_suggestion');
+	var ttext = $(tmptext).val();
+	if(ttext){
+		if(ttext.charAt(ttext.length-1) == ','){
+			$(tmptext).val(ttext+' '+diag_sugg_atr); 
+		} else {
+			ttext = ttext.substr(0, ttext.lastIndexOf(","));
+			if(ttext)
+				$(tmptext).val(ttext+', '+diag_sugg_atr); 
+			else
+				$(tmptext).val(ttext+' '+diag_sugg_atr); 
+
+		}
+	}else{
+		$(tmptext).val(diag_sugg_atr); 
+	}
+	
+	$(this).parents('.med_suggestion_listul').empty();
+
+}); 
+
+
+//  ajax search for add symptoms end
+
+
+
+
+
+ 	});
+
+
+</script>
+
+
+
+
+			   <!-- <div class="add_medication_row">
+			    <div class="row">
+			    <div class="col-md-4">
+				 <div class="form-group form_fild_row"> 
+				  <input type="text" class="form-control" placeholder="Chief complaint"/> 
+				 </div>
+				</div>
+				
+				<div class="col-md-4">
+				 <div class="form-group form_fild_row"> 
+				  <input type="text" class="form-control" placeholder="Dose"/> 
+				 </div>
+				</div>
+				
+				<div class="col-md-4">
+				 <div class="form-group form_fild_row"> 
+				  <input type="text" class="form-control" placeholder="How aften?"/> 
+				 </div>
+				</div>
+			   </div> 
+			   
+			    <div class="row">
+			    <div class="col-md-4">
+				 <div class="form-group form_fild_row"> 
+				  <input type="text" class="form-control" placeholder="How is it taken?"/> 
+				 </div>
+				</div>
+				
+				<div class="col-md-4">
+                 <div class="crose_year">
+				  <button class="btn waves-effect waves-light">add medication</button>
+				 </div>
+				</div>
+	           </div> 
+			   </div> -->
+
+
+<!--  -----------------    woman specific fields  -------------------   --> 
+<?php 
+ //pr($login_user); die;
+ if($login_user['gender'] == 0 && $apt_id_data->specialization_id != 3 && $apt_id_data->specialization_id != 4) {  // this block will not be visible for orthopedic module and orthopedic spine module
+?>
+
+<div class="row">
+<div class="col-md-12">
+	<div class="tab_form_fild_bg">	
+		    <div class="TitleHead">
+			 <h3>Womens Health</h3>
+			</div>
+	</div>
+</div>
+</div>
+
+<div class="row">
+	
+	<!-- <div class="col-md-4">
+		 <div class="form-group form_fild_row"> 
+		 Age of first period	
+	      <input type="text" class="form-control" value="" name="age_of_first_priod" placeholder="Age of first period"/> 
+	     </div>
+	</div> -->
+
+	<div class="col-md-3">
+			 <div class="form-group form_fild_row"> 
+	         <!-- <label>Last period date</label>		 -->
+	         Last period date
+	         <input type='text'  class="form-control"  name="last_period_date"  id='datetimepicker1'  placeholder="" readonly />
+	                 
+	            
+
+	   <script>
+	  $( function() {
+	    $( "#datetimepicker1" ).datepicker({
+	  dateFormat: "mm-dd-yy", // "dd-mm-yy"
+	    // setDate: new Date('2014-12-18')
+	});
+	  old_lpd =  '<?php echo !empty($user_detail_old->chief_compliant_userdetail->last_period_date) ? $user_detail_old->chief_compliant_userdetail->last_period_date->i18nFormat('yyyy-MM-dd') : ''; ?>';
+	  // alert(old_lpd) ;
+	  if(old_lpd)
+	     $("#datetimepicker1").datepicker('setDate', new Date(old_lpd)); 
+// $('#datetimepicker1').datepicker().val(new Date('2008,9,3')).trigger('change')
+
+	  } );
+	  </script>
+	</div>
+	</div>
+<?php 
+$old_flow_duration_in_days = '';
+$old_cycle_length_in_days = '';
+$old_was_it_regular_or_not = '';
+if(!empty($user_detail_old->chief_compliant_userdetail->last_period_info)){
+	$old_lpi = unserialize(Security::decrypt( base64_decode($user_detail_old->chief_compliant_userdetail->last_period_info), SEC_KEY))  ; 
+	// pr($old_lpi); die; 
+	$old_flow_duration_in_days = !empty($old_lpi['flow_duration_in_days']) ? $old_lpi['flow_duration_in_days'] : '' ; 
+	$old_cycle_length_in_days = !empty($old_lpi['cycle_length_in_days']) ? $old_lpi['cycle_length_in_days'] : '' ; 
+	$old_was_it_regular_or_not = isset($old_lpi['was_it_regular_or_not']) ? ($old_lpi['was_it_regular_or_not'] == 1 ? 1 : 0) : '' ; 
+
+}
+
+
+?>
+<div class="col-md-3">
+					 <div class="form-group form_fild_row"> 
+Flow Duration(in days)
+					  <input type="number" value="<?= $old_flow_duration_in_days ?>" class="form-control"  name="last_period_info[flow_duration_in_days]" placeholder=""/> 
+					 </div>
+					</div>
+
+
+    
+
+<div class="col-md-3">
+					 <div class="form-group form_fild_row"> 
+Cycle Length(in days)
+					  <input type="number"  value="<?= $old_cycle_length_in_days ?>"  class="form-control"  name="last_period_info[cycle_length_in_days]" placeholder=""/> 
+					 </div>
+					</div>
+
+
+					
+
+<div class="col-md-3">
+		 <div class="form-group form_fild_row"> 
+ <div class="radio_bg"> 
+          <h4>Are your cycles regular? </h4>		 	
+
+<div class="radio_list"> 
+	
+        <div class="form-check">
+         <input type="radio"  value="1" <?= $old_was_it_regular_or_not === 1 ? 'checked' : '' ?>   class="form-check-input" id="was_it_regular_or_not1" name="last_period_info[was_it_regular_or_not]">
+         <label class="form-check-label" for="was_it_regular_or_not1">Yes</label>
+       </div>       
+	
+	   <div class="form-check">
+         <input type="radio"  value="0"  <?= $old_was_it_regular_or_not === 0 ? 'checked' : '' ?>    class="form-check-input" id="was_it_regular_or_not2" name="last_period_info[was_it_regular_or_not]">
+         <label class="form-check-label" for="was_it_regular_or_not2">No</label>
+       </div>
+
+        </div>
+</div>
+</div>
+</div>
+
+
+
+
+
+</div>
+<?php /*  // commented as fields  needed in  same row
+<div class="row">
+		
+
+	    
+
+<div class="col-md-6">
+					 <div class="form-group form_fild_row"> 
+Cycle Length(in days)
+					  <input type="number" class="form-control"  name="last_period_info[cycle_length_in_days]" placeholder="Cycle Length"/> 
+					 </div>
+					</div>
+
+
+					
+
+<div class="col-md-6">
+		 <div class="form-group form_fild_row"> 
+Are your cycles regular?
+<div class="radio_list"> 
+	
+        <div class="form-check">
+         <input type="radio"  value="1"    class="form-check-input" id="was_it_regular_or_not1" name="last_period_info[was_it_regular_or_not]">
+         <label class="form-check-label" for="was_it_regular_or_not1">Yes</label>
+       </div>       
+	
+	   <div class="form-check">
+         <input type="radio"  value="0"    class="form-check-input" id="was_it_regular_or_not2" name="last_period_info[was_it_regular_or_not]">
+         <label class="form-check-label" for="was_it_regular_or_not2">No</label>
+       </div>
+
+        </div>
+
+</div>
+</div>
+
+					
+
+</div>
+*/ ?>
+
+<div class="row">
+
+<div class="col-md-12">
+		 <div class="form-group form_fild_row"> 
+<!-- If there is a more recent pap smear than the one provided at signup or edit medical history? -->
+
+ <div class="radio_bg"> 
+ 	<?php 
+$month_name = ['January', 'February', 'March', 'April','May', 'June', 'July','August', 'September', 'October','Nobember', 'December']  ;  
+$old_imrp = ''; 
+// pr($user_detail_old->chief_compliant_userdetail->if_more_recent_papsmear); die; 
+if(isset($user_detail_old->chief_compliant_userdetail->if_more_recent_papsmear))
+$old_imrp = (int)$user_detail_old->chief_compliant_userdetail->if_more_recent_papsmear;
+
+// pr($old_imrp); die;
+
+$old_papsmear_month = '';
+$old_papsmear_year =  '';
+$old_was_it_regular_or_not =  '';
+$old_any_findings_or_procedures =  '';
+
+
+if(!empty($user_detail_old->chief_compliant_userdetail->last_pap_smear_info)){
+	$old_lpsi =  unserialize(Security::decrypt( base64_decode($user_detail_old->chief_compliant_userdetail->last_pap_smear_info), SEC_KEY)); 
+	// pr($old_lpsi); die; 
+	$old_papsmear_month =  isset($old_lpsi['papsmear_month']) ? (int) $old_lpsi['papsmear_month'] : '' ; 
+	$old_papsmear_year =  isset($old_lpsi['papsmear_year']) ?  (int)  $old_lpsi['papsmear_year'] : '' ; 
+	$old_was_it_regular_or_not =  isset($old_lpsi['was_it_regular_or_not']) ? (int) $old_lpsi['was_it_regular_or_not'] : '' ; 
+	$old_any_findings_or_procedures =  isset($old_lpsi['any_findings_or_procedures']) ? $old_lpsi['any_findings_or_procedures'] : '' ; 
+
+}
+
+// var_dump($old_was_it_regular_or_not); die; 
+
+ 	?>
+          <h4> <?= !empty($womandata->papsmear_month) && !empty($womandata->papsmear_year) ? 'Is there a more recent pap smear than '.$month_name[$womandata->papsmear_month].'/'.$womandata->papsmear_year.'?' : 'Have you had a pap smear?' ?> </h4>		 	
+
+
+<div class="radio_list"> 
+	
+        <div class="form-check">
+         <input type="radio"  value="1"  <?= $old_imrp === 1 ? 'checked' : '' ?>  class="form-check-input check_recent_papsmear" id="if_more_recent_papsmear1" name="if_more_recent_papsmear">
+         <label class="form-check-label" for="if_more_recent_papsmear1">Yes</label>
+       </div>       
+	
+	   <div class="form-check">
+         <input type="radio"  value="0"    <?= $old_imrp === 0 ? 'checked' : '' ?>   class="form-check-input check_recent_papsmear" id="if_more_recent_papsmear2" name="if_more_recent_papsmear">
+         <label class="form-check-label" for="if_more_recent_papsmear2">No</label>
+       </div>
+
+        </div>
+</div>
+</div>
+</div>
+</div>
+<div class="row recent_papsmear_realted_fields" style="<?= $old_imrp == 1 ? "" : "display: none" ?>;">
+
+
+<?php
+
+// pr($womandata); die; 
+ /*
+	<div class="col-md-3">
+		 <div class="form-group form_fild_row"> 
+         <label>Last pap smear date</label>		
+         <input type='text' value="<?= isset($womandata->last_papsmear) ? $womandata->last_papsmear->i18nFormat('MM-dd-yyyy') : '' ?>"  class="form-control"  name="last_pap_smear_date"  id='datetimepicker2'  placeholder="Last pap smear date" readOnly />
+                 
+            
+
+   <script>
+  $( function() {
+    $( "#datetimepicker2" ).datepicker({
+  dateFormat: "mm-dd-yy" // "dd-mm-yy"
+});
+  } );
+  </script>
+</div>
+</div>
+*/ ?>
+<div class="col-md-3">
+	 <div class="form-group form_fild_row"> 
+	        <label>Last pap smear month</label>
+	          <select class="form-control" name="las

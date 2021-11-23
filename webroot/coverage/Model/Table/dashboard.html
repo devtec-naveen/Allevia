@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /opt/lampp/htdocs/allevia/src/Model/Table</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../.css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../../.css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../../.css/style.css" rel="stylesheet" type="text/css">
+  <!--[if lt IE 9]>
+  <script src="../../.js/html5shiv.min.js"></script>
+  <script src="../../.js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="../../index.html">/opt/lampp/htdocs/allevia/src</a></li>
+        <li><a href="../index.html">Model</a></li>
+        <li><a href="index.html">Table</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AppointmentsTable.php.html#15">App\Model\Table\AppointmentsTable</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProviderDisplayColumnsTable.php.html#15">App\Model\Table\ProviderDisplayColumnsTable</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserSignedDocsTable.php.html#15">App\Model\Table\UserSignedDocsTable</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserLocationsTable.php.html#15">App\Model\Table\UserLocationsTable</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserActivitiesTable.php.html#15">App\Model\Table\UserActivitiesTable</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TimeManagementTable.php.html#15">App\Model\Table\TimeManagementTable</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SpecializationsTable.php.html#18">App\Model\Table\SpecializationsTable</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ScheduleFieldSettingsTable.php.html#15">App\Model\Table\ScheduleFieldSettingsTable</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QuestionnaireTypeTable.php.html#15">App\Model\Table\QuestionnaireTypeTable</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationProvidersTable.php.html#15">App\Model\Table\OrganizationProvidersTable</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChiefCompliantMedicationTable.php.html#15">App\Model\Table\ChiefCompliantMedicationTable</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LocationsTable.php.html#15">App\Model\Table\LocationsTable</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GlobalSectionsTable.php.html#18">App\Model\Table\GlobalSectionsTable</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailTemplatesTable.php.html#18">App\Model\Table\EmailTemplatesTable</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChiefCompliantQuestionnaireTable.php.html#15">App\Model\Table\ChiefCompliantQuestionnaireTable</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationsTable.php.html#15">App\Model\Table\OrganizationsTable</a></td><td class="text-right">21%</td></tr>
+       <tr><td><a href="CmsTable.php.html#15">App\Model\Table\CmsTable</a></td><td class="text-right">41%</td></tr>
+       <tr><td><a href="DoctorsTable.php.html#15">App\Model\Table\DoctorsTable</a></td><td class="text-right">52%</td></tr>
+       <tr><td><a href="GlobalSettingsTable.php.html#18">App\Model\Table\GlobalSettingsTable</a></td><td class="text-right">62%</td></tr>
+       <tr><td><a href="UsersTable.php.html#18">App\Model\Table\UsersTable</a></td><td class="text-right">87%</td></tr>
+       <tr><td><a href="ChiefCompliantUserdetailsTable.php.html#15">App\Model\Table\ChiefCompliantUserdetailsTable</a></td><td class="text-right">88%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="UsersTable.php.html#18">App\Model\Table\UsersTable</a></td><td class="text-right">5</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AppointmentsTable.php.html#24"><abbr title="App\Model\Table\AppointmentsTable::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationsTable.php.html#43"><abbr title="App\Model\Table\OrganizationsTable::validationDefault">validationDefault</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserSignedDocsTable.php.html#24"><abbr title="App\Model\Table\UserSignedDocsTable::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserLocationsTable.php.html#24"><abbr title="App\Model\Table\UserLocationsTable::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserActivitiesTable.php.html#61"><abbr title="App\Model\Table\UserActivitiesTable::buildRules">buildRules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserActivitiesTable.php.html#45"><abbr title="App\Model\Table\UserActivitiesTable::validationDefault">validationDefault</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserActivitiesTable.php.html#24"><abbr title="App\Model\Table\UserActivitiesTable::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TimeManagementTable.php.html#54"><abbr title="App\Model\Table\TimeManagementTable::buildRules">buildRules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TimeManagementTable.php.html#24"><abbr title="App\Model\Table\TimeManagementTable::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SpecializationsTable.php.html#43"><abbr title="App\Model\Table\SpecializationsTable::validationDefault">validationDefault</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SpecializationsTable.php.html#27"><abbr title="App\Model\Table\SpecializationsTable::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ScheduleFieldSettingsTable.php.html#24"><abbr title="App\Model\Table\ScheduleFieldSettingsTable::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QuestionnaireTypeTable.php.html#24"><abbr title="App\Model\Table\QuestionnaireTypeTable::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProviderDisplayColumnsTable.php.html#24"><abbr title="App\Model\Table\ProviderDisplayColumnsTable::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationsTable.php.html#128"><abbr title="App\Model\Table\OrganizationsTable::buildRules">buildRules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationProvidersTable.php.html#42"><abbr title="App\Model\Table\OrganizationProvidersTable::validationDefault">validationDefault</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AppointmentsTable.php.html#67"><abbr title="App\Model\Table\AppointmentsTable::validationDefault">validationDefault</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationProvidersTable.php.html#24"><abbr title="App\Model\Table\OrganizationProvidersTable::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LocationsTable.php.html#24"><abbr title="App\Model\Table\LocationsTable::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GlobalSettingsTable.php.html#44"><abbr title="App\Model\Table\GlobalSettingsTable::validationDefault">validationDefault</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GlobalSectionsTable.php.html#44"><abbr title="App\Model\Table\GlobalSectionsTable::validationDefault">validationDefault</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GlobalSectionsTable.php.html#27"><abbr title="App\Model\Table\GlobalSectionsTable::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailTemplatesTable.php.html#43"><abbr title="App\Model\Table\EmailTemplatesTable::validationDefault">validationDefault</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailTemplatesTable.php.html#27"><abbr title="App\Model\Table\EmailTemplatesTable::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DoctorsTable.php.html#51"><abbr title="App\Model\Table\DoctorsTable::validationDefault">validationDefault</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CmsTable.php.html#61"><abbr title="App\Model\Table\CmsTable::buildRules">buildRules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CmsTable.php.html#41"><abbr title="App\Model\Table\CmsTable::validationDefault">validationDefault</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChiefCompliantUserdetailsTable.php.html#46"><abbr title="App\Model\Table\ChiefCompliantUserdetailsTable::validationDefault">validationDefault</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChiefCompliantQuestionnaireTable.php.html#24"><abbr title="App\Model\Table\ChiefCompliantQuestionnaireTable::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChiefCompliantMedicationTable.php.html#24"><abbr title="App\Model\Table\ChiefCompliantMedicationTable::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UsersTable.php.html#274"><abbr title="App\Model\Table\UsersTable::myvalidfun">myvalidfun</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="UsersTable.php.html#274"><abbr title="App\Model\Table\UsersTable::myvalidfun">myvalidfun</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 5.3.2</a> using <a href="https://secure.php.net/" target="_top">PHP 7.2.24-0ubuntu0.18.04.8</a> with <a href="https://xdebug.org/">Xdebug 2.6.0</a> and <a href="https://phpunit.de/">PHPUnit 6.5.14</a> at Mon Aug 9 5:00:15 CDT 2021.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../.js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../.js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../../.js/holder.min.js" type="text/javascript"></script>
+  <script src="../../.js/d3.min.js" type="text/javascript"></script>
+  <script src="../../.js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([15,0,0,1,0,1,1,1,0,2,0,3], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([31,0,0,0,0,0,0,0,0,0,0,11], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,2,"<a href=\"AppointmentsTable.php.html#15\">App\\Model\\Table\\AppointmentsTable<\/a>"],[0,1,"<a href=\"ChiefCompliantMedicationTable.php.html#15\">App\\Model\\Table\\ChiefCompliantMedicationTable<\/a>"],[0,1,"<a href=\"ChiefCompliantQuestionnaireTable.php.html#15\">App\\Model\\Table\\ChiefCompliantQuestionnaireTable<\/a>"],[88.88888888888889,2,"<a href=\"ChiefCompliantUserdetailsTable.php.html#15\">App\\Model\\Table\\ChiefCompliantUserdetailsTable<\/a>"],[41.66666666666667,3,"<a href=\"CmsTable.php.html#15\">App\\Model\\Table\\CmsTable<\/a>"],[52.63157894736842,2,"<a href=\"DoctorsTable.php.html#15\">App\\Model\\Table\\DoctorsTable<\/a>"],[0,2,"<a href=\"EmailTemplatesTable.php.html#18\">App\\Model\\Table\\EmailTemplatesTable<\/a>"],[0,2,"<a href=\"GlobalSectionsTable.php.html#18\">App\\Model\\Table\\GlobalSectionsTable<\/a>"],[62.5,2,"<a href=\"GlobalSettingsTable.php.html#18\">App\\Model\\Table\\GlobalSettingsTable<\/a>"],[0,1,"<a href=\"LocationsTable.php.html#15\">App\\Model\\Table\\LocationsTable<\/a>"],[0,2,"<a href=\"OrganizationProvidersTable.php.html#15\">App\\Model\\Table\\OrganizationProvidersTable<\/a>"],[21.21212121212121,3,"<a href=\"OrganizationsTable.php.html#15\">App\\Model\\Table\\OrganizationsTable<\/a>"],[0,1,"<a href=\"ProviderDisplayColumnsTable.php.html#15\">App\\Model\\Table\\ProviderDisplayColumnsTable<\/a>"],[0,1,"<a href=\"QuestionnaireTypeTable.php.html#15\">App\\Model\\Table\\QuestionnaireTypeTable<\/a>"],[0,1,"<a href=\"ScheduleFieldSettingsTable.php.html#15\">App\\Model\\Table\\ScheduleFieldSettingsTable<\/a>"],[100,1,"<a href=\"ScheduleTable.php.html#15\">App\\Model\\Table\\ScheduleTable<\/a>"],[100,1,"<a href=\"ScheduleTokenTable.php.html#15\">App\\Model\\Table\\ScheduleTokenTable<\/a>"],[0,2,"<a href=\"SpecializationsTable.php.html#18\">App\\Model\\Table\\SpecializationsTable<\/a>"],[0,2,"<a href=\"TimeManagementTable.php.html#15\">App\\Model\\Table\\TimeManagementTable<\/a>"],[0,3,"<a href=\"UserActivitiesTable.php.html#15\">App\\Model\\Table\\UserActivitiesTable<\/a>"],[100,1,"<a href=\"UserInfoTable.php.html#15\">App\\Model\\Table\\UserInfoTable<\/a>"],[0,1,"<a href=\"UserLocationsTable.php.html#15\">App\\Model\\Table\\UserLocationsTable<\/a>"],[0,1,"<a href=\"UserSignedDocsTable.php.html#15\">App\\Model\\Table\\UserSignedDocsTable<\/a>"],[87.17948717948718,5,"<a href=\"UsersTable.php.html#18\">App\\Model\\Table\\UsersTable<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"AppointmentsTable.php.html#24\">App\\Model\\Table\\AppointmentsTable::initialize<\/a>"],[0,1,"<a href=\"AppointmentsTable.php.html#67\">App\\Model\\Table\\AppointmentsTable::validationDefault<\/a>"],[0,1,"<a href=\"ChiefCompliantMedicationTable.php.html#24\">App\\Model\\Table\\ChiefCompliantMedicationTable::initialize<\/a>"],[0,1,"<a href=\"ChiefCompliantQuestionnaireTable.php.html#24\">App\\Model\\Table\\ChiefCompliantQuestionnaireTable::initialize<\/a>"],[100,1,"<a href=\"ChiefCompliantUserdetailsTable.php.html#24\">App\\Model\\Table\\ChiefCompliantUserdetailsTable::initialize<\/a>"],[0,1,"<a href=\"ChiefCompliantUserdetailsTable.php.html#46\">App\\Model\\Table\\ChiefCompliantUserdetailsTable::validationDefault<\/a>"],[100,1,"<a href=\"CmsTable.php.html#24\">App\\Model\\Table\\CmsTable::initialize<\/a>"],[0,1,"<a href=\"CmsTable.php.html#41\">App\\Model\\Table\\CmsTable::validationDefault<\/a>"],[0,1,"<a href=\"CmsTable.php.html#61\">App\\Model\\Table\\CmsTable::buildRules<\/a>"],[100,1,"<a href=\"DoctorsTable.php.html#24\">App\\Model\\Table\\DoctorsTable::initialize<\/a>"],[0,1,"<a href=\"DoctorsTable.php.html#51\">App\\Model\\Table\\DoctorsTable::validationDefault<\/a>"],[0,1,"<a href=\"EmailTemplatesTable.php.html#27\">App\\Model\\Table\\EmailTemplatesTable::initialize<\/a>"],[0,1,"<a href=\"EmailTemplatesTable.php.html#43\">App\\Model\\Table\\EmailTemplatesTable::validationDefault<\/a>"],[0,1,"<a href=\"GlobalSectionsTable.php.html#27\">App\\Model\\Table\\GlobalSectionsTable::initialize<\/a>"],[0,1,"<a href=\"GlobalSectionsTable.php.html#44\">App\\Model\\Table\\GlobalSectionsTable::validationDefault<\/a>"],[100,1,"<a href=\"GlobalSettingsTable.php.html#27\">App\\Model\\Table\\GlobalSettingsTable::initialize<\/a>"],[0,1,"<a href=\"GlobalSettingsTable.php.html#44\">App\\Model\\Table\\GlobalSettingsTable::validationDefault<\/a>"],[0,1,"<a href=\"LocationsTable.php.html#24\">App\\Model\\Table\\LocationsTable::initialize<\/a>"],[0,1,"<a href=\"OrganizationProvidersTable.php.html#24\">App\\Model\\Table\\OrganizationProvidersTable::initialize<\/a>"],[0,1,"<a href=\"OrganizationProvidersTable.php.html#42\">App\\Model\\Table\\OrganizationProvidersTable::validationDefault<\/a>"],[100,1,"<a href=\"OrganizationsTable.php.html#24\">App\\Model\\Table\\OrganizationsTable::initialize<\/a>"],[0,1,"<a href=\"OrganizationsTable.php.html#43\">App\\Model\\Table\\OrganizationsTable::validationDefault<\/a>"],[0,1,"<a href=\"OrganizationsTable.php.html#128\">App\\Model\\Table\\OrganizationsTable::buildRules<\/a>"],[0,1,"<a href=\"ProviderDisplayColumnsTable.php.html#24\">App\\Model\\Table\\ProviderDisplayColumnsTable::initialize<\/a>"],[0,1,"<a href=\"QuestionnaireTypeTable.php.html#24\">App\\Model\\Table\\QuestionnaireTypeTable::initialize<\/a>"],[0,1,"<a href=\"ScheduleFieldSettingsTable.php.html#24\">App\\Model\\Table\\ScheduleFieldSettingsTable::initialize<\/a>"],[100,1,"<a href=\"ScheduleTable.php.html#24\">App\\Model\\Table\\ScheduleTable::initialize<\/a>"],[100,1,"<a href=\"ScheduleTokenTable.php.html#24\">App\\Model\\Table\\ScheduleTokenTable::initialize<\/a>"],[0,1,"<a href=\"SpecializationsTable.php.html#27\">App\\Model\\Table\\SpecializationsTable::initialize<\/a>"],[0,1,"<a href=\"SpecializationsTable.php.html#43\">App\\Model\\Table\\SpecializationsTable::validationDefault<\/a>"],[0,1,"<a href=\"TimeManagementTable.php.html#24\">App\\Model\\Table\\TimeManagementTable::initialize<\/a>"],[0,1,"<a href=\"TimeManagementTable.php.html#54\">App\\Model\\Table\\TimeManagementTable::buildRules<\/a>"],[0,1,"<a href=\"UserActivitiesTable.php.html#24\">App\\Model\\Table\\UserActivitiesTable::initialize<\/a>"],[0,1,"<a href=\"UserActivitiesTable.php.html#45\">App\\Model\\Table\\UserActivitiesTable::validationDefault<\/a>"],[0,1,"<a href=\"UserActivitiesTable.php.html#61\">App\\Model\\Table\\UserActivitiesTable::buildRules<\/a>"],[100,1,"<a href=\"UserInfoTable.php.html#24\">App\\Model\\Table\\UserInfoTable::initialize<\/a>"],[0,1,"<a href=\"UserLocationsTable.php.html#24\">App\\Model\\Table\\UserLocationsTable::initialize<\/a>"],[0,1,"<a href=\"UserSignedDocsTable.php.html#24\">App\\Model\\Table\\UserSignedDocsTable::initialize<\/a>"],[100,1,"<a href=\"UsersTable.php.html#27\">App\\Model\\Table\\UsersTable::initialize<\/a>"],[100,1,"<a href=\"UsersTable.php.html#77\">App\\Model\\Table\\UsersTable::validationDefault<\/a>"],[100,1,"<a href=\"UsersTable.php.html#264\">App\\Model\\Table\\UsersTable::buildRules<\/a>"],[0,2,"<a href=\"UsersTable.php.html#274\">App\\Model\\Table\\UsersTable::myvalidfun<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

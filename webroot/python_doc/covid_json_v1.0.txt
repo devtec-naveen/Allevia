@@ -1,0 +1,37 @@
+{
+	"shortness of breath": {
+        "filler": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        }
+    },
+    "chest pain": {
+        "filler": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        }
+    },
+    "blue face or lips": {
+        "filler": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        }
+    },
+    "coughing up blood": {
+        "filler": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        }
+    },
+    "nausea or vomiting": {
+        "filler": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        }
+    }
+}

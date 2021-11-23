@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /opt/lampp/htdocs/allevia/src/View</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../.css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../.css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../.css/style.css" rel="stylesheet" type="text/css">
+  <!--[if lt IE 9]>
+  <script src="../.js/html5shiv.min.js"></script>
+  <script src="../.js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="../index.html">/opt/lampp/htdocs/allevia/src</a></li>
+        <li><a href="index.html">View</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AjaxView.php.html#26">App\View\AjaxView</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AppView.php.html#25">App\View\AppView</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/CryptoSecurityHelper.php.html#28">App\View\Helper\CryptoSecurityHelper</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#28">App\View\Helper\GeneralHelper</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Helper/GeneralHelper.php.html#28">App\View\Helper\GeneralHelper</a></td><td class="text-right">10262412</td></tr>
+       <tr><td><a href="Helper/CryptoSecurityHelper.php.html#28">App\View\Helper\CryptoSecurityHelper</a></td><td class="text-right">30</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AjaxView.php.html#43"><abbr title="App\View\AjaxView::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#10935"><abbr title="App\View\Helper\GeneralHelper::anonymousFunction:10935#70534">anonymousFunction:10935#70534</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#10029"><abbr title="App\View\Helper\GeneralHelper::prepare_cancer_assessments_layman">prepare_cancer_assessments_layman</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#10124"><abbr title="App\View\Helper\GeneralHelper::prepare_followup_assessments_layman">prepare_followup_assessments_layman</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#10169"><abbr title="App\View\Helper\GeneralHelper::str_lreplace">str_lreplace</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#10180"><abbr title="App\View\Helper\GeneralHelper::chronic_pain_assessment_detail_layman">chronic_pain_assessment_detail_layman</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#10220"><abbr title="App\View\Helper\GeneralHelper::chronic_opioid_overdose_risk_detail_layman">chronic_opioid_overdose_risk_detail_layman</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#10280"><abbr title="App\View\Helper\GeneralHelper::chronic_opioid_risk_tool_detail_layman">chronic_opioid_risk_tool_detail_layman</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#10336"><abbr title="App\View\Helper\GeneralHelper::covid_detail_layman">covid_detail_layman</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#10520"><abbr title="App\View\Helper\GeneralHelper::focuses_history_layman">focuses_history_layman</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#10589"><abbr title="App\View\Helper\GeneralHelper::phq_9_detail_layman">phq_9_detail_layman</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#10618"><abbr title="App\View\Helper\GeneralHelper::checkTelehealthAppointmentData">checkTelehealthAppointmentData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#10639"><abbr title="App\View\Helper\GeneralHelper::chronic_cad_layman">chronic_cad_layman</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#10683"><abbr title="App\View\Helper\GeneralHelper::chronic_chf_layman">chronic_chf_layman</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#10726"><abbr title="App\View\Helper\GeneralHelper::chronic_copd_layman">chronic_copd_layman</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#10893"><abbr title="App\View\Helper\GeneralHelper::chronic_asthma_layman">chronic_asthma_layman</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#11100"><abbr title="App\View\Helper\GeneralHelper::chronic_dmii_layman">chronic_dmii_layman</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#9864"><abbr title="App\View\Helper\GeneralHelper::taps1_internal_medicine_assessment">taps1_internal_medicine_assessment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#11138"><abbr title="App\View\Helper\GeneralHelper::anonymousFunction:11138#72028">anonymousFunction:11138#72028</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#11187"><abbr title="App\View\Helper\GeneralHelper::chronic_htn_layman">chronic_htn_layman</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#11223"><abbr title="App\View\Helper\GeneralHelper::anonymousFunction:11223#72596">anonymousFunction:11223#72596</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#11272"><abbr title="App\View\Helper\GeneralHelper::chronic_general_detail_layman">chronic_general_detail_layman</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#11470"><abbr title="App\View\Helper\GeneralHelper::is_chief_complaint_doctor">is_chief_complaint_doctor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#11510"><abbr title="App\View\Helper\GeneralHelper::pre_op_post_op_layman">pre_op_post_op_layman</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#11612"><abbr title="App\View\Helper\GeneralHelper::general_follow_up_layman">general_follow_up_layman</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#11670"><abbr title="App\View\Helper\GeneralHelper::followup_medical_history_detail_layman">followup_medical_history_detail_layman</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#12006"><abbr title="App\View\Helper\GeneralHelper::is_telehealth_provider">is_telehealth_provider</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#12019"><abbr title="App\View\Helper\GeneralHelper::abdominal_pain_location_layman">abdominal_pain_location_layman</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#12199"><abbr title="App\View\Helper\GeneralHelper::getModuleName">getModuleName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#12214"><abbr title="App\View\Helper\GeneralHelper::getUserProgress">getUserProgress</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#12712"><abbr title="App\View\Helper\GeneralHelper::getProviderTimezone">getProviderTimezone</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#12720"><abbr title="App\View\Helper\GeneralHelper::chronic_pain_treatment_history_layman">chronic_pain_treatment_history_layman</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#9900"><abbr title="App\View\Helper\GeneralHelper::taps2_internal_medicine_assessment">taps2_internal_medicine_assessment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#9836"><abbr title="App\View\Helper\GeneralHelper::general_internal_medicine_assessment">general_internal_medicine_assessment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AppView.php.html#37"><abbr title="App\View\AppView::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#4887"><abbr title="App\View\Helper\GeneralHelper::prepare_post_checkup_question_layman">prepare_post_checkup_question_layman</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/CryptoSecurityHelper.php.html#56"><abbr title="App\View\Helper\CryptoSecurityHelper::get_vi">get_vi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/CryptoSecurityHelper.php.html#62"><abbr title="App\View\Helper\CryptoSecurityHelper::encrypt">encrypt</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/CryptoSecurityHelper.php.html#78"><abbr title="App\View\Helper\CryptoSecurityHelper::decrypt">decrypt</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#48"><abbr title="App\View\Helper\GeneralHelper::authuser">authuser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#62"><abbr title="App\View\Helper\GeneralHelper::getControllers">getControllers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#81"><abbr title="App\View\Helper\GeneralHelper::getActions">getActions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#96"><abbr title="App\View\Helper\GeneralHelper::getResources">getResources</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#110"><abbr title="App\View\Helper\GeneralHelper::prepare_question_layman">prepare_question_layman</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#4601"><abbr title="App\View\Helper\GeneralHelper::get_schedule">get_schedule</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#4611"><abbr title="App\View\Helper\GeneralHelper::get_organization_data">get_organization_data</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#4621"><abbr title="App\View\Helper\GeneralHelper::get_schedule_by_user_id">get_schedule_by_user_id</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#4638"><abbr title="App\View\Helper\GeneralHelper::is_access_pre_appointment_link">is_access_pre_appointment_link</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#4682"><abbr title="App\View\Helper\GeneralHelper::prepare_other_question_layman">prepare_other_question_layman</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#4814"><abbr title="App\View\Helper\GeneralHelper::prepare_screening_question_layman">prepare_screening_question_layman</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#5015"><abbr title="App\View\Helper\GeneralHelper::prepare_pain_update_question_layman">prepare_pain_update_question_layman</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#8988"><abbr title="App\View\Helper\GeneralHelper::prepare_cancer_medical_layman">prepare_cancer_medical_layman</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#5108"><abbr title="App\View\Helper\GeneralHelper::prepare_general_update_question_layman">prepare_general_update_question_layman</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#5209"><abbr title="App\View\Helper\GeneralHelper::prepare_pre_op_procedure_detail_question_layman">prepare_pre_op_procedure_detail_question_layman</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#5276"><abbr title="App\View\Helper\GeneralHelper::prepare_pre_op_medical_conditions_layman">prepare_pre_op_medical_conditions_layman</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#5315"><abbr title="App\View\Helper\GeneralHelper::prepare_pre_op_allergies_conditions_layman">prepare_pre_op_allergies_conditions_layman</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#5354"><abbr title="App\View\Helper\GeneralHelper::prepare_pre_op_medication_detail_question_layman">prepare_pre_op_medication_detail_question_layman</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#5583"><abbr title="App\View\Helper\GeneralHelper::prepare_chronic_illnesses_layman">prepare_chronic_illnesses_layman</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#5672"><abbr title="App\View\Helper\GeneralHelper::prepare_cronic_disease_question_layman">prepare_cronic_disease_question_layman</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#5842"><abbr title="App\View\Helper\GeneralHelper::is_registered">is_registered</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#6013"><abbr title="App\View\Helper\GeneralHelper::prepare_medication_refill_extra_details_layman">prepare_medication_refill_extra_details_layman</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#6525"><abbr title="App\View\Helper\GeneralHelper::prepare_follow_up_sx_layman">prepare_follow_up_sx_layman</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#6829"><abbr title="App\View\Helper\GeneralHelper::prepare_cancer_cc_layman">prepare_cancer_cc_layman</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#6930"><abbr title="App\View\Helper\GeneralHelper::prepare_cancer_history_layman">prepare_cancer_history_layman</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#8486"><abbr title="App\View\Helper\GeneralHelper::prepare_cancer_history_layman_29_oct">prepare_cancer_history_layman_29_oct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#8865"><abbr title="App\View\Helper\GeneralHelper::prepare_cancer_history_layman1">prepare_cancer_history_layman1</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#12866"><abbr title="App\View\Helper\GeneralHelper::is_show_summary">is_show_summary</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Helper/GeneralHelper.php.html#110"><abbr title="App\View\Helper\GeneralHelper::prepare_question_layman">prepare_question_layman</abbr></a></td><td class="text-right">1061930</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#6930"><abbr title="App\View\Helper\GeneralHelper::prepare_cancer_history_layman">prepare_cancer_history_layman</abbr></a></td><td class="text-right">202050</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#8988"><abbr title="App\View\Helper\GeneralHelper::prepare_cancer_medical_layman">prepare_cancer_medical_layman</abbr></a></td><td class="text-right">62250</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#8486"><abbr title="App\View\Helper\GeneralHelper::prepare_cancer_history_layman_29_oct">prepare_cancer_history_layman_29_oct</abbr></a></td><td class="text-right">12210</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#11670"><abbr title="App\View\Helper\GeneralHelper::followup_medical_history_detail_layman">followup_medical_history_detail_layman</abbr></a></td><td class="text-right">11342</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#6013"><abbr title="App\View\Helper\GeneralHelper::prepare_medication_refill_extra_details_layman">prepare_medication_refill_extra_details_layman</abbr></a></td><td class="text-right">10920</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#12214"><abbr title="App\View\Helper\GeneralHelper::getUserProgress">getUserProgress</abbr></a></td><td class="text-right">9312</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#6525"><abbr title="App\View\Helper\GeneralHelper::prepare_follow_up_sx_layman">prepare_follow_up_sx_layman</abbr></a></td><td class="text-right">6162</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#10893"><abbr title="App\View\Helper\GeneralHelper::chronic_asthma_layman">chronic_asthma_layman</abbr></a></td><td class="text-right">4830</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#11272"><abbr title="App\View\Helper\GeneralHelper::chronic_general_detail_layman">chronic_general_detail_layman</abbr></a></td><td class="text-right">3906</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#9900"><abbr title="App\View\Helper\GeneralHelper::taps2_internal_medicine_assessment">taps2_internal_medicine_assessment</abbr></a></td><td class="text-right">3422</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#10726"><abbr title="App\View\Helper\GeneralHelper::chronic_copd_layman">chronic_copd_layman</abbr></a></td><td class="text-right">2970</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#10336"><abbr title="App\View\Helper\GeneralHelper::covid_detail_layman">covid_detail_layman</abbr></a></td><td class="text-right">2970</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#5354"><abbr title="App\View\Helper\GeneralHelper::prepare_pre_op_medication_detail_question_layman">prepare_pre_op_medication_detail_question_layman</abbr></a></td><td class="text-right">2070</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#8865"><abbr title="App\View\Helper\GeneralHelper::prepare_cancer_history_layman1">prepare_cancer_history_layman1</abbr></a></td><td class="text-right">1406</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#12720"><abbr title="App\View\Helper\GeneralHelper::chronic_pain_treatment_history_layman">chronic_pain_treatment_history_layman</abbr></a></td><td class="text-right">1122</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#11510"><abbr title="App\View\Helper\GeneralHelper::pre_op_post_op_layman">pre_op_post_op_layman</abbr></a></td><td class="text-right">992</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#5672"><abbr title="App\View\Helper\GeneralHelper::prepare_cronic_disease_question_layman">prepare_cronic_disease_question_layman</abbr></a></td><td class="text-right">992</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#10029"><abbr title="App\View\Helper\GeneralHelper::prepare_cancer_assessments_layman">prepare_cancer_assessments_layman</abbr></a></td><td class="text-right">930</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#6829"><abbr title="App\View\Helper\GeneralHelper::prepare_cancer_cc_layman">prepare_cancer_cc_layman</abbr></a></td><td class="text-right">930</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#4682"><abbr title="App\View\Helper\GeneralHelper::prepare_other_question_layman">prepare_other_question_layman</abbr></a></td><td class="text-right">930</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#5842"><abbr title="App\View\Helper\GeneralHelper::is_registered">is_registered</abbr></a></td><td class="text-right">756</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#4887"><abbr title="App\View\Helper\GeneralHelper::prepare_post_checkup_question_layman">prepare_post_checkup_question_layman</abbr></a></td><td class="text-right">650</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#12019"><abbr title="App\View\Helper\GeneralHelper::abdominal_pain_location_layman">abdominal_pain_location_layman</abbr></a></td><td class="text-right">552</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#11100"><abbr title="App\View\Helper\GeneralHelper::chronic_dmii_layman">chronic_dmii_layman</abbr></a></td><td class="text-right">506</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#10520"><abbr title="App\View\Helper\GeneralHelper::focuses_history_layman">focuses_history_layman</abbr></a></td><td class="text-right">506</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#5583"><abbr title="App\View\Helper\GeneralHelper::prepare_chronic_illnesses_layman">prepare_chronic_illnesses_layman</abbr></a></td><td class="text-right">462</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#11187"><abbr title="App\View\Helper\GeneralHelper::chronic_htn_layman">chronic_htn_layman</abbr></a></td><td class="text-right">462</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#10220"><abbr title="App\View\Helper\GeneralHelper::chronic_opioid_overdose_risk_detail_layman">chronic_opioid_overdose_risk_detail_layman</abbr></a></td><td class="text-right">420</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#5108"><abbr title="App\View\Helper\GeneralHelper::prepare_general_update_question_layman">prepare_general_update_question_layman</abbr></a></td><td class="text-right">420</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#11612"><abbr title="App\View\Helper\GeneralHelper::general_follow_up_layman">general_follow_up_layman</abbr></a></td><td class="text-right">342</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#5015"><abbr title="App\View\Helper\GeneralHelper::prepare_pain_update_question_layman">prepare_pain_update_question_layman</abbr></a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#10280"><abbr title="App\View\Helper\GeneralHelper::chronic_opioid_risk_tool_detail_layman">chronic_opioid_risk_tool_detail_layman</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#4814"><abbr title="App\View\Helper\GeneralHelper::prepare_screening_question_layman">prepare_screening_question_layman</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#5209"><abbr title="App\View\Helper\GeneralHelper::prepare_pre_op_procedure_detail_question_layman">prepare_pre_op_procedure_detail_question_layman</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#10639"><abbr title="App\View\Helper\GeneralHelper::chronic_cad_layman">chronic_cad_layman</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#10683"><abbr title="App\View\Helper\GeneralHelper::chronic_chf_layman">chronic_chf_layman</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#10124"><abbr title="App\View\Helper\GeneralHelper::prepare_followup_assessments_layman">prepare_followup_assessments_layman</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#11470"><abbr title="App\View\Helper\GeneralHelper::is_chief_complaint_doctor">is_chief_complaint_doctor</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#10618"><abbr title="App\View\Helper\GeneralHelper::checkTelehealthAppointmentData">checkTelehealthAppointmentData</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#5276"><abbr title="App\View\Helper\GeneralHelper::prepare_pre_op_medical_conditions_layman">prepare_pre_op_medical_conditions_layman</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#5315"><abbr title="App\View\Helper\GeneralHelper::prepare_pre_op_allergies_conditions_layman">prepare_pre_op_allergies_conditions_layman</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#10180"><abbr title="App\View\Helper\GeneralHelper::chronic_pain_assessment_detail_layman">chronic_pain_assessment_detail_layman</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#9864"><abbr title="App\View\Helper\GeneralHelper::taps1_internal_medicine_assessment">taps1_internal_medicine_assessment</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#9836"><abbr title="App\View\Helper\GeneralHelper::general_internal_medicine_assessment">general_internal_medicine_assessment</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#12866"><abbr title="App\View\Helper\GeneralHelper::is_show_summary">is_show_summary</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#10589"><abbr title="App\View\Helper\GeneralHelper::phq_9_detail_layman">phq_9_detail_layman</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#4638"><abbr title="App\View\Helper\GeneralHelper::is_access_pre_appointment_link">is_access_pre_appointment_link</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#81"><abbr title="App\View\Helper\GeneralHelper::getActions">getActions</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#12006"><abbr title="App\View\Helper\GeneralHelper::is_telehealth_provider">is_telehealth_provider</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#12199"><abbr title="App\View\Helper\GeneralHelper::getModuleName">getModuleName</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#62"><abbr title="App\View\Helper\GeneralHelper::getControllers">getControllers</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#10169"><abbr title="App\View\Helper\GeneralHelper::str_lreplace">str_lreplace</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Helper/CryptoSecurityHelper.php.html#78"><abbr title="App\View\Helper\CryptoSecurityHelper::decrypt">decrypt</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#4621"><abbr title="App\View\Helper\GeneralHelper::get_schedule_by_user_id">get_schedule_by_user_id</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#96"><abbr title="App\View\Helper\GeneralHelper::getResources">getResources</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#12712"><abbr title="App\View\Helper\GeneralHelper::getProviderTimezone">getProviderTimezone</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Helper/GeneralHelper.php.html#48"><abbr title="App\View\Helper\GeneralHelper::authuser">authuser</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Helper/CryptoSecurityHelper.php.html#62"><abbr title="App\View\Helper\CryptoSecurityHelper::encrypt">encrypt</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 5.3.2</a> using <a href="https://secure.php.net/" target="_top">PHP 7.2.24-0ubuntu0.18.04.8</a> with <a href="https://xdebug.org/">Xdebug 2.6.0</a> and <a href="https://phpunit.de/">PHPUnit 6.5.14</a> at Mon Aug 9 5:00:15 CDT 2021.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../.js/jquery.min.js" type="text/javascript"></script>
+  <script src="../.js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../.js/holder.min.js" type="text/javascript"></script>
+  <script src="../.js/d3.min.js" type="text/javascript"></script>
+  <script src="../.js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([4,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([67,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"AjaxView.php.html#26\">App\\View\\AjaxView<\/a>"],[0,1,"<a href=\"AppView.php.html#25\">App\\View\\AppView<\/a>"],[0,5,"<a href=\"Helper\/CryptoSecurityHelper.php.html#28\">App\\View\\Helper\\CryptoSecurityHelper<\/a>"],[0,3203,"<a href=\"Helper\/GeneralHelper.php.html#28\">App\\View\\Helper\\GeneralHelper<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"AjaxView.php.html#43\">App\\View\\AjaxView::initialize<\/a>"],[0,1,"<a href=\"AppView.php.html#37\">App\\View\\AppView::initialize<\/a>"],[0,1,"<a href=\"Helper\/CryptoSecurityHelper.php.html#56\">App\\View\\Helper\\CryptoSecurityHelper::get_vi<\/a>"],[0,2,"<a href=\"Helper\/CryptoSecurityHelper.php.html#62\">App\\View\\Helper\\CryptoSecurityHelper::encrypt<\/a>"],[0,2,"<a href=\"Helper\/CryptoSecurityHelper.php.html#78\">App\\View\\Helper\\CryptoSecurityHelper::decrypt<\/a>"],[0,2,"<a href=\"Helper\/GeneralHelper.php.html#48\">App\\View\\Helper\\GeneralHelper::authuser<\/a>"],[0,3,"<a href=\"Helper\/GeneralHelper.php.html#62\">App\\View\\Helper\\GeneralHelper::getControllers<\/a>"],[0,4,"<a href=\"Helper\/GeneralHelper.php.html#81\">App\\View\\Helper\\GeneralHelper::getActions<\/a>"],[0,2,"<a href=\"Helper\/GeneralHelper.php.html#96\">App\\View\\Helper\\GeneralHelper::getResources<\/a>"],[0,1030,"<a href=\"Helper\/GeneralHelper.php.html#110\">App\\View\\Helper\\GeneralHelper::prepare_question_layman<\/a>"],[0,1,"<a href=\"Helper\/GeneralHelper.php.html#4601\">App\\View\\Helper\\GeneralHelper::get_schedule<\/a>"],[0,1,"<a href=\"Helper\/GeneralHelper.php.html#4611\">App\\View\\Helper\\GeneralHelper::get_organization_data<\/a>"],[0,2,"<a href=\"Helper\/GeneralHelper.php.html#4621\">App\\View\\Helper\\GeneralHelper::get_schedule_by_user_id<\/a>"],[0,4,"<a href=\"Helper\/GeneralHelper.php.html#4638\">App\\View\\Helper\\GeneralHelper::is_access_pre_appointment_link<\/a>"],[0,30,"<a href=\"Helper\/GeneralHelper.php.html#4682\">App\\View\\Helper\\GeneralHelper::prepare_other_question_layman<\/a>"],[0,14,"<a href=\"Helper\/GeneralHelper.php.html#4814\">App\\View\\Helper\\GeneralHelper::prepare_screening_question_layman<\/a>"],[0,25,"<a href=\"Helper\/GeneralHelper.php.html#4887\">App\\View\\Helper\\GeneralHelper::prepare_post_checkup_question_layman<\/a>"],[0,17,"<a href=\"Helper\/GeneralHelper.php.html#5015\">App\\View\\Helper\\GeneralHelper::prepare_pain_update_question_layman<\/a>"],[0,20,"<a href=\"Helper\/GeneralHelper.php.html#5108\">App\\View\\Helper\\GeneralHelper::prepare_general_update_question_layman<\/a>"],[0,13,"<a href=\"Helper\/GeneralHelper.php.html#5209\">App\\View\\Helper\\GeneralHelper::prepare_pre_op_procedure_detail_question_layman<\/a>"],[0,9,"<a href=\"Helper\/GeneralHelper.php.html#5276\">App\\View\\Helper\\GeneralHelper::prepare_pre_op_medical_conditions_layman<\/a>"],[0,9,"<a href=\"Helper\/GeneralHelper.php.html#5315\">App\\View\\Helper\\GeneralHelper::prepare_pre_op_allergies_conditions_layman<\/a>"],[0,45,"<a href=\"Helper\/GeneralHelper.php.html#5354\">App\\View\\Helper\\GeneralHelper::prepare_pre_op_medication_detail_question_layman<\/a>"],[0,21,"<a href=\"Helper\/GeneralHelper.php.html#5583\">App\\View\\Helper\\GeneralHelper::prepare_chronic_illnesses_layman<\/a>"],[0,31,"<a href=\"Helper\/GeneralHelper.php.html#5672\">App\\View\\Helper\\GeneralHelper::prepare_cronic_disease_question_layman<\/a>"],[0,27,"<a href=\"Helper\/GeneralHelper.php.html#5842\">App\\View\\Helper\\GeneralHelper::is_registered<\/a>"],[0,104,"<a href=\"Helper\/GeneralHelper.php.html#6013\">App\\View\\Helper\\GeneralHelper::prepare_medication_refill_extra_details_layman<\/a>"],[0,78,"<a href=\"Helper\/GeneralHelper.php.html#6525\">App\\View\\Helper\\GeneralHelper::prepare_follow_up_sx_layman<\/a>"],[0,30,"<a href=\"Helper\/GeneralHelper.php.html#6829\">App\\View\\Helper\\GeneralHelper::prepare_cancer_cc_layman<\/a>"],[0,449,"<a href=\"Helper\/GeneralHelper.php.html#6930\">App\\View\\Helper\\GeneralHelper::prepare_cancer_history_layman<\/a>"],[0,110,"<a href=\"Helper\/GeneralHelper.php.html#8486\">App\\View\\Helper\\GeneralHelper::prepare_cancer_history_layman_29_oct<\/a>"],[0,37,"<a href=\"Helper\/GeneralHelper.php.html#8865\">App\\View\\Helper\\GeneralHelper::prepare_cancer_history_layman1<\/a>"],[0,249,"<a href=\"Helper\/GeneralHelper.php.html#8988\">App\\View\\Helper\\GeneralHelper::prepare_cancer_medical_layman<\/a>"],[0,6,"<a href=\"Helper\/GeneralHelper.php.html#9836\">App\\View\\Helper\\GeneralHelper::general_internal_medicine_assessment<\/a>"],[0,8,"<a href=\"Helper\/GeneralHelper.php.html#9864\">App\\View\\Helper\\GeneralHelper::taps1_internal_medicine_assessment<\/a>"],[0,58,"<a href=\"Helper\/GeneralHelper.php.html#9900\">App\\View\\Helper\\GeneralHelper::taps2_internal_medicine_assessment<\/a>"],[0,30,"<a href=\"Helper\/GeneralHelper.php.html#10029\">App\\View\\Helper\\GeneralHelper::prepare_cancer_assessments_layman<\/a>"],[0,12,"<a href=\"Helper\/GeneralHelper.php.html#10124\">App\\View\\Helper\\GeneralHelper::prepare_followup_assessments_layman<\/a>"],[0,2,"<a href=\"Helper\/GeneralHelper.php.html#10169\">App\\View\\Helper\\GeneralHelper::str_lreplace<\/a>"],[0,8,"<a href=\"Helper\/GeneralHelper.php.html#10180\">App\\View\\Helper\\GeneralHelper::chronic_pain_assessment_detail_layman<\/a>"],[0,20,"<a href=\"Helper\/GeneralHelper.php.html#10220\">App\\View\\Helper\\GeneralHelper::chronic_opioid_overdose_risk_detail_layman<\/a>"],[0,14,"<a href=\"Helper\/GeneralHelper.php.html#10280\">App\\View\\Helper\\GeneralHelper::chronic_opioid_risk_tool_detail_layman<\/a>"],[0,54,"<a href=\"Helper\/GeneralHelper.php.html#10336\">App\\View\\Helper\\GeneralHelper::covid_detail_layman<\/a>"],[0,22,"<a href=\"Helper\/GeneralHelper.php.html#10520\">App\\View\\Helper\\GeneralHelper::focuses_history_layman<\/a>"],[0,4,"<a href=\"Helper\/GeneralHelper.php.html#10589\">App\\View\\Helper\\GeneralHelper::phq_9_detail_layman<\/a>"],[0,11,"<a href=\"Helper\/GeneralHelper.php.html#10618\">App\\View\\Helper\\GeneralHelper::checkTelehealthAppointmentData<\/a>"],[0,13,"<a href=\"Helper\/GeneralHelper.php.html#10639\">App\\View\\Helper\\GeneralHelper::chronic_cad_layman<\/a>"],[0,13,"<a href=\"Helper\/GeneralHelper.php.html#10683\">App\\View\\Helper\\GeneralHelper::chronic_chf_layman<\/a>"],[0,54,"<a href=\"Helper\/GeneralHelper.php.html#10726\">App\\View\\Helper\\GeneralHelper::chronic_copd_layman<\/a>"],[0,69,"<a href=\"Helper\/GeneralHelper.php.html#10893\">App\\View\\Helper\\GeneralHelper::chronic_asthma_layman<\/a>"],[0,1,"<a href=\"Helper\/GeneralHelper.php.html#10935\">App\\View\\Helper\\GeneralHelper::anonymousFunction:10935#70534<\/a>"],[0,22,"<a href=\"Helper\/GeneralHelper.php.html#11100\">App\\View\\Helper\\GeneralHelper::chronic_dmii_layman<\/a>"],[0,1,"<a href=\"Helper\/GeneralHelper.php.html#11138\">App\\View\\Helper\\GeneralHelper::anonymousFunction:11138#72028<\/a>"],[0,21,"<a href=\"Helper\/GeneralHelper.php.html#11187\">App\\View\\Helper\\GeneralHelper::chronic_htn_layman<\/a>"],[0,1,"<a href=\"Helper\/GeneralHelper.php.html#11223\">App\\View\\Helper\\GeneralHelper::anonymousFunction:11223#72596<\/a>"],[0,62,"<a href=\"Helper\/GeneralHelper.php.html#11272\">App\\View\\Helper\\GeneralHelper::chronic_general_detail_layman<\/a>"],[0,11,"<a href=\"Helper\/GeneralHelper.php.html#11470\">App\\View\\Helper\\GeneralHelper::is_chief_complaint_doctor<\/a>"],[0,31,"<a href=\"Helper\/GeneralHelper.php.html#11510\">App\\View\\Helper\\GeneralHelper::pre_op_post_op_layman<\/a>"],[0,18,"<a href=\"Helper\/GeneralHelper.php.html#11612\">App\\View\\Helper\\GeneralHelper::general_follow_up_layman<\/a>"],[0,106,"<a href=\"Helper\/GeneralHelper.php.html#11670\">App\\View\\Helper\\GeneralHelper::followup_medical_history_detail_layman<\/a>"],[0,3,"<a href=\"Helper\/GeneralHelper.php.html#12006\">App\\View\\Helper\\GeneralHelper::is_telehealth_provider<\/a>"],[0,23,"<a href=\"Helper\/GeneralHelper.php.html#12019\">App\\View\\Helper\\GeneralHelper::abdominal_pain_location_layman<\/a>"],[0,3,"<a href=\"Helper\/GeneralHelper.php.html#12199\">App\\View\\Helper\\GeneralHelper::getModuleName<\/a>"],[0,96,"<a href=\"Helper\/GeneralHelper.php.html#12214\">App\\View\\Helper\\GeneralHelper::getUserProgress<\/a>"],[0,2,"<a href=\"Helper\/GeneralHelper.php.html#12712\">App\\View\\Helper\\GeneralHelper::getProviderTimezone<\/a>"],[0,33,"<a href=\"Helper\/GeneralHelper.php.html#12720\">App\\View\\Helper\\GeneralHelper::chronic_pain_treatment_history_layman<\/a>"],[0,4,"<a href=\"Helper\/GeneralHelper.php.html#12866\">App\\View\\Helper\\GeneralHelper::is_show_summary<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

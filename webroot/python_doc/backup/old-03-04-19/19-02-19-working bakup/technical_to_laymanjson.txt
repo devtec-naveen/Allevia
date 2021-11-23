@@ -1,0 +1,28 @@
+{
+    "nasal congestion": [
+        "stuffy nose",
+        "stuffed nose"
+    ],
+    "rhinorrhea": [
+        "runny nose"
+    ],
+    "sputum": [
+        "phlegm"
+    ],
+    "myalgia": [
+        "muscle pain",
+        "muscle aches",
+        "sore muscles",
+        "muscle soreness"
+    ],
+    "mucopurulent discharge": [
+        "mucus"
+    ],
+    "anorexia": [
+        "loss of appetite",
+        "lack of appetite"
+    ],
+	"dyspnea":[
+		"shortness of breath"
+	]
+}

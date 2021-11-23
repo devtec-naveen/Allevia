@@ -1,0 +1,289 @@
+Textbox79,,,,,,,,,,,,,,,,,,,
+Date: 09/28/2019,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+txtOrgName,txtAddress,txtContact,,,,,,,,,,,,,,,,,
+MATERNAL & FAMILY CLINIC,"1111 Medical Plaza Dr Suite #230, THE WOODLANDS, TX, 773803477",Business : 281-419-1599 Business Fax : 281-898-7632 E-Mail : ssinha@mfclinic.com,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+Textbox15,Textbox17,SelectedProvider,Textbox51,Textbox69,Textbox64,Textbox19,,,,,,,,,,,,,
+09/28/2019,10/7/2019,ALL,ALL,ALL,"Booked, Confirmed",Appointment Date + Time,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+textbox7,textbox5,Textbox46,Textbox9,Time_Period,Status,Insurance,PatStatus,RefPhysician,CancelReason,Notes1,,,,,,,,,
+Scheduled List of Appointments for ALL of MATERNAL & FAMILY CLINIC for All Patients,"Diagnostics, :  Monday, 09/30/2019 ","Total : 3     , Confirm : 3 (100%)  ","Patient Details : Kad, Maryy, DOB: 01/01/1981, MRN# 1010101010, Mobile: 2582582588, E-Mail: hiiii@getnada.com, ",08:30 AM - 09:00 AM,Confirm,"*P - Aetna --
+
+ID : W250619261
+
+Group No : 
+
+From : - To : 
+
+Copay : $25.00 | $0.00 | $0.00
+
+",Active,Fadi Ghanem,,Notes : came in with fever,,,,,,,,,
+Scheduled List of Appointments for ALL of MATERNAL & FAMILY CLINIC for All Patients,"Diagnostics, :  Monday, 09/30/2019 ","Total : 3     , Confirm : 3 (100%)  ","Patient Details : Thomas, Jasocksonn, DOB: 03/05/1984, MRN# 0000001012, Mobile: 2582582511, E-Mail: tiiit@getnad.com, ",03:30 PM - 04:15 PM,Confirm,"*P - Medicare of Texas
+
+ID : 8GV7KF4KT59
+
+Group No : 
+
+From : - To : 
+
+Copay : $20.00 | $0.00 | $0.00
+
+",Active,Fadi Ghanem,,Notes : nueroscan sc 09/10,,,,,,,,,
+Scheduled List of Appointments for ALL of MATERNAL & FAMILY CLINIC for All Patients,"Diagnostics, :  Monday, 09/30/2019 ","Total : 3     , Confirm : 3 (100%)  ","Patient Details : Cannes, Tommy, DOB: 08/11/1945, MRN# 0000003304, Mobile: 2582582522, E-Mail: jollll@getnada.COM, ",12:20 PM - 01:50 PM,Confirm,"*P - UnitedHealthCare
+
+ID : 974264927
+
+Group No : 13523
+
+From : 02/27/2019 - To : 
+
+Copay : $15.00 | $0.00 | $0.00
+
+*S - UnitedHealthCare
+
+ID : 864286149
+
+Group No : 182232
+
+From : 02/27/2019 - To : 
+
+Copay : $0.00 | $0.00 | $0.00
+
+",Active,A Doctor,,Notes : COUGH,,,,,,,,,
+Scheduled List of Appointments for ALL of MATERNAL & FAMILY CLINIC for All Patients,"Diagnostics, :  Monday, 09/30/2019 ","Total : 3     , Confirm : 3 (100%)  ","Patient Details : Noatdf, Emailname, DOB: 01/11/1981, MRN# 0000300004, Mobile: 2582582533,",10:20 AM - 10:50 AM,Confirm,"*P - UnitedHealthCare
+
+ID : 974264927
+
+Group No : 13523
+
+From : 02/27/2019 - To : 
+
+Copay : $15.00 | $0.00 | $0.00
+
+*S - UnitedHealthCare
+
+ID : 864286149
+
+Group No : 182232
+
+From : 02/27/2019 - To : 
+
+Copay : $0.00 | $0.00 | $0.00
+
+",Active,Docter B,,Notes : COUGH and sore throat,,,,,,,,,
+Scheduled List of Appointments for ALL of MATERNAL & FAMILY CLINIC for All Patients,"Diagnostics, :  Tuesday, 10/01/2019 ","Total : 3     , Confirm : 3 (100%)  ","Patient Details : Chan, Jason, DOB: 03/03/1949, MRN# 0000999004,",10:20 AM - 10:50 AM,Confirm,"*P - UnitedHealthCare
+
+ID : 974264927
+
+Group No : 13523
+
+From : 02/27/2019 - To : 
+
+Copay : $15.00 | $0.00 | $0.00
+
+*S - UnitedHealthCare
+
+ID : 864286149
+
+Group No : 182232
+
+From : 02/27/2019 - To : 
+
+Copay : $0.00 | $0.00 | $0.00
+
+",Active,Docter C,,Notes : COUGH and sore throat,,,,,,,,,
+Scheduled List of Appointments for ALL of MATERNAL & FAMILY CLINIC for All Patients,"Diagnostics, :  Sunday, 09/29/2019 ","Total : 3     , Confirm : 3 (100%)  ","Patient Details : Noatdf, EmailPhonename, DOB: 01/11/1981, MRN# 0000133004,",10:20 AM - 10:50 AM,Confirm,"*P - UnitedHealthCare
+
+ID : 974264927
+
+Group No : 13523
+
+From : 02/27/2019 - To : 
+
+Copay : $15.00 | $0.00 | $0.00
+
+*S - UnitedHealthCare
+
+ID : 864286149
+
+Group No : 182232
+
+From : 02/27/2019 - To : 
+
+Copay : $0.00 | $0.00 | $0.00
+
+",Active,Docter C,,Notes : COUGH and sore throat,,,,,,,,,
+Scheduled List of Appointments for ALL of MATERNAL & FAMILY CLINIC for All Patients,"Diagnostics, :  Monday, 09/30/2019 ","Total : 3     , Confirm : 3 (100%)  ","Patient Details : Noaf, aLastName, DOB: 01/01/1971, MRN# 0000100004,",10:20 AM - 10:55 AM,Confirm,"*P - UnitedHealthCare
+
+ID : 974264927
+
+Group No : 13523
+
+From : 02/27/2019 - To : 
+
+Copay : $15.00 | $0.00 | $0.00
+
+*S - UnitedHealthCare
+
+ID : 864286149
+
+Group No : 182232
+
+From : 02/27/2019 - To : 
+
+Copay : $0.00 | $0.00 | $0.00
+
+",Active,A Doctor,,Notes : COUGH and sore throat and runny nose,,,,,,,,,
+Scheduled List of Appointments for ALL of MATERNAL & FAMILY CLINIC for All Patients,"Diagnostics, :  Monday, 09/30/2019 ","Total : 3     , Confirm : 3 (100%)  ","Patient Details : Jerome, Davis, DOB: 08/01/1975, MRN# 0000003004, Mobile: 2582582544, E-Mail: 123HDJ@GMAIL.COM, ",10:20 AM - 10:55 AM,Confirm,"*P - UnitedHealthCare
+
+ID : 974264927
+
+Group No : 13523
+
+From : 02/27/2019 - To : 
+
+Copay : $15.00 | $0.00 | $0.00
+
+*S - UnitedHealthCare
+
+ID : 864286149
+
+Group No : 182232
+
+From : 02/27/2019 - To : 
+
+Copay : $0.00 | $0.00 | $0.00
+
+",Active,A Doctor,,Notes : COUGH and sore throat and runny nose and other things,,,,,,,,,
+Scheduled List of Appointments for ALL of MATERNAL & FAMILY CLINIC for All Patients,"Diagnostics, :  Monday, 09/30/2019 ","Total : 3     , Confirm : 3 (100%)  ","Patient Details : Jerom, Davi, DOB: 12/12/1931, MRN# 0000000004, Mobile: 25825825323, E-Mail: didfdfd@getnada.COM, ",10:20 AM - 10:55 AM,Confirm,"*P - UnitedHealthCare
+
+ID : 974264927
+
+Group No : 13523
+
+From : 02/27/2019 - To : 
+
+Copay : $15.00 | $0.00 | $0.00
+
+*S - UnitedHealthCare
+
+ID : 864286149
+
+Group No : 182232
+
+From : 02/27/2019 - To : 
+
+Copay : $0.00 | $0.00 | $0.00
+
+",Active,A Doctor,,Notes : COUGH and sore throat and runny nose,,,,,,,,,
+Scheduled List of Appointments for ALL of MATERNAL & FAMILY CLINIC for All Patients,"Diagnostics, :  Monday, 09/30/2019 ","Total : 3     , Confirm : 3 (100%)  ","Patient Details : Chan, Angelino, DOB: 05/05/1978, MRN# 0000999004, E-Mail: dflkdsjf@getnada.COM, ",10:20 AM - 10:55 AM,Confirm,"*P - UnitedHealthCare
+
+ID : 974264927
+
+Group No : 13523
+
+From : 02/27/2019 - To : 
+
+Copay : $15.00 | $0.00 | $0.00
+
+*S - UnitedHealthCare
+
+ID : 864286149
+
+Group No : 182232
+
+From : 02/27/2019 - To : 
+
+Copay : $0.00 | $0.00 | $0.00
+
+",Active,Dr. harry,,Notes : COUGH and sore throat and person,,,,,,,,,
+Scheduled List of Appointments for ALL of MATERNAL & FAMILY CLINIC for All Patients,"Diagnostics, :  Monday, 09/30/2019 ","Total : 3     , Confirm : 3 (100%)  ","Patient Details : Zhang, Isabella, DOB: 01/04/1988, MRN# 0011999004, Mobile: 2582582553,",10:20 AM - 10:55 AM,Confirm,"*P - UnitedHealthCare
+
+ID : 974264927
+
+Group No : 13523
+
+From : 02/27/2019 - To : 
+
+Copay : $15.00 | $0.00 | $0.00
+
+*S - UnitedHealthCare
+
+ID : 864286149
+
+Group No : 182232
+
+From : 02/27/2019 - To : 
+
+Copay : $0.00 | $0.00 | $0.00
+
+",Active,Dr. harry,,Notes : COUGH and sore throat and person,,,,,,,,,
+Scheduled List of Appointments for ALL of MATERNAL & FAMILY CLINIC for All Patients,"Diagnostics, :  Monday, 09/30/2019 ","Total : 3     , Confirm : 3 (100%)  ","Patient Details : Evans, Candice, DOB: 11/08/1998, MRN# 000119729000, Mobile: 1155225522,",10:20 AM - 10:55 AM,Confirm,"*P - UnitedHealthCare
+
+ID : 974264927
+
+Group No : 13523
+
+From : 02/27/2019 - To : 
+
+Copay : $15.00 | $0.00 | $0.00
+
+*S - UnitedHealthCare
+
+ID : 864286149
+
+Group No : 182232
+
+From : 02/27/2019 - To : 
+
+Copay : $0.00 | $0.00 | $0.00
+
+",Active,Dr. jeremy,,Notes : Eye problem,,,,,,,,,
+Scheduled List of Appointments for ALL of MATERNAL & FAMILY CLINIC for All Patients,"Diagnostics, :  Monday, 09/30/2019 ","Total : 3     , Confirm : 3 (100%)  ","Patient Details : Eaton, Aaron, DOB: 01/12/1981, MRN# 000111129000, Mobile: 6666565656,",10:20 AM - 10:55 AM,Confirm,"*P - UnitedHealthCare
+
+ID : 974264927
+
+Group No : 13523
+
+From : 02/27/2019 - To : 
+
+Copay : $15.00 | $0.00 | $0.00
+
+*S - UnitedHealthCare
+
+ID : 864286149
+
+Group No : 182232
+
+From : 02/27/2019 - To : 
+
+Copay : $0.00 | $0.00 | $0.00
+
+",Active,Dr. jeremy,,Notes : Eye problem,,,,,,,,,
+Scheduled List of Appointments for ALL of MATERNAL & FAMILY CLINIC for All Patients,"Diagnostics, :  Monday, 09/30/2019 ","Total : 3     , Confirm : 3 (100%)  ","Patient Details : Chen, John, DOB: 01/19/1977, MRN# 195111129000, Mobile: 1254258665, E-Mail: jjj@getnada.com, ",10:20 AM - 10:55 AM,Confirm,"*P - UnitedHealthCare
+
+ID : 974264927
+
+Group No : 13523
+
+From : 02/27/2019 - To : 
+
+Copay : $15.00 | $0.00 | $0.00
+
+*S - UnitedHealthCare
+
+ID : 864286149
+
+Group No : 182232
+
+From : 02/27/2019 - To : 
+
+Copay : $0.00 | $0.00 | $0.00
+
+",Active,Dr. jeremy,,Notes : Eye problem,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+Location1,Provider1,Textbox21,Textbox26,Textbox28,Textbox23,Textbox30,Textbox32,Textbox44,Textbox45,Textbox47,Textbox48,Textbox49,Textbox54,Textbox55,Textbox56,Textbox57,Textbox58,Textbox61,Textbox63
+MATERNAL & FAMILY CLINIC,"Diagnostics, :",4,0,0,0,5,9,101,0,0,0,34,135,101,0,0,0,34,135
+MATERNAL & FAMILY CLINIC,"Fadi2, Ghanem",1,0,0,0,0,1,101,0,0,0,34,135,101,0,0,0,34,135
+MATERNAL & FAMILY CLINIC,"Ghanem, Fadi",96,0,0,0,29,125,101,0,0,0,34,135,101,0,0,0,34,135

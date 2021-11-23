@@ -1,0 +1,18 @@
+<svg width="61" height="63" viewBox="0 0 61 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="35.0703" cy="32.0703" r="20.4698" transform="rotate(75 35.0703 32.0703)" fill="#0074BC" fill-opacity="0.3"/>
+<circle cx="35.0703" cy="32.0703" r="20.4698" transform="rotate(75 35.0703 32.0703)" fill="url(#paint0_linear)" fill-opacity="0.8"/>
+<rect x="1.5" y="9.20423" width="42" height="52.1408" rx="1.5" stroke="#023264" stroke-width="3"/>
+<rect x="6.33801" y="18.4789" width="33.5915" height="3.16901" fill="#023264"/>
+<rect x="6.33801" y="22.9155" width="28.5211" height="3.16901" fill="#023264"/>
+<rect x="6.33801" y="27.9859" width="20.9155" height="3.16901" fill="#023264"/>
+<rect x="6.33801" y="37.493" width="28.5211" height="3.16901" fill="#023264"/>
+<rect x="6.33801" y="42.5634" width="20.9155" height="3.16901" fill="#023264"/>
+<path d="M26.6197 6.11972C26.6197 3.84446 24.7753 2 22.5 2C20.2248 2 18.3803 3.84446 18.3803 6.11972" stroke="#023264" stroke-width="3"/>
+<path d="M8.47186 7.80282C8.47186 7.52668 8.69572 7.30282 8.97186 7.30282H36.0282C36.3043 7.30282 36.5282 7.52668 36.5282 7.80282V9.50704C36.5282 9.78319 36.3043 10.007 36.0282 10.007H8.97186C8.69572 10.007 8.47186 9.78319 8.47186 9.50704V7.80282Z" fill="white" stroke="#023264" stroke-width="3"/>
+<defs>
+<linearGradient id="paint0_linear" x1="35.0703" y1="11.6005" x2="36.8796" y2="53.2142" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0074BC"/>
+<stop offset="0.619792" stop-color="white" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>

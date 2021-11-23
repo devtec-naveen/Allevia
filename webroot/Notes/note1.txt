@@ -1,0 +1,1097 @@
+{
+	"basicDetails": {
+		"firstName": [
+			"dfdf"
+		],
+		"lastName": [
+			"dfdf"
+		],
+		"mrn": [
+		],
+		"dob": [
+			"12-31-1969"
+		],
+		"gender": [
+			"MALE"
+		],
+		"ssn": [
+			"XXX-XX-XXXX"
+		],
+		"race": [
+			"Hispanic"
+		],
+		"preferredPharmacy": [
+			"test"
+		],
+		"dateOfService": [
+			"2021-03-19 00:23"
+		],
+		"timezone": [
+			"CST"
+		],
+		"typeOfService": [
+			"Office or Other Outpatient Services"
+		]
+	},
+	"medicalDetails": {
+		"cc": [
+			"New brain CA diagnosis, new breast CA diagnosis"
+		],
+		"hpi": "This is a 52 y.o. male referred to by dr. hussain here for new brain CA diagnosis, new breast CA diagnosis. Patient is accompanied by significant other, son. \n<strong>Breast Cancer: <\/strong>The patient initially noticed nipple dx (1 day), breast pain (12 days) localized to R breast. Nipple discharge color is greenish-yellow. A breast lump was detected via physician exam approximately 12 days ago. Positive history of inflammatory breast changes. Diagnosis was confirmed by FNA, core biopsy. Patient has undergone initial treatment with chemotherapy, radiation. \n<strong>Brain Cancer: <\/strong>The patient initially noticed nausea, vomiting, diplopia, syncope approximately 11 days ago. Diagnosis was confirmed by CT, MRI. Patient has undergone initial treatment with surgery, chemotherapy, radition. \n\nBaseline SIT symptom inventory positive for severe bleeding, moderate constipation, disturbed sleep, vomiting. Baseline SIT symptom inventory negative for diarrhea, edema, mouth soreness, pain, fatigue, nausea, distress, SOB, memory difficulty, anorexia, drowsiness, xerostomia, sadness, numbness\/tingling. CIPN screen is significant for  disabling\/life threatening tinnitus, hearing loss, severe constipation, moderate numbness\/tingling, extremity weakness, independent ADLs, dizziness, mild walking issues, dyspnea\/dysphagia.",
+		"sitSymptoms": [
+			"Severe: Bleeding",
+			"Moderate: Constipation, disturbed sleep, vomiting",
+			"Mild: ",
+			"Negative: Diarrhea, edema, mouth soreness, pain, fatigue, nausea, distress, SOB, memory difficulty, anorexia, drowsiness, xerostomia, sadness, numbness\/tingling"
+		],
+		"sitQol": [
+			"High: ",
+			"Average: General activity, social interactions, walking, enjoyment, family acceptance, sense of hope",
+			"Low: Mood, work, libido, overall quality of life"
+		],
+		"cipn": [
+			"Grade 4: Tinnitus, hearing loss",
+			"Grade 3: Constipation",
+			"Grade 2: Numbness\/tingling, extremity weakness, independent ADLs, dizziness",
+			"Grade 1: Walking issues, dyspnea\/dysphagia",
+			"Grade 0: Hand\/foot pain, muscle spasms"
+		],
+		"meds": [
+			"Accupril (quinapril HCI) 4 3\/wk OD, Actonel (risedronate sodium tablet) 3 2\/wk OU"
+		],
+		"treatmentHx": [
+			"Patient has undergone initial treatment with chemotherapy, radiation, surgery, radition."
+		],
+		"pmh": [
+			"DM2, MI, strokes, Drug resistant staph infection (MRSA) infections, Vancomycin-resistant enterococcus (VRE) infection, C-diff infection, Diabetes (Type 2), Tuberculosis (TB) infection. Denies History of blood clots, History of fluid around your lungs (Pleural effusion), History of fluid around your heart (Pericardial effusion)."
+		],
+		"sh": [
+			"Homosexual, currently smoking : 3 packs\/wk, denies past smoking, EtOH: 14  drinks\/wk, denies past drinking, denies IDU, denies past drug use. Denies recent domestic travel. Significant for recent international travel Ebola.  Denies contact with lab confirmed Ebola in past 30 days. Sexual activity with international residents in past 6 months."
+		],
+		"psh": [
+		],
+		"fh": [
+			"F - heart disease (coronary artery disease), high blood pressure (hypertension), peripheral vascular disease, sickle cell disease, brain cancer, throat cancer (esophageal), diabetes type 2, high cholesterol or high triglycerides (hyperlipedemia)",
+			"M - high cholesterol or high triglycerides (hyperlipedemia), heart disease (coronary artery disease), brain cancer, breast cancer, diabetes type 1, high blood pressure (hypertension), throat cancer (esophageal), diabetes type 2",
+			"Aunt(mom&#039;s side) - high blood pressure (hypertension), sickle cell disease",
+			"Uncle(mom&#039;s side) - peripheral vascular disease",
+			"Aunt(dad&#039;s side) - sickle cell disease",
+			"Brother - throat cancer (esophageal), diabetes type 1",
+			"Denies HbS"
+		],
+		"all": [
+		],
+		"ros": [
+			"GEN: +fever, +weight loss.",
+			"EYES: +diplopia, +vision loss. Denies change in vision",
+			"ENT: +bleeding gums.",
+			"CV: Denies chest pain",
+			"RESP: Denies rib pain",
+			"GI: +nausea, +vomiting, +abdominal pain, +rectal cramping. Denies rectal bleeding",
+			"GU: +hematuria, +pelvic pain, +abdominal mass. Denies flank pain, flank mass, mass in back",
+			"MSK: +bone pain, +back pain, +arm pain, +leg pain.",
+			"SKIN: +itchiness, +change in skin pigmentation. Denies new moles, change in moles",
+			"BREAST: +nipple dx, +breast pain, +breast tenderness, +underarm thickening, +breast swelling, +breast redness. Denies breast lumps",
+			"NEURO: +syncope, +headache, +seizures, +change in speech, +memory problems, +aphasia, +apraxia, +gait ataxia.",
+			"PSYCH: Denies personality changes",
+			"ENDO: +excessive hair growth.",
+			"HEME\/LYMPH: +bruising.",
+			"ALL\/IMM: +frequent infections."
+		],
+		"finalPatientSymptomsComments": [
+		]
+	}
+}
+
+{
+	"basicDetails": {
+		"firstName": [
+			"Tarannum"
+		],
+		"lastName": [
+			"Khan"
+		],
+		"mrn": [
+			"676555"
+		],
+		"dob": [
+			"03-22-1995"
+		],
+		"gender": [
+			"FEMALE"
+		],
+		"ssn": [
+			"XXX-XX-XXXX"
+		],
+		"race": [
+			"Non hispanic"
+		],
+		"preferredPharmacy": [
+			"Medication"
+		],
+		"dateOfService": [
+			"2021-03-22 07:55"
+		],
+		"timezone": [
+			"CST"
+		],
+		"typeOfService": [
+			"Office or Other Outpatient Services"
+		]
+	},
+	"medicalDetails": {
+		"cc": [
+			"Transfer of care, abnormal MRI results, abnormal CT results"
+		],
+		"hpi": "This is a 26 y.o. female referred to by dr. hussain here for transfer of care, abnormal MRI results, abnormal CT results. Patient is accompanied by significant other, son. Baseline SIT symptom inventory positive for moderate constipation. Baseline SIT symptom inventory negative for diarrhea, edema, mouth soreness, bleeding, pain, fatigue, nausea, disturbed sleep, distress, SOB, memory difficulty, anorexia, drowsiness, xerostomia, sadness, vomiting, numbness\/tingling. CIPN screen is unremarkable.",
+		"sitSymptoms": [
+			"Severe: ",
+			"Moderate: Constipation",
+			"Mild: ",
+			"Negative: Diarrhea, edema, mouth soreness, bleeding, pain, fatigue, nausea, disturbed sleep, distress, SOB, memory difficulty, anorexia, drowsiness, xerostomia, sadness, vomiting, numbness\/tingling"
+		],
+		"sitQol": [
+			"High: Work",
+			"Average: Social interactions, enjoyment, libido, family acceptance, overall quality of life",
+			"Low: General activity, mood, walking, sense of hope"
+		],
+		"cipn": [
+			"Grade 4: ",
+			"Grade 3: ",
+			"Grade 2: ",
+			"Grade 1: ",
+			"Grade 0: "
+		],
+		"meds": [
+			"Accuretic (quinapril\/HCTZ tablet) 5 q4h"
+		],
+		"treatmentHx": [
+			" Estrogen hx is significant for OCPs (15), patches (9), estrogen creams (12), depot injections (15), vaginal rings (15). "
+		],
+		"pmh": [
+			"Chicken pox (2010), History of fluid around your heart (Pericardial effusion). Denies Diabetes, Heart attacks, Strokes, History of blood clots, Tuberculosis (TB) infection, Drug resistant staph infection (MRSA) infections, Vancomycin-resistant enterococcus (VRE) infection, C-diff infection, History of fluid around your lungs (Pleural effusion)."
+		],
+		"sh": [
+			"Heterosexual, denies current smoking, denies past smoking, denies EtOH, denies past drinking, denies IDU, denies past drug use. Significant for recent domestic travel. Significant for recent international travel. Denies sexual activity with international residents in past 6 months."
+		],
+		"psh": [
+			"Uterus removal (hysterectomy) (2007), Direct hernia (2008)"
+		],
+		"fh": [
+			"M - breast cancer",
+			"Sister - brain cancer, lung cancer",
+			"Cousin(dad&#039;s side) (alive) - adhd",
+			"Denies CAD, diabetes, HLD, HTN, PVD, SC, HbS, genetic disorder"
+		],
+		"all": [
+			"Latex (Difficulty or trouble breathing)"
+		],
+		"gynHx": [
+			"Secondary amenorrhea due to Uterus removed. Menses at 30. Ovaries present, uterus present. "
+		],
+		"ros": [
+			"GEN: +fever.",
+			"EYES: +diplopia.",
+			"ENT: ",
+			"CV: ",
+			"RESP: +cough.",
+			"GI: +hematemesis.",
+			"GU: ",
+			"MSK: +muscle cramps.",
+			"SKIN: ",
+			"BREAST: ",
+			"NEURO: +syncope.",
+			"PSYCH: ",
+			"ENDO: +excessive hair growth.",
+			"HEME\/LYMPH: ",
+			"ALL\/IMM: Denies frequent infections"
+		],
+		"finalPatientSymptomsComments": [
+		]
+	}
+}
+
+{
+	"basicDetails": {
+		"firstName": [
+			"Tarannum"
+		],
+		"lastName": [
+			"khatun"
+		],
+		"mrn": [
+			"15454"
+		],
+		"dob": [
+			"03-13-1996"
+		],
+		"gender": [
+			"FEMALE"
+		],
+		"ssn": [
+			"XXX-XX-XXXX"
+		],
+		"race": [
+			"Hispanic"
+		],
+		"preferredPharmacy": [
+			"Hospitalization"
+		],
+		"dateOfService": [
+			"2021-03-25 05:01"
+		],
+		"timezone": [
+			"CST"
+		],
+		"typeOfService": [
+			"Office or Other Outpatient Services"
+		]
+	},
+	"medicalDetails": {
+		"cc": [
+			"New breast CA diagnosis, new stomach CA diagnosis, new lung CA diagnosis"
+		],
+		"hpi": "This is a 25 y.o. female  here for new breast CA diagnosis, new stomach CA diagnosis, new lung CA diagnosis. Patient is accompanied by significant other. \n<strong>Breast Cancer: <\/strong>The patient initially noticed breast enlargement (2 days) localized to R breast. No breast lumps were detected. History is negative for inflammatory breast changes. Diagnosis was confirmed by FNA, core biopsy, excisional biopsy. Patient has undergone initial treatment with chemotherapy. \n<strong>Stomach Cancer: <\/strong>The patient initially noticed abdominal pain, melena approximately 13 days ago. Diagnosis was confirmed by barium swallow, endoscopy. Patient has undergone initial treatment with chemotherapy, combo chemo\/radiation therapy. \n<strong>Lung Cancer: <\/strong>The patient initially noticed hemoptysis, SOB, vbnbn approximately 2 weeks ago. Diagnosis was confirmed by CXR. Denies initiating primary treatments. \n\nBaseline SIT symptom inventory positive for moderate constipation, edema. Baseline SIT symptom inventory negative for diarrhea, mouth soreness, bleeding, pain, fatigue, nausea, disturbed sleep, distress, SOB, memory difficulty, anorexia, drowsiness, xerostomia, sadness, vomiting, numbness\/tingling. CIPN screen is significant for  moderate hand\/foot pain, extremity weakness, mild walking issues, independent ADLs, dizziness.",
+		"sitSymptoms": [
+			"Severe: ",
+			"Moderate: Constipation, edema",
+			"Mild: ",
+			"Negative: Diarrhea, mouth soreness, bleeding, pain, fatigue, nausea, disturbed sleep, distress, SOB, memory difficulty, anorexia, drowsiness, xerostomia, sadness, vomiting, numbness\/tingling"
+		],
+		"sitQol": [
+			"High: Libido",
+			"Average: Mood, work, social interactions, family acceptance, sense of hope",
+			"Low: General activity, walking, enjoyment, overall quality of life"
+		],
+		"cipn": [
+			"Grade 4: ",
+			"Grade 3: ",
+			"Grade 2: Hand\/foot pain, extremity weakness",
+			"Grade 1: Walking issues, independent ADLs, dizziness",
+			"Grade 0: Numbness\/tingling, constipation, tinnitus, dyspnea\/dysphagia, muscle spasms, hearing loss"
+		],
+		"meds": [
+			"Accuretic (quinapril\/HCTZ tablet) 4 qhs OU"
+		],
+		"treatmentHx": [
+			"Patient has undergone initial treatment with chemotherapy, combo chemo\/radiation therapy. Estrogen hx is significant for patches (8), estrogen creams (14), vaginal rings (15). "
+		],
+		"pmh": [
+			"Chicken pox (2017), DM2, MI, strokes, Tuberculosis (TB) infection, C-diff infection, History of fluid around your heart (Pericardial effusion). Denies History of blood clots, Vancomycin-resistant enterococcus (VRE) infection\r\n, History of fluid around your lungs (Pleural effusion)."
+		],
+		"sh": [
+			"Heterosexual, denies current smoking, denies past smoking, denies EtOH, denies past drinking, denies IDU, denies past drug use. Significant for recent domestic travel. Significant for recent international travel Zika. Sexual activity with international residents in past 6 months."
+		],
+		"psh": [
+			"Direct hernia (2015), Uterus removal (hysterectomy) (2016)"
+		],
+		"fh": [
+			"Sister - high cholesterol or high triglycerides (hyperlipedemia), peripheral vascular disease, sickle cell disease, sickle cell carrier but doesn&#039;t have the disease (sickle cell trait), breast cancer, colon cancer",
+			"Cousin(mom&#039;s side) - high cholesterol or high triglycerides (hyperlipedemia), throat cancer (esophageal)",
+			"Aunt(mom&#039;s side) - high blood pressure (hypertension), sickle cell carrier but doesn&#039;t have the disease (sickle cell trait)",
+			"Uncle(dad&#039;s side) - high blood pressure (hypertension)",
+			"F - peripheral vascular disease",
+			"Brother - sickle cell carrier but doesn&#039;t have the disease (sickle cell trait)",
+			"Denies CAD, diabetes, genetic disorder"
+		],
+		"all": [
+			"Latex (Difficulty or trouble breathing), Eggs (Diarrhea)"
+		],
+		"gynHx": [
+			"Secondary amenorrhea due to Ovarian failure. Menses at 4. Ovaries present, uterus present. "
+		],
+		"ros": [
+			"GEN: +fever, +weight loss, +weight gain.",
+			"EYES: ",
+			"ENT: +bleeding gums.",
+			"CV: Denies chest pain",
+			"RESP: +hemoptysis, +SOB, +rib pain.",
+			"GI: +abdominal pain, +melena, +bloating, +abdominal pressure, +early satiety. Denies cramping",
+			"GU: +vaginal dx, +urinary frequency. Denies pelvic pain",
+			"MSK: ",
+			"SKIN: Denies new moles",
+			"BREAST: +breast enlargement, +nipple dx, +breast swelling, +breast redness.",
+			"NEURO: +headache, +seizures, +change in speech.",
+			"PSYCH: +depression.",
+			"ENDO: Denies excessive hair growth",
+			"HEME\/LYMPH: ",
+			"ALL\/IMM: +frequent infections."
+		],
+		"finalPatientSymptomsComments": [
+		]
+	}
+}
+
+{
+	"basicDetails": {
+		"firstName": [
+			"Tarannum"
+		],
+		"lastName": [
+			"Khatun"
+		],
+		"mrn": [
+			"548"
+		],
+		"dob": [
+			"03-11-2003"
+		],
+		"gender": [
+			"FEMALE"
+		],
+		"ssn": [
+			"XXX-XX-XXXX"
+		],
+		"race": [
+			"Non hispanic"
+		],
+		"preferredPharmacy": [
+		],
+		"dateOfService": [
+			"2021-03-25 08:13"
+		],
+		"timezone": [
+			"CST"
+		],
+		"typeOfService": [
+			"Office or Other Outpatient Services"
+		]
+	},
+	"medicalDetails": {
+		"cc": [
+			"New breast CA diagnosis"
+		],
+		"hpi": "This is a 18 y.o. female  here for new breast CA diagnosis. Patient is accompanied by daughter. \n<strong>Breast Cancer: <\/strong>The patient initially noticed axillary LAD (6 hours), nipple inversion (8 days) localized to R breast. No breast lumps were detected. Diagnosis was confirmed by FNA, excisional biopsy. . \n\nBaseline SIT symptom inventory positive for moderate constipation, mouth soreness. Baseline SIT symptom inventory negative for diarrhea, edema, bleeding, pain, fatigue, nausea, disturbed sleep, distress, SOB, memory difficulty, anorexia, drowsiness, xerostomia, sadness, vomiting, numbness\/tingling. CIPN screen is unremarkable.",
+		"sitSymptoms": [
+			"Severe: ",
+			"Moderate: Constipation, mouth soreness",
+			"Mild: ",
+			"Negative: Diarrhea, edema, bleeding, pain, fatigue, nausea, disturbed sleep, distress, SOB, memory difficulty, anorexia, drowsiness, xerostomia, sadness, vomiting, numbness\/tingling"
+		],
+		"sitQol": [
+			"High: Libido",
+			"Average: Work, enjoyment, family acceptance, sense of hope",
+			"Low: General activity, mood, social interactions, walking, overall quality of life"
+		],
+		"cipn": [
+			"Grade 4: ",
+			"Grade 3: ",
+			"Grade 2: ",
+			"Grade 1: ",
+			"Grade 0: "
+		],
+		"meds": [
+		],
+		"treatmentHx": [
+			"Denies initiating primary treatments. Estrogen hx is significant for OCPs (9), patches (8), estrogen creams (6), vaginal rings (13). "
+		],
+		"pmh": [
+			"Diabetes (Type 2), strokes, History of blood clots, Drug resistant staph infection (MRSA) infections, Vancomycin-resistant enterococcus (VRE) infection, History of fluid around your lungs (Pleural effusion). Denies Heart attacks, Tuberculosis (TB) infection, C-diff infection, History of fluid around your heart (Pericardial effusion)."
+		],
+		"sh": [
+			"denies current smoking, denies past smoking, EtOH: 10  drinks\/wk, denies past drinking, denies IDU, denies past drug use. Denies recent domestic travel. Significant for recent international travel Ebola.  Denies contact with lab confirmed Ebola in past 30 days. Sexual activity with international residents in past 6 months."
+		],
+		"psh": [
+			"R oopherectomy (2019)"
+		],
+		"fh": [
+			"Sister - high blood pressure (hypertension), diabetes type 1",
+			"F - peripheral vascular disease",
+			"Brother - peripheral vascular disease, sickle cell disease",
+			"Aunt(mom&#039;s side) - diabetes type 1",
+			"Uncle(dad&#039;s side) - diabetes type 1",
+			"Denies cancer, CAD, HLD, genetic disorder"
+		],
+		"all": [
+		],
+		"gynHx": [
+			"LMP 03\/03\/2021, regular, interval 30 days, duration 4 days. R oopherectomy (2019), uterus present. "
+		],
+		"ros": [
+			"GEN: +fever, +weight loss.",
+			"EYES: +change in vision.",
+			"ENT: ",
+			"CV: +chest pain.",
+			"RESP: +rib pain.",
+			"GI: ",
+			"GU: Denies pelvic pain",
+			"MSK: +back pain, +arm pain. Denies bone pain",
+			"SKIN: ",
+			"BREAST: +breast pain, +nipple dx, +breast enlargement. Denies breast swelling, breast redness",
+			"NEURO: +headache, +seizures, +memory problems.",
+			"PSYCH: +depression.",
+			"ENDO: ",
+			"HEME\/LYMPH: +axillary LAD, +bruising.",
+			"ALL\/IMM: +frequent infections."
+		],
+		"finalPatientSymptomsComments": [
+		]
+	}
+}
+
+{
+	"basicDetails": {
+		"firstName": [
+			"dfdf"
+		],
+		"lastName": [
+			"dfdf"
+		],
+		"mrn": [
+		],
+		"dob": [
+			"12-31-1969"
+		],
+		"gender": [
+			"MALE"
+		],
+		"ssn": [
+			"XXX-XX-XXXX"
+		],
+		"race": [
+			"Hispanic"
+		],
+		"preferredPharmacy": [
+			"test"
+		],
+		"dateOfService": [
+			"2021-03-25 23:53"
+		],
+		"timezone": [
+			"CST"
+		],
+		"typeOfService": [
+			"Office or Other Outpatient Services"
+		]
+	},
+	"medicalDetails": {
+		"cc": [
+			"Transfer of care, new breast CA diagnosis, colon-rectal cancer, new stomach CA diagnosis, new liver CA diagnosis, vulvar cancer, hgfhgh, abnormal mammogram, abnormal CT results, abnormal US, gfg"
+		],
+		"hpi": "This is a 52 y.o. male referred to by gfgfg here for transfer of care, new breast CA diagnosis, colon-rectal cancer, new stomach CA diagnosis, new liver CA diagnosis, vulvar cancer, hgfhgh, abnormal mammogram, abnormal CT results, abnormal US, gfg. Patient is accompanied by significant other, son, parent. \n<strong>Breast Cancer: <\/strong>The patient initially noticed breast pain (12 hours), breast enlargement (10 days), axillary LAD (10 days) localized to R breast. A breast lump was detected via physician exam approximately 7 days ago. Diagnosis was confirmed by excisional biopsy, biopsy of non-breast tissue. Patient has undergone initial treatment with chemotherapy, radiation. \n<strong>Colon Cancer: <\/strong>The patient initially noticed hematochezia, abdominal pain, rectal mass, lkkk approximately 8 days ago. Diagnosis was confirmed by colonscopy, sigmoidoscopy, CT colonography, pillcam. Patient has undergone initial treatment with chemotherapy, combo chemo\/radiation therapy. \n<strong>Stomach Cancer: <\/strong>The patient initially noticed abdominal pain, nausea, melena approximately 12 days ago. Diagnosis was confirmed by barium swallow, endoscopy. Patient has undergone initial treatment with chemotherapy, combo chemo\/radiation therapy. \n<strong>Liver Cancer: <\/strong>The patient initially noticed bloating, jaundice, easy bruising, easy bleeding approximately 10 days ago. Diagnosis was confirmed by labs, US. Patient has undergone initial treatment with surgery, chemotherapy, immunotherapy. \n<strong>Vulvar Cancer: <\/strong>The patient initially noticed vaginal pruritis, vulvar lesions, vaginal bleeding, LE edema approximately 12 days ago. Diagnosis was confirmed by pelvic exam, biopsy, colposcopy. Patient has undergone initial treatment with radition, combo chemo\/radiation therapy. \n\nBaseline SIT symptom inventory positive for severe constipation, memory difficulty, moderate vomiting, mild fatigue. Baseline SIT symptom inventory negative for diarrhea, edema, mouth soreness, bleeding, pain, nausea, disturbed sleep, distress, SOB, anorexia, drowsiness, xerostomia, sadness, numbness\/tingling. CIPN screen is significant for  disabling\/life threatening walking issues, hearing loss, severe extremity weakness, dyspnea\/dysphagia, muscle spasms, moderate hand\/foot pain, constipation, mild numbness\/tingling, tinnitus.",
+		"sitSymptoms": [
+			"Severe: Constipation, memory difficulty",
+			"Moderate: Vomiting",
+			"Mild: Fatigue",
+			"Negative: Diarrhea, edema, mouth soreness, bleeding, pain, nausea, disturbed sleep, distress, SOB, anorexia, drowsiness, xerostomia, sadness, numbness\/tingling"
+		],
+		"sitQol": [
+			"High: ",
+			"Average: General activity, mood, walking, enjoyment, family acceptance",
+			"Low: Work, social interactions, libido, sense of hope, overall quality of life"
+		],
+		"cipn": [
+			"Grade 4: Walking issues, hearing loss",
+			"Grade 3: Extremity weakness, dyspnea\/dysphagia, muscle spasms",
+			"Grade 2: Hand\/foot pain, constipation",
+			"Grade 1: Numbness\/tingling, tinnitus",
+			"Grade 0: Independent ADLs, dizziness"
+		],
+		"meds": [
+			"Accupril (quinapril HCI) 4 q12h AS"
+		],
+		"treatmentHx": [
+			"Patient has undergone initial treatment with chemotherapy, radiation, combo chemo\/radiation therapy, surgery, immunotherapy, radition, combo chemo\/radiation therapy."
+		],
+		"pmh": [
+			"DM2, MI, strokes, Drug resistant staph infection (MRSA) infections, Vancomycin-resistant enterococcus (VRE) infection, C-diff infection, Diabetes (Type 2), Tuberculosis (TB) infection, Hepatitis B, Hepatitis C, Cirrhosis, History of blood clots, History of fluid around your lungs (Pleural effusion). Denies Strokes, Tuberculosis (TB) infection, History of fluid around your heart (Pericardial effusion)."
+		],
+		"sh": [
+			"Homosexual, denies current smoking, denies past smoking, denies EtOH, denies past drinking, denies IDU, denies past drug use. Denies recent domestic travel. Denies recent international travel."
+		],
+		"psh": [
+		],
+		"fh": [
+			"F - heart disease (coronary artery disease), high cholesterol or high triglycerides (hyperlipedemia), sickle cell carrier but doesn&#039;t have the disease (sickle cell trait), high blood pressure (hypertension), peripheral vascular disease, sickle cell disease, brain cancer, throat cancer (esophageal), diabetes type 2",
+			"Sister - heart disease (coronary artery disease), high blood pressure (hypertension), throat cancer (esophageal), stomach cancer, pancreatic cancer, diabetes type 2",
+			"Cousin(mom&#039;s side) - heart disease (coronary artery disease)",
+			"Brother - high blood pressure (hypertension), peripheral vascular disease, throat cancer (esophageal), diabetes type 1",
+			"M - breast cancer, lung cancer, liver cancer, high cholesterol or high triglycerides (hyperlipedemia), heart disease (coronary artery disease), brain cancer, diabetes type 1, high blood pressure (hypertension), throat cancer (esophageal), diabetes type 2",
+			"Aunt(mom&#039;s side) - high blood pressure (hypertension), sickle cell disease",
+			"Uncle(mom&#039;s side) - peripheral vascular disease",
+			"Aunt(dad&#039;s side) - sickle cell disease",
+			"Denies SC, genetic disorder"
+		],
+		"all": [
+		],
+		"ros": [
+			"GEN: +chills, +weight loss, +weight gain.",
+			"EYES: +change in vision.",
+			"ENT: +bleeding gums.",
+			"CV: +chest pain.",
+			"RESP: +rib pain.",
+			"GI: +hematochezia, +abdominal pain, +rectal mass, +nausea, +melena, +bloating, +cramping, +abdominal pressure.",
+			"GU: +vaginal pruritis, +vulvar lesions, +vaginal bleeding, +dysuria, +hematuria, +flank pain, +dysmenorrhea, +pelvic pain, +flank mass, +pelvic pressure, +scrotal enlargement, +nocturia, +decreased urine flow, +frequent periods, +heavy menstrual bleeding, +pelvic mass. Denies mass in back, urinary frequency, urinary incontinence, blood in sperm, loss of bladder control",
+			"MSK: +back pain, +arm pain.",
+			"SKIN: +jaundice",
+			"BREAST: +breast pain, +breast enlargement, +breast tenderness, +breast lumps, +breast redness. Denies nipple dx, breast thickening, underarm thickening, breast swelling",
+			"NEURO: +headache, +memory problems.",
+			"PSYCH: +depression.",
+			"ENDO: ",
+			"HEME\/LYMPH: +axillary LAD, +easy bruising, +easy bleeding, +LE edema",
+			"ALL\/IMM: "
+		],
+		"finalPatientSymptomsComments": [
+		]
+	}
+}
+
+{
+	"basicDetails": {
+		"firstName": [
+			"Tarannum "
+		],
+		"lastName": [
+			"Khatun"
+		],
+		"mrn": [
+			"1545"
+		],
+		"dob": [
+			"03-18-1992"
+		],
+		"gender": [
+			"FEMALE"
+		],
+		"ssn": [
+			"XXX-XX-XXXX"
+		],
+		"race": [
+			"Non hispanic"
+		],
+		"preferredPharmacy": [
+			"gfdhd"
+		],
+		"dateOfService": [
+			"2021-03-26 06:24"
+		],
+		"timezone": [
+			"CST"
+		],
+		"typeOfService": [
+			"Office or Other Outpatient Services"
+		]
+	},
+	"medicalDetails": {
+		"cc": [
+			"New breast CA diagnosis, colon-rectal cancer, new liver CA diagnosis, abnormal MRI results, abnormal CT results, abnormal lab results"
+		],
+		"hpi": "This is a 29 y.o. female referred to by hussain here for new breast CA diagnosis, colon-rectal cancer, new liver CA diagnosis, abnormal MRI results, abnormal CT results, abnormal lab results. Patient is accompanied by significant other, son. \n<strong>Breast Cancer: <\/strong>The patient initially noticed breast pain (9 days), breast enlargement (9 days) localized to L breast. A breast lump was detected via physician exam approximately 7 days ago. History is negative for inflammatory breast changes. Diagnosis was confirmed by FNA, core biopsy, biopsy of non-breast tissue. Denies initiating primary treatments. \n<strong>Colon Cancer: <\/strong>The patient initially noticed melena, abdominal pain, unintentional weight loss approximately 12 hours ago. Diagnosis was confirmed by sigmoidoscopy, CT colonography. Patient has undergone initial treatment with radition. \n<strong>Liver Cancer: <\/strong>The patient initially noticed bloating, jaundice approximately 10 days ago. Diagnosis was confirmed by US. . \n\nBaseline SIT symptom inventory positive for severe constipation, bleeding. Baseline SIT symptom inventory negative for diarrhea, edema, mouth soreness, pain, fatigue, nausea, disturbed sleep, distress, SOB, memory difficulty, anorexia, drowsiness, xerostomia, sadness, vomiting, numbness\/tingling. CIPN screen is unremarkable.",
+		"sitSymptoms": [
+			"Severe: Constipation, bleeding",
+			"Moderate: ",
+			"Mild: ",
+			"Negative: Diarrhea, edema, mouth soreness, pain, fatigue, nausea, disturbed sleep, distress, SOB, memory difficulty, anorexia, drowsiness, xerostomia, sadness, vomiting, numbness\/tingling"
+		],
+		"sitQol": [
+			"High: ",
+			"Average: General activity, mood, social interactions, walking, enjoyment, family acceptance, sense of hope, overall quality of life",
+			"Low: Work, libido"
+		],
+		"cipn": [
+			"Grade 4: ",
+			"Grade 3: ",
+			"Grade 2: ",
+			"Grade 1: ",
+			"Grade 0: "
+		],
+		"meds": [
+		],
+		"treatmentHx": [
+			"Patient has undergone initial treatment with radition. Estrogen hx is significant for patches (15), estrogen creams (13), depot injections (14), vaginal rings (15). "
+		],
+		"pmh": [
+			"Hepatitis B, Hepatitis C, DM2, MI, strokes, Tuberculosis (TB) infection. Denies History of blood clots, Drug resistant staph infection (MRSA) infections, C-diff infection, History of fluid around your lungs (Pleural effusion), History of fluid around your heart (Pericardial effusion)."
+		],
+		"sh": [
+			"Homosexual, denies current smoking, denies past smoking, denies EtOH, 11  drinks\/wk for 8 years, denies IDU, denies past drug use. Significant for recent domestic travel. Denies recent international travel."
+		],
+		"psh": [
+			"Direct hernia (2017), Appendectomy (2019), Uterus removal (hysterectomy) (2011)"
+		],
+		"fh": [
+			"Aunt(mom&#039;s side) - high blood pressure (hypertension)",
+			"Sister - peripheral vascular disease",
+			"F - brain cancer, breast cancer",
+			"Cousin(mom&#039;s side) - diabetes",
+			"Denies CAD, HLD, SC, HbS"
+		],
+		"all": [
+		],
+		"gynHx": [
+			"Secondary amenorrhea due to Ovaries removed. Menses at 4. Ovaries present, uterus present. "
+		],
+		"ros": [
+			"GEN: +unintentional weight loss, +fever, +weight loss. Denies weight gain",
+			"EYES: +change in vision.",
+			"ENT: Denies bleeding gums",
+			"CV: Denies chest pain",
+			"RESP: ",
+			"GI: +melena, +abdominal pain, +bloating, +cramping, +rectal mass. Denies hematochezia",
+			"GU: +pelvic pain, +abdominal mass, +urinary frequency. Denies vaginal dx, pelvic pressure",
+			"MSK: +leg pain.",
+			"SKIN: +jaundice, +new moles.",
+			"BREAST: +breast pain, +breast enlargement, +nipple dx, +breast swelling. Denies breast redness",
+			"NEURO: ",
+			"PSYCH: Denies depression",
+			"ENDO: +excessive hair growth.",
+			"HEME\/LYMPH: Denies bruising",
+			"ALL\/IMM: "
+		],
+		"finalPatientSymptomsComments": [
+		]
+	}
+}
+
+{
+	"basicDetails": {
+		"firstName": [
+			"Johny"
+		],
+		"lastName": [
+			"johny"
+		],
+		"mrn": [
+			"124545"
+		],
+		"dob": [
+			"03-24-1998"
+		],
+		"gender": [
+			"FEMALE"
+		],
+		"ssn": [
+			"XXX-XX-XXXX"
+		],
+		"race": [
+			"Non hispanic"
+		],
+		"preferredPharmacy": [
+		],
+		"dateOfService": [
+			"2021-03-31 02:37"
+		],
+		"timezone": [
+			"CST"
+		],
+		"typeOfService": [
+			"Office or Other Outpatient Services"
+		]
+	},
+	"medicalDetails": {
+		"cc": [
+			"New breast CA diagnosis"
+		],
+		"hpi": [
+			"This is a 23 y.o. female referred to by fghj here for new breast CA diagnosis. Patient is accompanied by significant other.",
+			"Breast Cancer: The patient initially noticed nipple dx (12 days), breast pain (10 days), arm edema (10 days) localized to L breast. Nipple discharge color is greenish-yellow, clear or colorless. A breast lump was detected via physician exam approximately 9 days ago. Positive history of inflammatory breast changes. Diagnosis was confirmed by FNA, excisional biopsy. Patient has undergone initial treatment with chemotherapy, radiation.",
+			"Baseline SIT symptom inventory positive for mild constipation. Baseline SIT symptom inventory negative for diarrhea, edema, mouth soreness, bleeding, pain, fatigue, nausea, disturbed sleep, distress, SOB, memory difficulty, anorexia, drowsiness, xerostomia, sadness, vomiting, numbness\/tingling. CIPN screen is significant for  disabling\/life threatening hand\/foot pain, dyspnea\/dysphagia, severe numbness\/tingling, independent ADLs, constipation, dizziness, moderate muscle spasms, mild walking issues, tinnitus."
+		],
+		"sitSymptoms": [
+			"Severe: ",
+			"Moderate: ",
+			"Mild: Constipation",
+			"Negative: Diarrhea, edema, mouth soreness, bleeding, pain, fatigue, nausea, disturbed sleep, distress, SOB, memory difficulty, anorexia, drowsiness, xerostomia, sadness, vomiting, numbness\/tingling"
+		],
+		"sitQol": [
+			"High: Work, social interactions",
+			"Average: General activity, mood, walking, enjoyment, libido, family acceptance, sense of hope, overall quality of life",
+			"Low: "
+		],
+		"cipn": [
+			"Grade 4: Hand\/foot pain, dyspnea\/dysphagia",
+			"Grade 3: Numbness\/tingling, independent ADLs, constipation, dizziness",
+			"Grade 2: Muscle spasms",
+			"Grade 1: Walking issues, tinnitus",
+			"Grade 0: Extremity weakness, hearing loss"
+		],
+		"meds": [
+		],
+		"treatmentHx": [
+			"Patient has undergone initial treatment with chemotherapy, radiation."
+		],
+		"pmh": [
+			"MI, strokes, History of blood clots, Tuberculosis (TB) infection. Denies Diabetes, Vancomycin-resistant enterococcus (VRE) infection, History of fluid around your lungs (Pleural effusion), History of fluid around your heart (Pericardial effusion)."
+		],
+		"sh": [
+			"currently smoking : 5 packs\/wk, denies past smoking, denies EtOH, denies past drinking, denies IDU, denies past drug use. Denies recent domestic travel. Denies recent international travel."
+		],
+		"psh": [
+			"Uterus removal (hysterectomy) (2008)"
+		],
+		"fh": [
+			"M - high cholesterol or high triglycerides (hyperlipedemia), diabetes type 2",
+			"Sister - breast cancer",
+			"Denies CAD, HTN, SC, HbS, genetic disorder"
+		],
+		"all": [
+		],
+		"gynHx": [
+			"Patient has menopause at age 38. Ovaries present, uterus removal (hysterectomy) (2008). "
+		],
+		"ros": [
+			"GEN: +fever.",
+			"EYES: ",
+			"ENT: Denies bleeding gums",
+			"CV: +chest pain.",
+			"RESP: +rib pain.",
+			"GI: ",
+			"GU: ",
+			"MSK: +bone pain, +arm pain, +leg pain.",
+			"SKIN: +new moles.",
+			"BREAST: +nipple dx, +breast pain, +breast redness. Denies breast enlargement",
+			"NEURO: +headache, +seizures, +change in speech.",
+			"PSYCH: Denies depression",
+			"ENDO: ",
+			"HEME\/LYMPH: +arm edema, Denies bruising",
+			"ALL\/IMM: "
+		],
+		"finalPatientSymptomsComments": [
+		]
+	}
+}
+
+{
+	"patientRole": {
+		"resourceType": "Patient",
+		"text": {
+			"status": "generated",
+			"div": "<div xmlns=\"http:\/\/www.w3.org\/1999\/xhtml\">\n            <table>\n               <tbody>\n                  <tr>\n                            <td>Name<\/td>\n                            <td>shivam \n                         <b>vijasy<\/b>\n                         <\/td>\n                        <\/tr>\n                        <tr>\n                            <td>Address<\/td>\n                            <td><\/td>\n                        <\/tr>\n                        <tr>\n                            <td>Contacts<\/td>\n                            <td>Home: unknown. Work: +8925411411<\/td>\n                        <\/tr>\n                        <tr>\n                            <td>Id<\/td>\n                            <td>MRN:  (Valhalla Demo Clinic)<\/td>\n                        <\/tr>\n                    <\/tbody>\n                <\/table>\n            <\/div>"
+		},
+		"active": true,
+		"name": [
+			{
+				"use": "official",
+				"family": "vijasy",
+				"given": [
+					"shivam"
+				]
+			}
+		],
+		"telecom": [
+			{
+				"system": "phone",
+				"value": "8925411411",
+				"use": "mobile",
+				"rank": 1
+			}
+		],
+		"gender": "MALE",
+		"birthDate": "12-31-1969",
+		"deceasedBoolean": false,
+		"preferredPharmacy": "",
+		"dateOfService": "2021-06-03 06:19",
+		"timezone": "CST",
+		"typeOfService": "Office or Other Outpatient Services",
+		"race": {
+			"code": "2054-5",
+			"display": "Black or African American"
+		},
+		"ethnicity": {
+			"code": "2186-5",
+			"display": "Not Hispanic or Latino"
+		},
+		"address": [
+			{
+				"use": "home",
+				"type": "both",
+				"text": "",
+				"line": [
+					""
+				],
+				"city": "",
+				"state": "",
+				"postalCode": ""
+			}
+		]
+	},
+	"insuranceDetails": {
+		"insuranceType": "commercial",
+		"subscriberName": "Test",
+		"identificationNumber": "12536",
+		"groupNumber": "12536",
+		"insuranceCompany": "Test"
+	},
+	"medicalDetails": {
+		"cc": "Test",
+		"hpi": [
+			"This is a 52 y.o. male  here for test. Baseline SIT symptom inventory negative for constipation, diarrhea, edema, mouth soreness, bleeding, pain, fatigue, nausea, disturbed sleep, distress, SOB, memory difficulty, anorexia, drowsiness, xerostomia, sadness, vomiting, numbness\/tingling. CIPN screen is unremarkable."
+		],
+		"sitSymptoms": [
+			"Severe: ",
+			"Moderate: ",
+			"Mild: ",
+			"Negative: Constipation, diarrhea, edema, mouth soreness, bleeding, pain, fatigue, nausea, disturbed sleep, distress, SOB, memory difficulty, anorexia, drowsiness, xerostomia, sadness, vomiting, numbness\/tingling"
+		],
+		"sitQol": [
+			"High: ",
+			"Average: Libido",
+			"Low: General activity, mood, work, social interactions, walking, enjoyment, family acceptance, sense of hope, overall quality of life"
+		],
+		"cipn": [
+			"Grade 4: ",
+			"Grade 3: ",
+			"Grade 2: ",
+			"Grade 1: ",
+			"Grade 0: "
+		],
+		"treatmentHx": "",
+		"meds": "",
+		"pmh": "Tuberculosis (TB) infection, Drug resistant staph infection (MRSA) infections, History of fluid around your heart (Pericardial effusion), Asthma, coronary artery disease, congestive heart failure, chronic obstructive pulmonary disease, DM2, hypertension, hay fever (seasonal allergies), eczema, heart failure, emphysema. Denies Diabetes, Heart attacks, Strokes, History of blood clots, Tuberculosis (TB) infection, Drug resistant staph infection (MRSA) infections, Vancomycin-resistant enterococcus (VRE) infection, C-diff infection, History of fluid around your lungs (Pleural effusion), History of fluid around your heart (Pericardial effusion).",
+		"sh": "denies current smoking, past smoking: consumes but frequency not provided, denies EtOH, denies past drinking, denies IDU, denies past drug use. Denies recent domestic travel. Denies recent international travel.",
+		"psh": "Breast removal (whole), Colon (large intestine) partial removal (partial colectomy), Debridement of wound, burn or infection naveen",
+		"fh": [
+			"M - brain cancer",
+			"F - peripheral vascular disease",
+			"MGM - peripheral vascular disease"
+		],
+		"all": "",
+		"ros": [
+			"GEN: Denies fever",
+			"EYES: +diplopia.",
+			"ENT: Denies bleeding gums",
+			"CV: +chest pain.",
+			"RESP: Denies cough",
+			"GI: +hematemesis.",
+			"GU: Denies dysuria",
+			"MSK: +muscle cramps.",
+			"SKIN: Denies new moles",
+			"BREAST: Denies breast pain",
+			"NEURO: +syncope.",
+			"PSYCH: +depression.",
+			"ENDO: +excessive hair growth.",
+			"HEME\/LYMPH: Denies bruising",
+			"ALL\/IMM: Denies frequent infections"
+		],
+		"finalPatientSymptomsComments": ""
+	}
+}
+
+{
+	"patientRole": {
+		"resourceType": "Patient",
+		"text": {
+			"status": "generated",
+			"div": "<div xmlns=\"http:\/\/www.w3.org\/1999\/xhtml\">\n            <table>\n               <tbody>\n                  <tr>\n                            <td>Name<\/td>\n                            <td>himanshu \n                         <b>dev<\/b>\n                         <\/td>\n                        <\/tr>\n                        <tr>\n                            <td>Address<\/td>\n                            <td>test,AL,-1<\/td>\n                        <\/tr>\n                        <tr>\n                            <td>Contacts<\/td>\n                            <td>Home: unknown. Work: +8445612365<\/td>\n                        <\/tr>\n                        <tr>\n                            <td>Id<\/td>\n                            <td>MRN:  (Valhalla Demo Clinic)<\/td>\n                        <\/tr>\n                    <\/tbody>\n                <\/table>\n            <\/div>"
+		},
+		"active": true,
+		"name": [
+			{
+				"use": "official",
+				"family": "dev",
+				"given": [
+					"himanshu"
+				]
+			}
+		],
+		"telecom": [
+			{
+				"system": "phone",
+				"value": "8445612365",
+				"use": "mobile",
+				"rank": 1
+			}
+		],
+		"gender": "FEMALE",
+		"birthDate": "01-01-1990",
+		"deceasedBoolean": false,
+		"preferredPharmacy": "test",
+		"dateOfService": "2021-06-04 01:52",
+		"timezone": "CST",
+		"typeOfService": "Office or Other Outpatient Services",
+		"race": {
+			"code": "2054-5",
+			"display": "Black or African American"
+		},
+		"ethnicity": {
+			"code": "2135-2",
+			"display": "Hispanic or Latino"
+		},
+		"address": [
+			{
+				"use": "home",
+				"type": "both",
+				"text": "test,AL,-1",
+				"line": [
+					""
+				],
+				"city": "test",
+				"state": "AL",
+				"postalCode": "-1"
+			}
+		]
+	},
+	"insuranceDetails": {
+		"insuranceType": "medicare"
+	},
+	"medicalDetails": {
+		"cc": "Test",
+		"hpi": [
+			"This is a 31 y.o. female  here for test. Baseline SIT symptom inventory negative for constipation, diarrhea, edema, mouth soreness, bleeding, pain, fatigue, nausea, disturbed sleep, distress, SOB, memory difficulty, anorexia, drowsiness, xerostomia, sadness, vomiting, numbness\/tingling. CIPN screen is unremarkable."
+		],
+		"sitSymptoms": [
+			"Severe: ",
+			"Moderate: ",
+			"Mild: ",
+			"Negative: Constipation, diarrhea, edema, mouth soreness, bleeding, pain, fatigue, nausea, disturbed sleep, distress, SOB, memory difficulty, anorexia, drowsiness, xerostomia, sadness, vomiting, numbness\/tingling"
+		],
+		"sitQol": [
+			"High: ",
+			"Average: General activity",
+			"Low: Mood, work, social interactions, walking, enjoyment, libido, family acceptance, sense of hope, overall quality of life"
+		],
+		"cipn": [
+			"Grade 4: ",
+			"Grade 3: ",
+			"Grade 2: ",
+			"Grade 1: ",
+			"Grade 0: "
+		],
+		"treatmentHx": "",
+		"meds": "",
+		"pmh": "Asthma, coronary artery disease, congestive heart failure, chronic obstructive pulmonary disease, DM2, hypertension, hay fever (seasonal allergies), heart failure, alpha-1 anti-trypsin deficiency (a1ad), Congestive heart failure (2020), MI (2020), History of fluid around your heart (Pericardial effusion). Denies Diabetes, Heart attacks, Strokes, History of blood clots, Tuberculosis (TB) infection, Drug resistant staph infection (MRSA) infections, Vancomycin-resistant enterococcus (VRE) infection, C-diff infection, History of fluid around your lungs (Pleural effusion), History of fluid around your heart (Pericardial effusion).",
+		"sh": "Prefer not to say sexual orientation, denies current smoking, denies past smoking, denies EtOH, denies past drinking, denies IDU, denies past drug use. Denies recent domestic travel. Denies recent international travel.",
+		"psh": "R oopherectomy (2008), Uterus removal (hysterectomy) (2014), R oopherectomy (2017)",
+		"fh": [
+			"M - sickle cell carrier but doesn&#039;t have the disease (sickle cell trait)",
+			"Brother - sickle cell carrier but doesn&#039;t have the disease (sickle cell trait)",
+			"Sister - sickle cell disease"
+		],
+		"all": "",
+		"gynHx": "Secondary amenorrhea due to Ovaries removed. Ovaries present, uterus present. ",
+		"ros": [
+			"GEN: +fever.",
+			"EYES: Denies diplopia",
+			"ENT: +bleeding gums.",
+			"CV: Denies chest pain",
+			"RESP: +cough.",
+			"GI: Denies hematemesis",
+			"GU: +dysuria.",
+			"MSK: Denies muscle cramps",
+			"SKIN: +new moles.",
+			"BREAST: +breast pain.",
+			"NEURO: Denies syncope",
+			"PSYCH: Denies depression",
+			"ENDO: Denies excessive hair growth",
+			"HEME\/LYMPH: +bruising.",
+			"ALL\/IMM: +frequent infections."
+		],
+		"finalPatientSymptomsComments": ""
+	}
+}
+
+{
+	"patientRole": {
+		"resourceType": "Patient",
+		"text": {
+			"status": "generated",
+			"div": "<div xmlns=\"http:\/\/www.w3.org\/1999\/xhtml\">\n            <table>\n               <tbody>\n                  <tr>\n                            <td>Name<\/td>\n                            <td>tejas \n                         <b>vedf<\/b>\n                         <\/td>\n                        <\/tr>\n                        <tr>\n                            <td>Address<\/td>\n                            <td><\/td>\n                        <\/tr>\n                        <tr>\n                            <td>Contacts<\/td>\n                            <td>Home: unknown. Work: +4514146558<\/td>\n                        <\/tr>\n                        <tr>\n                            <td>Id<\/td>\n                            <td>MRN:  (Valhalla Demo Clinic)<\/td>\n                        <\/tr>\n                    <\/tbody>\n                <\/table>\n            <\/div>"
+		},
+		"active": true,
+		"name": [
+			{
+				"use": "official",
+				"family": "vedf",
+				"given": [
+					"tejas"
+				]
+			}
+		],
+		"telecom": [
+			{
+				"system": "phone",
+				"value": "4514146558",
+				"use": "mobile",
+				"rank": 1
+			}
+		],
+		"gender": "FEMALE",
+		"birthDate": "12-31-1969",
+		"deceasedBoolean": false,
+		"preferredPharmacy": "fgfdgfd",
+		"dateOfService": "2021-06-04 02:15",
+		"timezone": "CST",
+		"typeOfService": "Office or Other Outpatient Services",
+		"race": {
+			"code": "2106-3",
+			"display": "White"
+		},
+		"ethnicity": {
+			"code": "2135-2",
+			"display": "Hispanic or Latino"
+		},
+		"address": [
+			{
+				"use": "home",
+				"type": "both",
+				"text": "",
+				"line": [
+					""
+				],
+				"city": "",
+				"state": "",
+				"postalCode": ""
+			}
+		]
+	},
+	"insuranceDetails": {
+		"insuranceType": "commercial",
+		"subscriberName": "Teste vijay",
+		"identificationNumber": "12345",
+		"groupNumber": "12345",
+		"insuranceCompany": "Test naveen"
+	},
+	"medicalDetails": {
+		"cc": "Tet",
+		"hpi": [
+			"This is a 52 y.o. female  here for tet. Baseline SIT symptom inventory negative for constipation, diarrhea, edema, mouth soreness, bleeding, pain, fatigue, nausea, disturbed sleep, distress, SOB, memory difficulty, anorexia, drowsiness, xerostomia, sadness, vomiting, numbness\/tingling. CIPN screen is unremarkable."
+		],
+		"sitSymptoms": [
+			"Severe: ",
+			"Moderate: ",
+			"Mild: ",
+			"Negative: Constipation, diarrhea, edema, mouth soreness, bleeding, pain, fatigue, nausea, disturbed sleep, distress, SOB, memory difficulty, anorexia, drowsiness, xerostomia, sadness, vomiting, numbness\/tingling"
+		],
+		"sitQol": [
+			"High: ",
+			"Average: ",
+			"Low: General activity, mood, work, social interactions, walking, enjoyment, libido, family acceptance, sense of hope, overall quality of life"
+		],
+		"cipn": [
+			"Grade 4: ",
+			"Grade 3: ",
+			"Grade 2: ",
+			"Grade 1: ",
+			"Grade 0: "
+		],
+		"treatmentHx": "",
+		"meds": "",
+		"pmh": "Asthma, coronary artery disease, congestive heart failure, hay fever (seasonal allergies). Denies Diabetes, Heart attacks, Strokes, History of blood clots, Tuberculosis (TB) infection, Drug resistant staph infection (MRSA) infections, Vancomycin-resistant enterococcus (VRE) infection, C-diff infection, History of fluid around your lungs (Pleural effusion), History of fluid around your heart (Pericardial effusion).",
+		"sh": "Homosexual, denies current smoking, denies past smoking, denies EtOH, denies past drinking, denies IDU, denies past drug use. Denies recent domestic travel. Denies recent international travel.",
+		"psh": "L oopherectomy (you don&#039;t remember when)",
+		"fh": [
+			"M - high cholesterol or high triglycerides (hyperlipedemia)"
+		],
+		"all": "",
+		"gynHx": "Secondary amenorrhea due to Uterus removed. Menses at 23. L oopherectomy (you don't remember when), uterus present. ",
+		"ros": [
+			"GEN: +fever.",
+			"EYES: Denies diplopia",
+			"ENT: +bleeding gums.",
+			"CV: Denies chest pain",
+			"RESP: +cough.",
+			"GI: Denies hematemesis",
+			"GU: +dysuria.",
+			"MSK: +muscle cramps.",
+			"SKIN: +new moles.",
+			"BREAST: Denies breast pain",
+			"NEURO: Denies syncope",
+			"PSYCH: +depression.",
+			"ENDO: Denies excessive hair growth",
+			"HEME\/LYMPH: +bruising.",
+			"ALL\/IMM: +frequent infections."
+		],
+		"finalPatientSymptomsComments": ""
+	}
+}
+

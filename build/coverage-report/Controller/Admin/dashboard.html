@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /opt/lampp/htdocs/allevia/src/Controller/Admin</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../.css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../../.css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../../.css/style.css" rel="stylesheet" type="text/css">
+  <!--[if lt IE 9]>
+  <script src="../../.js/html5shiv.min.js"></script>
+  <script src="../../.js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="../../index.html">/opt/lampp/htdocs/allevia/src</a></li>
+        <li><a href="../index.html">Controller</a></li>
+        <li><a href="index.html">Admin</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AppointmentsController.php.html#11">App\Controller\Admin\AppointmentsController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DashboardController.php.html#17">App\Controller\Admin\DashboardController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailTemplatesController.php.html#17">App\Controller\Admin\EmailTemplatesController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormsManagementController.php.html#17">App\Controller\Admin\FormsManagementController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GlobalSectionsController.php.html#17">App\Controller\Admin\GlobalSectionsController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HomePageController.php.html#17">App\Controller\Admin\HomePageController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#18">App\Controller\Admin\OrganizationsController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReportsStatisticsController.php.html#17">App\Controller\Admin\ReportsStatisticsController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SpecializationsController.php.html#17">App\Controller\Admin\SpecializationsController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UsersController.php.html#19">App\Controller\Admin\UsersController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CmsController.php.html#17">App\Controller\Admin\CmsController</a></td><td class="text-right">52%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="OrganizationsController.php.html#18">App\Controller\Admin\OrganizationsController</a></td><td class="text-right">35156</td></tr>
+       <tr><td><a href="AppointmentsController.php.html#11">App\Controller\Admin\AppointmentsController</a></td><td class="text-right">23870</td></tr>
+       <tr><td><a href="UsersController.php.html#19">App\Controller\Admin\UsersController</a></td><td class="text-right">11990</td></tr>
+       <tr><td><a href="HomePageController.php.html#17">App\Controller\Admin\HomePageController</a></td><td class="text-right">2352</td></tr>
+       <tr><td><a href="EmailTemplatesController.php.html#17">App\Controller\Admin\EmailTemplatesController</a></td><td class="text-right">702</td></tr>
+       <tr><td><a href="SpecializationsController.php.html#17">App\Controller\Admin\SpecializationsController</a></td><td class="text-right">552</td></tr>
+       <tr><td><a href="ReportsStatisticsController.php.html#17">App\Controller\Admin\ReportsStatisticsController</a></td><td class="text-right">506</td></tr>
+       <tr><td><a href="GlobalSectionsController.php.html#17">App\Controller\Admin\GlobalSectionsController</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="CmsController.php.html#17">App\Controller\Admin\CmsController</a></td><td class="text-right">48</td></tr>
+       <tr><td><a href="DashboardController.php.html#17">App\Controller\Admin\DashboardController</a></td><td class="text-right">12</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AppointmentsController.php.html#14"><abbr title="App\Controller\Admin\AppointmentsController::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#1487"><abbr title="App\Controller\Admin\OrganizationsController::generateOrganizationSecret">generateOrganizationSecret</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#1759"><abbr title="App\Controller\Admin\OrganizationsController::deleteLocation">deleteLocation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#1741"><abbr title="App\Controller\Admin\OrganizationsController::editLocation">editLocation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#1731"><abbr title="App\Controller\Admin\OrganizationsController::locations">locations</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#1723"><abbr title="App\Controller\Admin\OrganizationsController::managelocation">managelocation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#1702"><abbr title="App\Controller\Admin\OrganizationsController::clinicrequest">clinicrequest</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#1666"><abbr title="App\Controller\Admin\OrganizationsController::resetLink">resetLink</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#1595"><abbr title="App\Controller\Admin\OrganizationsController::secretkeyaction">secretkeyaction</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#1527"><abbr title="App\Controller\Admin\OrganizationsController::generateorgsecret">generateorgsecret</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#1517"><abbr title="App\Controller\Admin\OrganizationsController::generateProviderSecret">generateProviderSecret</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#1504"><abbr title="App\Controller\Admin\OrganizationsController::showProSecret">showProSecret</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#1476"><abbr title="App\Controller\Admin\OrganizationsController::clinicProviderList">clinicProviderList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReportsStatisticsController.php.html#20"><abbr title="App\Controller\Admin\ReportsStatisticsController::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#1466"><abbr title="App\Controller\Admin\OrganizationsController::clinicDoctorList">clinicDoctorList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#1415"><abbr title="App\Controller\Admin\OrganizationsController::enabletelehealth">enabletelehealth</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#1374"><abbr title="App\Controller\Admin\OrganizationsController::outputFormat">outputFormat</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#1344"><abbr title="App\Controller\Admin\OrganizationsController::getlocation">getlocation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#1315"><abbr title="App\Controller\Admin\OrganizationsController::getSpecializationLocation">getSpecializationLocation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#1291"><abbr title="App\Controller\Admin\OrganizationsController::getspecialization">getspecialization</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#1221"><abbr title="App\Controller\Admin\OrganizationsController::editProvider">editProvider</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#1181"><abbr title="App\Controller\Admin\OrganizationsController::deleteProvider">deleteProvider</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#1169"><abbr title="App\Controller\Admin\OrganizationsController::providers">providers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#798"><abbr title="App\Controller\Admin\OrganizationsController::addProviders">addProviders</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#774"><abbr title="App\Controller\Admin\OrganizationsController::clinicColorScheme">clinicColorScheme</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#1771"><abbr title="App\Controller\Admin\OrganizationsController::addLocation">addLocation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReportsStatisticsController.php.html#26"><abbr title="App\Controller\Admin\ReportsStatisticsController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#751"><abbr title="App\Controller\Admin\OrganizationsController::activeDoctor">activeDoctor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UsersController.php.html#62"><abbr title="App\Controller\Admin\UsersController::view">view</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UsersController.php.html#562"><abbr title="App\Controller\Admin\UsersController::useractivity">useractivity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UsersController.php.html#552"><abbr title="App\Controller\Admin\UsersController::deactive">deactive</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UsersController.php.html#542"><abbr title="App\Controller\Admin\UsersController::active">active</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UsersController.php.html#528"><abbr title="App\Controller\Admin\UsersController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UsersController.php.html#476"><abbr title="App\Controller\Admin\UsersController::profile">profile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UsersController.php.html#460"><abbr title="App\Controller\Admin\UsersController::logout">logout</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UsersController.php.html#413"><abbr title="App\Controller\Admin\UsersController::resetPassword">resetPassword</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UsersController.php.html#358"><abbr title="App\Controller\Admin\UsersController::forgotpassword">forgotpassword</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UsersController.php.html#300"><abbr title="App\Controller\Admin\UsersController::login">login</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UsersController.php.html#266"><abbr title="App\Controller\Admin\UsersController::edit">edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UsersController.php.html#50"><abbr title="App\Controller\Admin\UsersController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SpecializationsController.php.html#20"><abbr title="App\Controller\Admin\SpecializationsController::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UsersController.php.html#22"><abbr title="App\Controller\Admin\UsersController::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SpecializationsController.php.html#183"><abbr title="App\Controller\Admin\SpecializationsController::deactive">deactive</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SpecializationsController.php.html#173"><abbr title="App\Controller\Admin\SpecializationsController::active">active</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SpecializationsController.php.html#161"><abbr title="App\Controller\Admin\SpecializationsController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SpecializationsController.php.html#125"><abbr title="App\Controller\Admin\SpecializationsController::addSubsteps">addSubsteps</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SpecializationsController.php.html#116"><abbr title="App\Controller\Admin\SpecializationsController::substeps">substeps</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SpecializationsController.php.html#79"><abbr title="App\Controller\Admin\SpecializationsController::addSteps">addSteps</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SpecializationsController.php.html#72"><abbr title="App\Controller\Admin\SpecializationsController::view">view</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SpecializationsController.php.html#54"><abbr title="App\Controller\Admin\SpecializationsController::edit">edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SpecializationsController.php.html#35"><abbr title="App\Controller\Admin\SpecializationsController::add">add</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SpecializationsController.php.html#26"><abbr title="App\Controller\Admin\SpecializationsController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#762"><abbr title="App\Controller\Admin\OrganizationsController::deactiveDoctor">deactiveDoctor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#741"><abbr title="App\Controller\Admin\OrganizationsController::deactive">deactive</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AppointmentsController.php.html#21"><abbr title="App\Controller\Admin\AppointmentsController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormsManagementController.php.html#26"><abbr title="App\Controller\Admin\FormsManagementController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HomePageController.php.html#124"><abbr title="App\Controller\Admin\HomePageController::deactiveValueprops">deactiveValueprops</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HomePageController.php.html#114"><abbr title="App\Controller\Admin\HomePageController::activeValueprops">activeValueprops</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HomePageController.php.html#102"><abbr title="App\Controller\Admin\HomePageController::deleteValueprops">deleteValueprops</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HomePageController.php.html#71"><abbr title="App\Controller\Admin\HomePageController::editValueprops">editValueprops</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HomePageController.php.html#39"><abbr title="App\Controller\Admin\HomePageController::addValueprops">addValueprops</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HomePageController.php.html#29"><abbr title="App\Controller\Admin\HomePageController::valueprops">valueprops</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HomePageController.php.html#20"><abbr title="App\Controller\Admin\HomePageController::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GlobalSectionsController.php.html#93"><abbr title="App\Controller\Admin\GlobalSectionsController::global_update">global_update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GlobalSectionsController.php.html#26"><abbr title="App\Controller\Admin\GlobalSectionsController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GlobalSectionsController.php.html#20"><abbr title="App\Controller\Admin\GlobalSectionsController::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FormsManagementController.php.html#20"><abbr title="App\Controller\Admin\FormsManagementController::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#731"><abbr title="App\Controller\Admin\OrganizationsController::active">active</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailTemplatesController.php.html#203"><abbr title="App\Controller\Admin\EmailTemplatesController::view">view</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailTemplatesController.php.html#174"><abbr title="App\Controller\Admin\EmailTemplatesController::edit">edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailTemplatesController.php.html#156"><abbr title="App\Controller\Admin\EmailTemplatesController::add">add</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailTemplatesController.php.html#39"><abbr title="App\Controller\Admin\EmailTemplatesController::sendemail">sendemail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailTemplatesController.php.html#29"><abbr title="App\Controller\Admin\EmailTemplatesController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailTemplatesController.php.html#20"><abbr title="App\Controller\Admin\EmailTemplatesController::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DashboardController.php.html#27"><abbr title="App\Controller\Admin\DashboardController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DashboardController.php.html#20"><abbr title="App\Controller\Admin\DashboardController::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CmsController.php.html#87"><abbr title="App\Controller\Admin\CmsController::view">view</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CmsController.php.html#54"><abbr title="App\Controller\Admin\CmsController::edit">edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AppointmentsController.php.html#58"><abbr title="App\Controller\Admin\AppointmentsController::view">view</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HomePageController.php.html#136"><abbr title="App\Controller\Admin\HomePageController::homepage">homepage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HomePageController.php.html#287"><abbr title="App\Controller\Admin\HomePageController::ourpartner">ourpartner</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HomePageController.php.html#297"><abbr title="App\Controller\Admin\HomePageController::addOurpartner">addOurpartner</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#204"><abbr title="App\Controller\Admin\OrganizationsController::downloadFile">downloadFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#713"><abbr title="App\Controller\Admin\OrganizationsController::deleteDoctor">deleteDoctor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#695"><abbr title="App\Controller\Admin\OrganizationsController::maketestclinic">maketestclinic</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#678"><abbr title="App\Controller\Admin\OrganizationsController::standardOpenemrOutput">standardOpenemrOutput</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#653"><abbr title="App\Controller\Admin\OrganizationsController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#615"><abbr title="App\Controller\Admin\OrganizationsController::viewDoctor">viewDoctor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#543"><abbr title="App\Controller\Admin\OrganizationsController::editDoctor">editDoctor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#430"><abbr title="App\Controller\Admin\OrganizationsController::addDoctor">addDoctor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#393"><abbr title="App\Controller\Admin\OrganizationsController::doctors">doctors</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#372"><abbr title="App\Controller\Admin\OrganizationsController::view">view</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#213"><abbr title="App\Controller\Admin\OrganizationsController::edit">edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#64"><abbr title="App\Controller\Admin\OrganizationsController::add">add</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HomePageController.php.html#329"><abbr title="App\Controller\Admin\HomePageController::editOurpartner">editOurpartner</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#30"><abbr title="App\Controller\Admin\OrganizationsController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#21"><abbr title="App\Controller\Admin\OrganizationsController::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HomePageController.php.html#489"><abbr title="App\Controller\Admin\HomePageController::deactiveBanner">deactiveBanner</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HomePageController.php.html#479"><abbr title="App\Controller\Admin\HomePageController::activeBanner">activeBanner</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HomePageController.php.html#467"><abbr title="App\Controller\Admin\HomePageController::deleteBanner">deleteBanner</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HomePageController.php.html#438"><abbr title="App\Controller\Admin\HomePageController::editBanner">editBanner</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HomePageController.php.html#406"><abbr title="App\Controller\Admin\HomePageController::addBanner">addBanner</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HomePageController.php.html#396"><abbr title="App\Controller\Admin\HomePageController::banner">banner</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HomePageController.php.html#380"><abbr title="App\Controller\Admin\HomePageController::deactiveOurpartner">deactiveOurpartner</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HomePageController.php.html#370"><abbr title="App\Controller\Admin\HomePageController::activeOurpartner">activeOurpartner</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HomePageController.php.html#358"><abbr title="App\Controller\Admin\HomePageController::deleteOurpartner">deleteOurpartner</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UsersController.php.html#621"><abbr title="App\Controller\Admin\UsersController::timetracking">timetracking</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CmsController.php.html#35"><abbr title="App\Controller\Admin\CmsController::add">add</abbr></a></td><td class="text-right">81%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AppointmentsController.php.html#58"><abbr title="App\Controller\Admin\AppointmentsController::view">view</abbr></a></td><td class="text-right">22350</td></tr>
+       <tr><td><a href="UsersController.php.html#62"><abbr title="App\Controller\Admin\UsersController::view">view</abbr></a></td><td class="text-right">2970</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#798"><abbr title="App\Controller\Admin\OrganizationsController::addProviders">addProviders</abbr></a></td><td class="text-right">552</td></tr>
+       <tr><td><a href="ReportsStatisticsController.php.html#26"><abbr title="App\Controller\Admin\ReportsStatisticsController::index">index</abbr></a></td><td class="text-right">462</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#213"><abbr title="App\Controller\Admin\OrganizationsController::edit">edit</abbr></a></td><td class="text-right">420</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#430"><abbr title="App\Controller\Admin\OrganizationsController::addDoctor">addDoctor</abbr></a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#64"><abbr title="App\Controller\Admin\OrganizationsController::add">add</abbr></a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="EmailTemplatesController.php.html#39"><abbr title="App\Controller\Admin\EmailTemplatesController::sendemail">sendemail</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="UsersController.php.html#562"><abbr title="App\Controller\Admin\UsersController::useractivity">useractivity</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="HomePageController.php.html#136"><abbr title="App\Controller\Admin\HomePageController::homepage">homepage</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="UsersController.php.html#300"><abbr title="App\Controller\Admin\UsersController::login">login</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#543"><abbr title="App\Controller\Admin\OrganizationsController::editDoctor">editDoctor</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="UsersController.php.html#266"><abbr title="App\Controller\Admin\UsersController::edit">edit</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#1221"><abbr title="App\Controller\Admin\OrganizationsController::editProvider">editProvider</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#1771"><abbr title="App\Controller\Admin\OrganizationsController::addLocation">addLocation</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#1595"><abbr title="App\Controller\Admin\OrganizationsController::secretkeyaction">secretkeyaction</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#1415"><abbr title="App\Controller\Admin\OrganizationsController::enabletelehealth">enabletelehealth</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#1374"><abbr title="App\Controller\Admin\OrganizationsController::outputFormat">outputFormat</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="UsersController.php.html#413"><abbr title="App\Controller\Admin\UsersController::resetPassword">resetPassword</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="EmailTemplatesController.php.html#174"><abbr title="App\Controller\Admin\EmailTemplatesController::edit">edit</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="CmsController.php.html#54"><abbr title="App\Controller\Admin\CmsController::edit">edit</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="GlobalSectionsController.php.html#26"><abbr title="App\Controller\Admin\GlobalSectionsController::index">index</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#30"><abbr title="App\Controller\Admin\OrganizationsController::index">index</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="UsersController.php.html#476"><abbr title="App\Controller\Admin\UsersController::profile">profile</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#1181"><abbr title="App\Controller\Admin\OrganizationsController::deleteProvider">deleteProvider</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="SpecializationsController.php.html#125"><abbr title="App\Controller\Admin\SpecializationsController::addSubsteps">addSubsteps</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="SpecializationsController.php.html#79"><abbr title="App\Controller\Admin\SpecializationsController::addSteps">addSteps</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="AppointmentsController.php.html#21"><abbr title="App\Controller\Admin\AppointmentsController::index">index</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="HomePageController.php.html#406"><abbr title="App\Controller\Admin\HomePageController::addBanner">addBanner</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="HomePageController.php.html#39"><abbr title="App\Controller\Admin\HomePageController::addValueprops">addValueprops</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="HomePageController.php.html#438"><abbr title="App\Controller\Admin\HomePageController::editBanner">editBanner</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="HomePageController.php.html#297"><abbr title="App\Controller\Admin\HomePageController::addOurpartner">addOurpartner</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="HomePageController.php.html#71"><abbr title="App\Controller\Admin\HomePageController::editValueprops">editValueprops</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="HomePageController.php.html#329"><abbr title="App\Controller\Admin\HomePageController::editOurpartner">editOurpartner</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#393"><abbr title="App\Controller\Admin\OrganizationsController::doctors">doctors</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="GlobalSectionsController.php.html#93"><abbr title="App\Controller\Admin\GlobalSectionsController::global_update">global_update</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="EmailTemplatesController.php.html#156"><abbr title="App\Controller\Admin\EmailTemplatesController::add">add</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#615"><abbr title="App\Controller\Admin\OrganizationsController::viewDoctor">viewDoctor</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="UsersController.php.html#358"><abbr title="App\Controller\Admin\UsersController::forgotpassword">forgotpassword</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#1666"><abbr title="App\Controller\Admin\OrganizationsController::resetLink">resetLink</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SpecializationsController.php.html#54"><abbr title="App\Controller\Admin\SpecializationsController::edit">edit</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#774"><abbr title="App\Controller\Admin\OrganizationsController::clinicColorScheme">clinicColorScheme</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SpecializationsController.php.html#35"><abbr title="App\Controller\Admin\SpecializationsController::add">add</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#1741"><abbr title="App\Controller\Admin\OrganizationsController::editLocation">editLocation</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="DashboardController.php.html#27"><abbr title="App\Controller\Admin\DashboardController::index">index</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#695"><abbr title="App\Controller\Admin\OrganizationsController::maketestclinic">maketestclinic</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#1759"><abbr title="App\Controller\Admin\OrganizationsController::deleteLocation">deleteLocation</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#1702"><abbr title="App\Controller\Admin\OrganizationsController::clinicrequest">clinicrequest</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#1487"><abbr title="App\Controller\Admin\OrganizationsController::generateOrganizationSecret">generateOrganizationSecret</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#372"><abbr title="App\Controller\Admin\OrganizationsController::view">view</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#1344"><abbr title="App\Controller\Admin\OrganizationsController::getlocation">getlocation</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#1315"><abbr title="App\Controller\Admin\OrganizationsController::getSpecializationLocation">getSpecializationLocation</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#1291"><abbr title="App\Controller\Admin\OrganizationsController::getspecialization">getspecialization</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#653"><abbr title="App\Controller\Admin\OrganizationsController::delete">delete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#678"><abbr title="App\Controller\Admin\OrganizationsController::standardOpenemrOutput">standardOpenemrOutput</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="OrganizationsController.php.html#713"><abbr title="App\Controller\Admin\OrganizationsController::deleteDoctor">deleteDoctor</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="CmsController.php.html#35"><abbr title="App\Controller\Admin\CmsController::add">add</abbr></a></td><td class="text-right">5</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 5.3.2</a> using <a href="https://secure.php.net/" target="_top">PHPDBG 7.2.24-0ubuntu0.18.04.7</a> and <a href="https://phpunit.de/">PHPUnit 6.5.14</a> at Tue Feb 16 0:46:23 CST 2021.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../.js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../.js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../../.js/holder.min.js" type="text/javascript"></script>
+  <script src="../../.js/d3.min.js" type="text/javascript"></script>
+  <script src="../../.js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([10,0,0,0,0,0,1,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([107,0,0,0,0,0,0,0,0,1,1,2], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,154,"<a href=\"AppointmentsController.php.html#11\">App\\Controller\\Admin\\AppointmentsController<\/a>"],[52.17391304347826,17,"<a href=\"CmsController.php.html#17\">App\\Controller\\Admin\\CmsController<\/a>"],[0,3,"<a href=\"DashboardController.php.html#17\">App\\Controller\\Admin\\DashboardController<\/a>"],[0,26,"<a href=\"EmailTemplatesController.php.html#17\">App\\Controller\\Admin\\EmailTemplatesController<\/a>"],[0,2,"<a href=\"FormsManagementController.php.html#17\">App\\Controller\\Admin\\FormsManagementController<\/a>"],[0,10,"<a href=\"GlobalSectionsController.php.html#17\">App\\Controller\\Admin\\GlobalSectionsController<\/a>"],[0,48,"<a href=\"HomePageController.php.html#17\">App\\Controller\\Admin\\HomePageController<\/a>"],[0,187,"<a href=\"OrganizationsController.php.html#18\">App\\Controller\\Admin\\OrganizationsController<\/a>"],[0,22,"<a href=\"ReportsStatisticsController.php.html#17\">App\\Controller\\Admin\\ReportsStatisticsController<\/a>"],[0,23,"<a href=\"SpecializationsController.php.html#17\">App\\Controller\\Admin\\SpecializationsController<\/a>"],[0,109,"<a href=\"UsersController.php.html#19\">App\\Controller\\Admin\\UsersController<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"AppointmentsController.php.html#14\">App\\Controller\\Admin\\AppointmentsController::initialize<\/a>"],[0,4,"<a href=\"AppointmentsController.php.html#21\">App\\Controller\\Admin\\AppointmentsController::index<\/a>"],[0,149,"<a href=\"AppointmentsController.php.html#58\">App\\Controller\\Admin\\AppointmentsController::view<\/a>"],[100,1,"<a href=\"CmsController.php.html#20\">App\\Controller\\Admin\\CmsController::initialize<\/a>"],[100,1,"<a href=\"CmsController.php.html#26\">App\\Controller\\Admin\\CmsController::index<\/a>"],[81.81818181818183,5,"<a href=\"CmsController.php.html#35\">App\\Controller\\Admin\\CmsController::add<\/a>"],[0,6,"<a href=\"CmsController.php.html#54\">App\\Controller\\Admin\\CmsController::edit<\/a>"],[0,1,"<a href=\"CmsController.php.html#87\">App\\Controller\\Admin\\CmsController::view<\/a>"],[90.9090909090909,3,"<a href=\"CmsController.php.html#95\">App\\Controller\\Admin\\CmsController::slugify<\/a>"],[0,1,"<a href=\"DashboardController.php.html#20\">App\\Controller\\Admin\\DashboardController::initialize<\/a>"],[0,2,"<a href=\"DashboardController.php.html#27\">App\\Controller\\Admin\\DashboardController::index<\/a>"],[0,1,"<a href=\"EmailTemplatesController.php.html#20\">App\\Controller\\Admin\\EmailTemplatesController::initialize<\/a>"],[0,1,"<a href=\"EmailTemplatesController.php.html#29\">App\\Controller\\Admin\\EmailTemplatesController::index<\/a>"],[0,13,"<a href=\"EmailTemplatesController.php.html#39\">App\\Controller\\Admin\\EmailTemplatesController::sendemail<\/a>"],[0,3,"<a href=\"EmailTemplatesController.php.html#156\">App\\Controller\\Admin\\EmailTemplatesController::add<\/a>"],[0,7,"<a href=\"EmailTemplatesController.php.html#174\">App\\Controller\\Admin\\EmailTemplatesController::edit<\/a>"],[0,1,"<a href=\"EmailTemplatesController.php.html#203\">App\\Controller\\Admin\\EmailTemplatesController::view<\/a>"],[0,1,"<a href=\"FormsManagementController.php.html#20\">App\\Controller\\Admin\\FormsManagementController::initialize<\/a>"],[0,1,"<a href=\"FormsManagementController.php.html#26\">App\\Controller\\Admin\\FormsManagementController::index<\/a>"],[0,1,"<a href=\"GlobalSectionsController.php.html#20\">App\\Controller\\Admin\\GlobalSectionsController::initialize<\/a>"],[0,6,"<a href=\"GlobalSectionsController.php.html#26\">App\\Controller\\Admin\\GlobalSectionsController::index<\/a>"],[0,3,"<a href=\"GlobalSectionsController.php.html#93\">App\\Controller\\Admin\\GlobalSectionsController::global_update<\/a>"],[0,1,"<a href=\"HomePageController.php.html#20\">App\\Controller\\Admin\\HomePageController::initialize<\/a>"],[0,1,"<a href=\"HomePageController.php.html#29\">App\\Controller\\Admin\\HomePageController::valueprops<\/a>"],[0,4,"<a href=\"HomePageController.php.html#39\">App\\Controller\\Admin\\HomePageController::addValueprops<\/a>"],[0,4,"<a href=\"HomePageController.php.html#71\">App\\Controller\\Admin\\HomePageController::editValueprops<\/a>"],[0,1,"<a href=\"HomePageController.php.html#102\">App\\Controller\\Admin\\HomePageController::deleteValueprops<\/a>"],[0,1,"<a href=\"HomePageController.php.html#114\">App\\Controller\\Admin\\HomePageController::activeValueprops<\/a>"],[0,1,"<a href=\"HomePageController.php.html#124\">App\\Controller\\Admin\\HomePageController::deactiveValueprops<\/a>"],[0,11,"<a href=\"HomePageController.php.html#136\">App\\Controller\\Admin\\HomePageController::homepage<\/a>"],[0,1,"<a href=\"HomePageController.php.html#287\">App\\Controller\\Admin\\HomePageController::ourpartner<\/a>"],[0,4,"<a href=\"HomePageController.php.html#297\">App\\Controller\\Admin\\HomePageController::addOurpartner<\/a>"],[0,4,"<a href=\"HomePageController.php.html#329\">App\\Controller\\Admin\\HomePageController::editOurpartner<\/a>"],[0,1,"<a href=\"HomePageController.php.html#358\">App\\Controller\\Admin\\HomePageController::deleteOurpartner<\/a>"],[0,1,"<a href=\"HomePageController.php.html#370\">App\\Controller\\Admin\\HomePageController::activeOurpartner<\/a>"],[0,1,"<a href=\"HomePageController.php.html#380\">App\\Controller\\Admin\\HomePageController::deactiveOurpartner<\/a>"],[0,1,"<a href=\"HomePageController.php.html#396\">App\\Controller\\Admin\\HomePageController::banner<\/a>"],[0,4,"<a href=\"HomePageController.php.html#406\">App\\Controller\\Admin\\HomePageController::addBanner<\/a>"],[0,4,"<a href=\"HomePageController.php.html#438\">App\\Controller\\Admin\\HomePageController::editBanner<\/a>"],[0,1,"<a href=\"HomePageController.php.html#467\">App\\Controller\\Admin\\HomePageController::deleteBanner<\/a>"],[0,1,"<a href=\"HomePageController.php.html#479\">App\\Controller\\Admin\\HomePageController::activeBanner<\/a>"],[0,1,"<a href=\"HomePageController.php.html#489\">App\\Controller\\Admin\\HomePageController::deactiveBanner<\/a>"],[0,1,"<a href=\"OrganizationsController.php.html#21\">App\\Controller\\Admin\\OrganizationsController::initialize<\/a>"],[0,6,"<a href=\"OrganizationsController.php.html#30\">App\\Controller\\Admin\\OrganizationsController::index<\/a>"],[0,15,"<a href=\"OrganizationsController.php.html#64\">App\\Controller\\Admin\\OrganizationsController::add<\/a>"],[0,1,"<a href=\"OrganizationsController.php.html#204\">App\\Controller\\Admin\\OrganizationsController::downloadFile<\/a>"],[0,20,"<a href=\"OrganizationsController.php.html#213\">App\\Controller\\Admin\\OrganizationsController::edit<\/a>"],[0,2,"<a href=\"OrganizationsController.php.html#372\">App\\Controller\\Admin\\OrganizationsController::view<\/a>"],[0,4,"<a href=\"OrganizationsController.php.html#393\">App\\Controller\\Admin\\OrganizationsController::doctors<\/a>"],[0,15,"<a href=\"OrganizationsController.php.html#430\">App\\Controller\\Admin\\OrganizationsController::addDoctor<\/a>"],[0,10,"<a href=\"OrganizationsController.php.html#543\">App\\Controller\\Admin\\OrganizationsController::editDoctor<\/a>"],[0,3,"<a href=\"OrganizationsController.php.html#615\">App\\Controller\\Admin\\OrganizationsController::viewDoctor<\/a>"],[0,2,"<a href=\"OrganizationsController.php.html#653\">App\\Controller\\Admin\\OrganizationsController::delete<\/a>"],[0,2,"<a href=\"OrganizationsController.php.html#678\">App\\Controller\\Admin\\OrganizationsController::standardOpenemrOutput<\/a>"],[0,2,"<a href=\"OrganizationsController.php.html#695\">App\\Controller\\Admin\\OrganizationsController::maketestclinic<\/a>"],[0,2,"<a href=\"OrganizationsController.php.html#713\">App\\Controller\\Admin\\OrganizationsController::deleteDoctor<\/a>"],[0,1,"<a href=\"OrganizationsController.php.html#731\">App\\Controller\\Admin\\OrganizationsController::active<\/a>"],[0,1,"<a href=\"OrganizationsController.php.html#741\">App\\Controller\\Admin\\OrganizationsController::deactive<\/a>"],[0,1,"<a href=\"OrganizationsController.php.html#751\">App\\Controller\\Admin\\OrganizationsController::activeDoctor<\/a>"],[0,1,"<a href=\"OrganizationsController.php.html#762\">App\\Controller\\Admin\\OrganizationsController::deactiveDoctor<\/a>"],[0,3,"<a href=\"OrganizationsController.php.html#774\">App\\Controller\\Admin\\OrganizationsController::clinicColorScheme<\/a>"],[0,23,"<a href=\"OrganizationsController.php.html#798\">App\\Controller\\Admin\\OrganizationsController::addProviders<\/a>"],[0,1,"<a href=\"OrganizationsController.php.html#1169\">App\\Controller\\Admin\\OrganizationsController::providers<\/a>"],[0,6,"<a href=\"OrganizationsController.php.html#1181\">App\\Controller\\Admin\\OrganizationsController::deleteProvider<\/a>"],[0,9,"<a href=\"OrganizationsController.php.html#1221\">App\\Controller\\Admin\\OrganizationsController::editProvider<\/a>"],[0,2,"<a href=\"OrganizationsController.php.html#1291\">App\\Controller\\Admin\\OrganizationsController::getspecialization<\/a>"],[0,2,"<a href=\"OrganizationsController.php.html#1315\">App\\Controller\\Admin\\OrganizationsController::getSpecializationLocation<\/a>"],[0,2,"<a href=\"OrganizationsController.php.html#1344\">App\\Controller\\Admin\\OrganizationsController::getlocation<\/a>"],[0,7,"<a href=\"OrganizationsController.php.html#1374\">App\\Controller\\Admin\\OrganizationsController::outputFormat<\/a>"],[0,7,"<a href=\"OrganizationsController.php.html#1415\">App\\Controller\\Admin\\OrganizationsController::enabletelehealth<\/a>"],[0,1,"<a href=\"OrganizationsController.php.html#1466\">App\\Controller\\Admin\\OrganizationsController::clinicDoctorList<\/a>"],[0,1,"<a href=\"OrganizationsController.php.html#1476\">App\\Controller\\Admin\\OrganizationsController::clinicProviderList<\/a>"],[0,2,"<a href=\"OrganizationsController.php.html#1487\">App\\Controller\\Admin\\OrganizationsController::generateOrganizationSecret<\/a>"],[0,1,"<a href=\"OrganizationsController.php.html#1504\">App\\Controller\\Admin\\OrganizationsController::showProSecret<\/a>"],[0,1,"<a href=\"OrganizationsController.php.html#1517\">App\\Controller\\Admin\\OrganizationsController::generateProviderSecret<\/a>"],[0,1,"<a href=\"OrganizationsController.php.html#1527\">App\\Controller\\Admin\\OrganizationsController::generateorgsecret<\/a>"],[0,8,"<a href=\"OrganizationsController.php.html#1595\">App\\Controller\\Admin\\OrganizationsController::secretkeyaction<\/a>"],[0,3,"<a href=\"OrganizationsController.php.html#1666\">App\\Controller\\Admin\\OrganizationsController::resetLink<\/a>"],[0,2,"<a href=\"OrganizationsController.php.html#1702\">App\\Controller\\Admin\\OrganizationsController::clinicrequest<\/a>"],[0,1,"<a href=\"OrganizationsController.php.html#1723\">App\\Controller\\Admin\\OrganizationsController::managelocation<\/a>"],[0,1,"<a href=\"OrganizationsController.php.html#1731\">App\\Controller\\Admin\\OrganizationsController::locations<\/a>"],[0,3,"<a href=\"OrganizationsController.php.html#1741\">App\\Controller\\Admin\\OrganizationsController::editLocation<\/a>"],[0,2,"<a href=\"OrganizationsController.php.html#1759\">App\\Controller\\Admin\\OrganizationsController::deleteLocation<\/a>"],[0,9,"<a href=\"OrganizationsController.php.html#1771\">App\\Controller\\Admin\\OrganizationsController::addLocation<\/a>"],[0,1,"<a href=\"ReportsStatisticsController.php.html#20\">App\\Controller\\Admin\\ReportsStatisticsController::initialize<\/a>"],[0,21,"<a href=\"ReportsStatisticsController.php.html#26\">App\\Controller\\Admin\\ReportsStatisticsController::index<\/a>"],[0,1,"<a href=\"SpecializationsController.php.html#20\">App\\Controller\\Admin\\SpecializationsController::initialize<\/a>"],[0,1,"<a href=\"SpecializationsController.php.html#26\">App\\Controller\\Admin\\SpecializationsController::index<\/a>"],[0,3,"<a href=\"SpecializationsController.php.html#35\">App\\Controller\\Admin\\SpecializationsController::add<\/a>"],[0,3,"<a href=\"SpecializationsController.php.html#54\">App\\Controller\\Admin\\SpecializationsController::edit<\/a>"],[0,1,"<a href=\"SpecializationsController.php.html#72\">App\\Controller\\Admin\\SpecializationsController::view<\/a>"],[0,5,"<a href=\"SpecializationsController.php.html#79\">App\\Controller\\Admin\\SpecializationsController::addSteps<\/a>"],[0,1,"<a href=\"SpecializationsController.php.html#116\">App\\Controller\\Admin\\SpecializationsController::substeps<\/a>"],[0,5,"<a href=\"SpecializationsController.php.html#125\">App\\Controller\\Admin\\SpecializationsController::addSubsteps<\/a>"],[0,1,"<a href=\"SpecializationsController.php.html#161\">App\\Controller\\Admin\\SpecializationsController::delete<\/a>"],[0,1,"<a href=\"SpecializationsController.php.html#173\">App\\Controller\\Admin\\SpecializationsController::active<\/a>"],[0,1,"<a href=\"SpecializationsController.php.html#183\">App\\Controller\\Admin\\SpecializationsController::deactive<\/a>"],[0,1,"<a href=\"UsersController.php.html#22\">App\\Controller\\Admin\\UsersController::initialize<\/a>"],[0,1,"<a href=\"UsersController.php.html#50\">App\\Controller\\Admin\\UsersController::index<\/a>"],[0,54,"<a href=\"UsersController.php.html#62\">App\\Controller\\Admin\\UsersController::view<\/a>"],[0,9,"<a href=\"UsersController.php.html#266\">App\\Controller\\Admin\\UsersController::edit<\/a>"],[0,11,"<a href=\"UsersController.php.html#300\">App\\Controller\\Admin\\UsersController::login<\/a>"],[0,3,"<a href=\"UsersController.php.html#358\">App\\Controller\\Admin\\UsersController::forgotpassword<\/a>"],[0,7,"<a href=\"UsersController.php.html#413\">App\\Controller\\Admin\\UsersController::resetPassword<\/a>"],[0,1,"<a href=\"UsersController.php.html#460\">App\\Controller\\Admin\\UsersController::logout<\/a>"],[0,6,"<a href=\"UsersController.php.html#476\">App\\Controller\\Admin\\UsersController::profile<\/a>"],[0,1,"<a href=\"UsersController.php.html#528\">App\\Controller\\Admin\\UsersController::delete<\/a>"],[0,1,"<a href=\"UsersController.php.html#542\">App\\Controller\\Admin\\UsersController::active<\/a>"],[0,1,"<a href=\"UsersController.php.html#552\">App\\Controller\\Admin\\UsersController::deactive<\/a>"],[0,12,"<a href=\"UsersController.php.html#562\">App\\Controller\\Admin\\UsersController::useractivity<\/a>"],[0,1,"<a href=\"UsersController.php.html#621\">App\\Controller\\Admin\\UsersController::timetracking<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

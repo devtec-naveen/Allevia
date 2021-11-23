@@ -1,0 +1,23 @@
+﻿/*Data Table Responsive*/
+.dataTables_wrapper .row{margin-left: 0px;margin-right:0px; }
+
+.sticky-btn-add{ position: fixed;right: 25px; bottom: 50px;}  
+/*End Data Table Responsive*/
+/*label.form-label {
+    font-weight: bold !important;
+    color: black !important;
+}*/
+
+pre {
+  overflow-x: auto;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+  word-break: normal !important;
+}
+.form-control:disabled, .form-control[readonly] {
+    background-color: #fff !important;
+    opacity: 1;
+}

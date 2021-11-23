@@ -1,0 +1,4013 @@
+{
+	"rheumatoid arthritis": {
+        "duration chronic >6 week": {
+            "type": "CHAR",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "duration <6 weeks": {
+            "type": "CHAR",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "hand pain": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no hand pain": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "wrist pain": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no wrist pain": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "finger pain": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no finger pain": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "age>": {
+            "type": "ID",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "age<": {
+            "type": "ID",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "response to corticosteroids": {
+            "type": "TMNT",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no response to corticosteroids": {
+            "type": "TMNT",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "abnormal erythrocyte sedimentation rate": {
+            "type": "DIAG",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "normal erythrocyte sedimentation rate": {
+            "type": "DIAG",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "weight loss": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no weight loss": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "fatigue": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no fatigue": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "depression": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no depression": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "fever": {
+            "type": "SIGN",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no fever": {
+            "type": "SIGN",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "morning stiffness >30 minutes": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "morning stiffness <30 minutes": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "abnormal rheumatoid factor": {
+            "type": "DIAG",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "normal rheumatoid factor": {
+            "type": "DIAG",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "abnormal antinuclear antibody": {
+            "type": "DIAG",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "normal antinuclear antibody": {
+            "type": "DIAG",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "abnormal urinalysis": {
+            "type": "DIAG",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "normal urinalysis": {
+            "type": "DIAG",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "normal serum urate": {
+            "type": "DIAG",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "abnormal serum urate": {
+            "type": "DIAG",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "abnormal radiographs": {
+            "type": "DIAG",
+            "associated symptoms": {
+                "joint erosion": 1.0
+            },
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "normal radiographs": {
+            "type": "DIAG",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "joint swelling": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no joint swelling": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "response to dmards": {
+            "type": "DIAG",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no response to dmards": {
+            "type": "DIAG",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "abnormal cyclic citrullinated peptide antibodies": {
+            "type": "DIAG",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "normal cyclic citrullinated peptide antibodies": {
+            "type": "DIAG",
+            "prevalence": NaN,
+            "power": NaN
+        }
+    },
+    "ankylosing spondylitis": {
+        "filler": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        }
+    },
+    "psoriatic arthritis": {
+        "hand pain": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no hand pain": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "psoriasis": {
+            "type": "HIST",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no psoriasis": {
+            "type": "HIST",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "joint pain": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no joint pain": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "stiffness": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no stiffness": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "abnormal rheumatoid factor": {
+            "type": "DIAG",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "normal rheumatoid factor": {
+            "type": "DIAG",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "morning stiffness >30 minutes": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "morning stiffness <30 minutes": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "improvement with physical activity": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no improvement with physical activity": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "worsening with immobility": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no worsening with immobility": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "stress pain": {
+            "type": "PHYS",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no stress pain": {
+            "type": "PHYS",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "joint line tenderness": {
+            "type": "PHYS",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no joint line tenderness": {
+            "type": "PHYS",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "joint effusion": {
+            "type": "PHYS",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no joint effusion": {
+            "type": "PHYS",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "back pain": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no back pain": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "finger pain": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no finger pain": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "skin lesions": {
+            "type": "PHYS",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no skin lesions": {
+            "type": "PHYS",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "scalp lesions": {
+            "type": "PHYS",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no scalp lesions": {
+            "type": "PHYS",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "abnormal radiograph": {
+            "type": "DIAG",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "normal radiograph": {
+            "type": "DIAG",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "antinuclear antibodies": {
+            "type": "DIAG",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "leukocytosis": {
+            "type": "DIAG",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "abnormal erythrocyte sedimentation rate": {
+            "type": "DIAG",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "hla-b27": {
+            "type": "DIAG",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "anticyclic citrullinated peptide antibodies": {
+            "type": "DIAG",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "rheumatoid arthritis": {
+            "type": "HIST",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no rheumatoid arthritis": {
+            "type": "HIST",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "hypertension": {
+            "type": "HIST",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no hypertension": {
+            "type": "HIST",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "diabetes mellitus": {
+            "type": "HIST",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no diabetes mellitus": {
+            "type": "HIST",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "depression": {
+            "type": "HIST",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no depression": {
+            "type": "HIST",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "coronary artery disease": {
+            "type": "HIST",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no coronoary artery disease": {
+            "type": "HIST",
+            "prevalence": NaN,
+            "power": NaN
+        }
+    },
+    "sternocostolavicular hyperostosis": {
+        "filler": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        }
+    },
+    "systemic lupus erythematosus": {
+        "filler": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        }
+    },
+    "infectious arthritis": {
+        "filler": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        }
+    },
+    "polychondritis": {
+        "filler": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        }
+    },
+    "osteoporosis": {
+        "filler": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        }
+    },
+    "osteomalacia": {
+        "filler": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        }
+    },
+    "sickle cell disease": {
+        "filler": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": ""
+        }
+    },
+    "carpal tunnel syndrome": {
+        "hand pain": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no hand pain": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "numbness": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no numbness": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "tingling": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no tingling": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "abnormal xray": {
+            "type": "DIAG",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "normal xray": {
+            "type": "DIAG",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "abnormal emg": {
+            "type": "DIAG",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "normal emg": {
+            "type": "DIAG",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "work in an office": {
+            "type": "HIST",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "response to nsaids": {
+            "type": "TMNT",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no response to nsaids": {
+            "type": "TMNT",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "current pregnancy": {
+            "type": "RISK",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no current pregnancy": {
+            "type": "RISK",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "diabetes mellitus type 2": {
+            "type": "HIST",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no diabetes mellitus type 2": {
+            "type": "HIST",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "rheumatoid arthritis": {
+            "type": "HIST",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no rheumatoid arthritis": {
+            "type": "HIST",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "wrist trauma": {
+            "type": "HIST",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no wrist trauma": {
+            "type": "HIST",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "nocturnal parasthesia": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no nocturnal parasthesia": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "abnormal tournaquet test": {
+            "type": "PHYS",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "normal tournaquet test": {
+            "type": "PHYS",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "hypothenar atrophy": {
+            "type": "PHYS",
+            "power": 1.6,
+            "prevalence": NaN
+        },
+        "no hypothenar atropy": {
+            "type": "PHYS",
+            "power": 0.99,
+            "prevalence": NaN
+        },
+        "tinel sign": {
+            "type": "PHYS",
+            "power": 1.5,
+            "prevalence": NaN
+        },
+        "no tinel sign": {
+            "type": "PHYS",
+            "power": 0.82,
+            "prevalence": NaN
+        },
+        "phanel sign": {
+            "type": "PHYS",
+            "power": 1.3,
+            "prevalence": NaN
+        },
+        "no phanel sign": {
+            "type": "PHYS",
+            "power": 0.74,
+            "prevalence": NaN
+        },
+        "bilateral": {
+            "type": "LOCA",
+            "power": 1.4,
+            "prevalence": NaN
+        },
+        "unilateral": {
+            "type": "LOCA",
+            "power": 0.7,
+            "prevalence": NaN
+        },
+        "weak thumb abduction": {
+            "type": "PHYS",
+            "power": 1.8,
+            "prevalence": NaN
+        },
+        "normal thumb abduction": {
+            "type": "PHYS",
+            "power": 0.5,
+            "prevalence": NaN
+        },
+        "age>40": {
+            "type": "ID",
+            "power": 1.3,
+            "prevalence": NaN
+        },
+        "age<=40": {
+            "type": "ID",
+            "power": 0.5,
+            "prevalence": NaN
+        },
+        "classic or probable hand diagram": {
+            "type": "LOCA",
+            "power": 2.4,
+            "prevalence": NaN
+        },
+        "normal hand diagram": {
+            "type": "LOCA",
+            "power": 0.5,
+            "prevalence": NaN
+        },
+        "hypalgesia": {
+            "type": "PHYS",
+            "power": 3.1,
+            "prevalence": NaN
+        },
+        "no hypalgesia": {
+            "type": "PHYS",
+            "power": 0.7,
+            "prevalence": NaN
+        },
+        "abnormal 2-point discrimination": {
+            "type": "PHYS",
+            "power": 1.3,
+            "prevalence": NaN
+        },
+        "normal 2-point discrimination": {
+            "type": "PHYS",
+            "power": 0.99,
+            "prevalence": NaN
+        },
+        "abnormal vibration": {
+            "type": "PHYS",
+            "power": 1.6,
+            "prevalence": NaN
+        },
+        "normal vibration": {
+            "type": "PHYS",
+            "power": 0.8,
+            "prevalence": NaN
+        },
+        "abnormal monofilament": {
+            "type": "PHYS",
+            "power": 1.5,
+            "prevalence": NaN
+        },
+        "normal monofilament": {
+            "type": "PHYS",
+            "power": 0.7,
+            "prevalence": NaN
+        },
+        "square wrist sign": {
+            "type": "PHYS",
+            "power": 2.7,
+            "prevalence": NaN
+        },
+        "no square wrist sign": {
+            "type": "PHYS",
+            "power": 0.5,
+            "prevalence": NaN
+        },
+        "closed fist sign": {
+            "type": "PHYS",
+            "power": 7.3,
+            "prevalence": NaN
+        },
+        "no closed fist sign": {
+            "type": "PHYS",
+            "power": 0.4,
+            "prevalence": NaN
+        },
+        "flick sign": {
+            "type": "PHYS",
+            "power": 21.0,
+            "prevalence": NaN
+        },
+        "no flick sign": {
+            "type": "PHYS",
+            "power": 0.1,
+            "prevalence": NaN
+        },
+        "abnormal pressure provocation test": {
+            "type": "PHYS",
+            "power": 1.1,
+            "prevalence": NaN
+        },
+        "normal pressure provocation test": {
+            "type": "PHYS",
+            "power": 0.89,
+            "prevalence": NaN
+        }
+    },
+    "osteoarthritis": {
+        "wrist pain": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no wrist pain": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "male": {
+            "type": "ID",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "age<=40": {
+            "type": "ID",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "worsening with activity": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no worsening with activity": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "morning stiffness <30 mins": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "morning stiffness >30 mins": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "joint locking": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no joint locking": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "joint instability": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no joint instability": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "loss of function/interference with adls": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no loss of function": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "asymmetric": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "symmetric": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "normal xray": {
+            "type": "DIAG",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "abnormal xray": {
+            "type": "DIAG",
+            "associated symptoms": {
+                "osteophytes": 2.33,
+                "joint space narrowing": 1.99
+            },
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "normal erythrocyte sedimentation rate": {
+            "type": "DIAG",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "abnromal erythrocyte sedimentation rate": {
+            "type": "DIAG",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "normal c-reactive protein": {
+            "type": "DIAG",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "abnormal c-reactive protein": {
+            "type": "DIAG",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "normal uric acid level": {
+            "type": "DIAG",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "abnormal uric acid level": {
+            "type": "DIAG",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "rheumatoid factors": {
+            "type": "DIAG",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "antinuclear antibody": {
+            "type": "DIAG",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "lyme serology": {
+            "type": "DIAG",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no osteophytes": {
+            "type": "PHYS",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "female": {
+            "type": "ID",
+            "power": 1.23,
+            "prevalence": NaN
+        },
+        "history of hand injury": {
+            "type": "HIST",
+            "power": 3.64,
+            "prevalence": NaN
+        },
+        "osteoarthritis family history": {
+            "type": "HIST",
+            "power": 2.57,
+            "prevalence": NaN
+        },
+        "age>40": {
+            "type": "ID",
+            "power": 3.78,
+            "prevalence": NaN
+        },
+        "bmi>29": {
+            "type": "ID",
+            "power": 8.3,
+            "prevalence": NaN
+        },
+        "24<bmi<=29": {
+            "type": "ID",
+            "power": 1.3,
+            "prevalence": NaN
+        },
+        "osteophytes": {
+            "type": "PHYS",
+            "power": 1.46,
+            "prevalence": NaN
+        }
+    },
+    "stenosing flexor tenosynovitis": {
+        "response to steroids": {
+            "type": "TMNT",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no response to steroids": {
+            "type": "TMNT",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "pop sound with forced flexion": {
+            "type": "PHYS",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no pop sound with forced flexion": {
+            "type": "PHYS",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "cannot flex middle finger": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "can flex middle finger": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "normal flexion of middle finger": {
+            "type": "PHYS",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "abnormal flexion of middle finger": {
+            "type": "PHYS",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "diabetes mellitus": {
+            "type": "HIST",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "rheumatoid arthritis": {
+            "type": "HIST",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "amyloidosis": {
+            "type": "HIST",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "age>50": {
+            "type": "ID",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "age<50": {
+            "type": "ID",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "trauma": {
+            "type": "",
+            "prevalence": NaN,
+            "power": NaN
+        }
+    },
+    "de quervain's tenosynovitis": {
+        "age>40": {
+            "type": "ID",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "age<40": {
+            "type": "ID",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "black": {
+            "type": "ID",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "caucasian": {
+            "type": "ID",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "female": {
+            "type": "ID",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "male": {
+            "type": "ID",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "bilateral": {
+            "type": "",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "unilateral": {
+            "type": "",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "abnormal finkelstein test": {
+            "type": "PHYS",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "normal finkelstein test": {
+            "type": "PHYS",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "medial epicondylitis": {
+            "type": "HIST",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "lateral epicondylitis": {
+            "type": "HIST",
+            "prevalence": NaN,
+            "power": NaN
+        }
+    },
+    "dupuytren's contracture": {
+        "caucasian": {
+            "type": "ID",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "age>50": {
+            "type": "ID",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "age<50": {
+            "type": "ID",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "family history": {
+            "type": "HIST",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "diabetes mellitus": {
+            "type": "HIST",
+            "prevalence": NaN,
+            "power": NaN
+        }
+    },
+    "felon": {
+        "finger pain": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no finger pain": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "fever": {
+            "type": "SIGN",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no fever": {
+            "type": "SIGN",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "penetrating injury": {
+            "type": "",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "nail pulp": {
+            "type": "",
+            "prevalence": NaN,
+            "power": NaN
+        }
+    },
+    "jersey finger": {
+        "finger pain": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no finger pain": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "trauma": {
+            "type": "HIST",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no trauma": {
+            "type": "HIST",
+            "prevalence": NaN,
+            "power": NaN
+        }
+    },
+    "mallet finger": {
+        "finger pain": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no finger pain": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "trauma": {
+            "type": "HIST",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no trauma": {
+            "type": "HIST",
+            "prevalence": NaN,
+            "power": NaN
+        }
+    },
+    "carpal scaphoid fracture": {
+        "hand pain": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no hand pain": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "snuffbox tenderness": {
+            "type": "PHYS",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no snuffbox tenderness": {
+            "type": "PHYS",
+            "prevalence": NaN,
+            "power": NaN
+        }
+    },
+    "colles fracture": {
+        "wrist pain": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no wrist pain": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "hand pain": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no hand pain": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "trauma": {
+            "type": "HIST",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no trauma": {
+            "type": "HIST",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "normal xray": {
+            "type": "DIAG",
+            "power": 0.01,
+            "prevalence": NaN
+        }
+    },
+    "ganglion cyst": {
+        "wrist pain": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no wrist pain": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "wrist lump": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no wrist lump": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "palpable mass": {
+            "type": "PHYS",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no palpable mass": {
+            "type": "PHYS",
+            "prevalence": NaN,
+            "power": NaN
+        }
+    },
+    "non-gonococcal septic arthritis": {
+        "abnormal synovial lactate": {
+            "type": "DIAG",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "normal synovial lactate": {
+            "type": "DIAG",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "location knee": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "rigors": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "subjective fever": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "sweats": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "pain": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "swelling": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no swelling": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "fever": {
+            "type": "SIGN",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no fever": {
+            "type": "SIGN",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "warmth": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no warmth": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "recent joint surgery": {
+            "type": "HIST",
+            "power": 6.9,
+            "prevalence": NaN
+        },
+        "no recent joint surgery": {
+            "type": "HIST",
+            "power": 0.78,
+            "prevalence": NaN
+        },
+        "cellulitis": {
+            "type": "HIST",
+            "power": 2.8,
+            "prevalence": NaN
+        },
+        "no cellulitis": {
+            "type": "HIST",
+            "power": 0.76,
+            "prevalence": NaN
+        },
+        "prosthetic joints": {
+            "type": "RISK",
+            "power": 15.0,
+            "prevalence": NaN
+        },
+        "no prosthetic joints": {
+            "type": "RISK",
+            "power": 0.7,
+            "prevalence": NaN
+        },
+        "rheumatoid arthritis": {
+            "type": "HIST",
+            "power": 2.5,
+            "prevalence": NaN
+        },
+        "no rheumatoid arthritis": {
+            "type": "HIST",
+            "power": 0.45,
+            "prevalence": NaN
+        },
+        "hiv": {
+            "type": "HIST",
+            "power": 1.2,
+            "prevalence": NaN
+        },
+        "no hiv": {
+            "type": "HIST",
+            "power": 0.64,
+            "prevalence": NaN
+        },
+        "age>80": {
+            "type": "ID",
+            "power": 3.5,
+            "prevalence": NaN
+        },
+        "age<=80": {
+            "type": "ID",
+            "power": 0.86,
+            "prevalence": NaN
+        },
+        "diabetes mellitus": {
+            "type": "HIST",
+            "power": 2.7,
+            "prevalence": NaN
+        },
+        "no diabetes mellitus": {
+            "type": "HIST",
+            "power": 0.93,
+            "prevalence": NaN
+        }
+    },
+    "gout": {
+        "wrist pain": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        },
+        "no wrist pain": {
+            "type": "SUBJ",
+            "prevalence": NaN,
+            "power": NaN
+        }
+    },
+    "calcium pyrophosphate dehydrate deposition disease": {},
+    "hemachromatosis": {},
+    "cervical spondylotic myelopathy": {
+        "neck pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no neck pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "pain riadiates to shoulder OR arm": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "pain does not radiate to shoulder OR arm": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "numbness OR tingling in arms": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no numbness OR tingling in arms": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "change in gait": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no change in gait": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "change in bladder function": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no change in bladder function": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "weakness of arms OR hands": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no weakness of arms or hands": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "C5-C7 myotome": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "LOCA"
+        },
+        "no myotomal disturbution": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "Lhermitte sign present": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "Lhermitte sign not present": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+    
+        },
+        "decreased upper extremity reflexes": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "increased OR normal upper extremity reflexes": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "increased lower extremity reflexes": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "decreased OR normal lower extremity reflexes": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "Babinski sign present": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "Babinksi sign absent": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no chills": {
+            "power": NaN,
+            "prevalence": 0.81,
+            "type": "SUBJ"
+        },
+        "spastic gait": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no spastic gait": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "weakness of intrinsic hand muscles": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no weakness of intrinsic hand muscles": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "sensory loss in hands": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no sensory loss in hands": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "age > 55": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "ID"
+        },
+        "age <= 55": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "ID"
+        },
+        "A-P diameter of spinal canal < 10 mm": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG",
+            "modality":"MRI"
+        },
+        "A-P diameter of spinal canal >= 10 mm": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG",
+            "modality":"MRI"
+        }
+    },
+    "cervical disc radiculopathy": {
+        "neck pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no neck pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "shoulder pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no shoulder pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "arm pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no arm pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "C5-T1 nerve root": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "LOCA"
+        },
+        "no nerve root distribution": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "LOCA"
+        },
+        "history lumbar radiculopathy": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no history lumbar radiculopathy": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "arm weakness": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no arm weakness": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "antecedent event": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no antecedent event": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "decreased deep tendon reflexes": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "normal OR increased deep tendon reflexes": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "sensory disturbance": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no sensory disturbance ": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "sensory disturbance dermatomal": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "LOCA"
+        },
+        "sensory disturbance not dermatomal": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "LOCA"
+        },
+        "Myotomal muscle weakness": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no myotomal muscle weakness": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "positive Spurling's maneuver": {
+            "power": 4.29,
+            "prevalence": 0.75,
+            "type": "PHYS"
+        },
+        "negative Spurling's maneuver": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "positive shoulder abduction relief test": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "negative shoulder abduction relief test": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "EMG positive": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "EMG negative": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        }
+    },
+    "lumbosacral disc radiculopathy": {
+        "back pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no back pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "pain radiates to buttocks OR legs": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "pain does not radiate to leg OR buttocks": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "paresthesias in leg": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no paresthesias in leg": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "sensory disturbance in leg": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no sensory disturbance in leg": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+         },
+        "leg weakness": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no leg weakness": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "antecedent event": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no antecedent event": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "positive straight leg raise": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "negative straight leg raise": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "positive contralateral straight leg raise": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "negative contralateral straight leg raise": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "postitive reverse straight leg riase": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "negative reverse straight leg raise": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "positive EMG": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "negative EMG": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        }
+    },
+     "lumbar spinal stenosis": {
+        "back pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no back pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "buttock pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no buttock pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "pain bilateral": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "pain unilateral": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "pain worse with walking": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "pain better or the same with walking": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+         },
+        "worse with prolonged standing": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "no change or better with prolonged standing": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "no pain with sitting": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "pain worse with sitting": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "leg weakness": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no leg weakness": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        }
+    },
+     "axial spondyloarthritis": {
+        "back pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no back pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },        
+        "duration >= 3 months": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "duration < 3 months": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "age <= 40 years old": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "ID"
+        },
+        "age > 40 years old": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "family history ankylosing spondylitis": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "RISK"
+        },
+        "no family history ankylosing spondylitis": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "RISK"
+        },
+        "HLA-B27 positive": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "HLA-B27 negative": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "hip pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no hip pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "shoulder pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no shoulder pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "pain in other joints": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no pain in other joints": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "asymmetric joint pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "symmetric joint pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "no antecedent event": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "antecedent event": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "pain improves with exercise": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "pain does not improve with exercise": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "elevated CRP": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "normal CRP": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "elevated ESR": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "normal ESR": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "dactylitis": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no dactylitis": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "uveitis": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no uveitis": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        }
+    },
+     "vertebral body compression fracture": {
+        "back pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no back pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "duration >= 3 months": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "pain dull": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "pain not dull": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "pain sharp": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "pain not sharp": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "sudden onset": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "no sudden onset": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+         },
+        "pain chronic >= 1 month": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "pain acute < 1 month": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "pain midline spine": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "pain not midline spine": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "onset after sudden bending": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no onset after sudden bending": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "onset after lifting": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no onset after lifting": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "minor trauma": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no minor trauma": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "height loss": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no height loss": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "kyphosis": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no kyphosis": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "age >= 60": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "ID"
+        },
+        "age < 60": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "ID"
+        },
+        "anterior wedging of vertebrae": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "vertebral collapse": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "vertebral endplate irregularity": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "general dimineralization": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "normal radiograph": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        }
+    },
+     "rheumatoid arthritis 2": {
+        "neck pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no neck pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "duration chronic >= 6 weeks": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "duration < 6 weeks": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "neck stiffness": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no neck stiffness": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "finger pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no finger pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+         },
+        "response to corticosteroids": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "TMNT"
+        },
+        "no response to corticosteroids": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "TMNT"
+        },
+        "elevated erythrocyte sediment rate": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "normal erythrocyte sediment rate": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "weight loss": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no weight loss": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "fatigue": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no fatigue": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "pain in shoulders OR pelvic girdle": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "LOCA"
+        },
+        "no pain in shoulders OR pelvic girdle": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "LOCA"
+        },
+        "morning stiffness": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no morning stiffness": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "morning stiffness >30": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "diagnosed morning stiffness": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "abnormal rheumatoid factor": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "normal rheumatoid factor": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "normal antinuclear antibody": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "abnormal antinuclear antibody": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "abnormal uninalyis": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "normal urinalysis": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "normal serum urate": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "abnormal serum urate": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "joint erosion": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG",
+            "modality": "xray"
+        },
+        "normal radiographs": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "joint swelling": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no joint swelling": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "response to DMARDs": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "TRMT"
+        },
+        "no response to DMARDS": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "TRMT"
+        },
+        "abnormal cyclic citrullinated peptide antibodies": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "normal cyclic citrullinated peptide antibodies": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "positive babinski sign": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "negative babinski sign": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "increased lower extremity reflexes": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "normal OR decreased lower extremity reflexes": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        }
+    },
+    "spondylosis": {
+        "back pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no back pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "athlete": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "not an athlete": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "dancer OR gymnast OR football lineman OR wrestler OR driver OR figure skater": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "not a dancer OR gymnast OR football lineman OR wrestler OR driver OR figure skater": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "insidious onset of pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "acute onset of pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+         },
+        "no night pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "night pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "recent growth": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no recent growth": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "male": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "female": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "age >= 7": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "ID"
+        },
+        "age < 7": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "ID"
+        },
+        "spina bifida occulta": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no spina bifida occulta": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "Scheuermann's kyphosis": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no Scheuermann's kyphosis": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "pain with lumbar extension": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no pain with lumbar extension": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "pain does not radiate to buttocks OR posterior legs": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "pain radiates to buttocks OR posterior legs": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "no parathesias": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "parathesias": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no lower extremity weakness": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "lower extremity weakness": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "defect in pars interarticularis": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG",
+            "modality": "xray"
+        },
+        "Scotty dog": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG",
+            "modality": "xray"
+        },
+        "normal radiographs": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        }
+    },
+    "spondylolisthesis": {
+        "back pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no back pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "athlete": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "not an athlete": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "dancer OR gymnast OR football lineman OR wrestler OR driver OR figure skater": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "not a dancer OR gymnast OR football lineman OR wrestler OR driver OR figure skater": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "recent growth": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no recent growth": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+         },
+        "acute worsening of the pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "no acute worsening of the pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "pain radiates to buttocks OR posterior legs": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "pain does not radiate to buttocks OR posterior legs": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "pain worsens during back extension": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "no change in pain during back extension": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "parathesias": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no parathesias": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "extremity weakness": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no extremity weakness": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "age >= 7": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "ID"
+        },
+        "age < 7": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "ID"
+        },
+        "spina bifida occulta": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no spina bifida occulta": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "Scheuermann's kyphosis": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no Scheuermann's kyphosis": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "pain with lumbar extension": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no pain with lumbar extension": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "spondylosis": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no spondylosis": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "exaggerated posterior pelvic tilt": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no exaggerated posterior pelvic tilt": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "defect in pars interarticularis": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG",
+            "modality": "xray"
+        },
+        "Scotty dog": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG",
+            "modality": "xray"
+        },
+        "vertebral slippage": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG",
+            "modality": "xray"
+        },
+        "normal radiographs": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        }
+    },
+    "cauda equina syndrome": {
+        "back pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no back pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "lumbar OR sacral": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "LOCA"
+        },
+        "cervical OR thoracic": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "LOCA"
+        },
+        "pain radiating to unilateral OR bilateral legs": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "pain not radiating to unilateral OR bilateral legs": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "difficulty urinating or incontinence": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no difficulty urinating or incontinence": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+         },
+        "sensory disturbance": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no sensory disturbance": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "sensory disturbance dermatomal": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "LOCA"
+        },
+        "sensory disturbance not dermatomal": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "LOCA"
+        },
+        "weakness of plantar flexion": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no weakness of plantar flexion": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "loss of ankle reflex": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no loss of ankle reflex": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        }
+    },
+    "conus medullaris syndrome": {
+        "back pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no back pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "lumbar OR sacral": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "LOCA"
+        },
+        "cervical OR thoracic": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "LOCA"
+        },
+        "fecal incontinence": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no fecal incontinence": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "urinary incontinence": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no urinary incontinence": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+         },
+        "leg weakness": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no leg weakness": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "saddle anesthesia": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no saddle anesthesia": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "cancer": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no cancer": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "disc herniation": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no disc herniation": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "abnormal MRI": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG",
+            "lesion at L2":""
+        },
+        "normal MRI": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        }
+    },
+    "epidural abscess": {
+        "back pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no back pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "severe": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "not severe": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "LOCA"
+        },
+        "focal midline pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "no focal midline pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "shooting OR electric pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "no shooting or electric pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+         },
+        "fever": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no fever": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "lower extremity weakness": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no lower extremity weakness": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "lower extremity sensory disturbance": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no lower extremity sensory disturbance": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "erythrocyte sediment rate elevated (>20 mm/hr)": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "erythrocyte sediment rate normal (<=20 mm/hr)": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "positive blood cultures": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "negative blood cultures": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "positive abscess cultures": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "negative abscess cultures": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        }
+    },
+    "epidural hematoma": {
+        "back pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no back pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "anticoagulant therapy": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no anticoagulant therapy": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "thrombocytopenia": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no thrombocytopenia": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "midline pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "LOCA"
+        },
+        "no midline pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "LOCA"
+         },
+        "spinal dural puncture": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no spinal dural puncture": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "abnormal MRI": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG",
+            "hyperintense spinal lesion on T2":""
+        },
+        "normal MRI": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        }
+    },
+    "cervicalgia (neck pain)": {
+        "neck pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no neck pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "non-focal": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "LOCA"
+        },
+        "focal": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "LOCA"
+        },
+        "no recent weight loss": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "recent weight loss": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no night sweats": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "night sweats": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+         },
+        "no cancer": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "cancer": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "age <= 50": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "ID"
+        },
+        "age > 50": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "ID"
+        },
+        "duration pain < 1 month": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "duration pain >= 1 month": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "no lower extremity weakness": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "lower extremity weakness": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no numbness OR sensory changes": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "numbness OR sensory changes": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "pain OR weakness OR numbness stable": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "pain OR weakness OR numbness worsening": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "no bowel incontinence": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "bowel incontinence": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no bladder incontinence": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "bladder incontinence": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no injection drug use": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "injection drug use": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no recent bacterial infection": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "recent bacterial infection": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no neurologic findings": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "non tender to spinal percussion": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "tender to spinal percussion": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "overreaction during physical exam": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no overreaction during physical exam": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "nstraight leg raise improves with distraction ": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "straight leg raise positive with distraction ": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "pain with axial loading ": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no pain with axial loading ": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        }
+    },
+    "lumbago (low back pain)": {
+        "back pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no back pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "non-focal": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "LOCA"
+        },
+        "focal": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "LOCA"
+        },
+        "no recent weight loss": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "recent weight loss": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no night sweats": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "night sweats": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no cancer": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "cancer": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "age <= 50": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "ID"
+        },
+        "age > 50": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "ID"
+        },
+        "duration pain < 1 month": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "duration pain >= 1 month": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "no lower extremity weakness": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "lower extremity weakness": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no numbness OR sensory changes": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "numbness OR sensory changes": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "pain OR weakness OR numbness stable": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "pain OR weakness OR numbness worsening": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "no bowel incontinence": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "bowel incontinence": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no bladder incontinence": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "bladder incontinence": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no injection drug use": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "injection drug use": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no recent bacterial infection": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "recent bacterial infection": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no neurologic findings": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "non tender to spinal percussion": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "tender to spinal percussion": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "overreaction during physical exam": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no overreaction during physical exam": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "nstraight leg raise improves with distraction ": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "straight leg raise positive with distraction ": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "pain with axial loading ": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no pain with axial loading ": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        }
+    },
+    "ostemyelitis": {
+        "back pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no back pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "pain over spine": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "LOCA"
+        },
+        "pain in paraspinal muscles": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "LOCA"
+        },
+        "insidious onset pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "acute onset pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "pain worse at night": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "bain better at night": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "pain worse with activity": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "pain better with activity": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "pain radiates to abdomen OR leg OR groin": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "pain does not radiate to abdomen OR leg OR groin": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "age >50": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "ID"
+        },
+        "age <= 50": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "ID"
+        },
+        "male": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "ID"
+        },
+        "female": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "ID"
+        },
+        "injection drug use": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no injection drug use": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "infective endocarditis": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no infective endocarditis": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "degenerative spine disease": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "degenerative spine disease 2": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "spinal surgery": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no spinal surgery": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "diabetes mellitus": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no diabetes mellitus": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "immunocompromised state": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no immunocompromised state": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "fever": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no fever": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "tender to percussion of spine": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "non-tender to percussion of spine": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "elevated erythrocyte sedimentrate": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "normal erythrocyte sediment rate": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "elevated c reactive protein": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "normal c reactive protein": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "positive CT-guided biopsy": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "negative CT-guided biopsy": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "hypointense vertebral body": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG",
+            "modality": "T1 MRI"
+        },
+        "hyperintense disc": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG",
+            "modality": "T2 MRI"        
+        },
+        "normal MRI": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG",
+            "modality": "MRI"        
+        },
+        "bony sequestra": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG",
+            "modality": "CT scan"        
+        },
+        "normal CT scan": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG",
+            "modality": "CT scan"
+        }
+    },
+    "discitis": {
+        "back pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no back pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "pain over spine": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "LOCA"
+        },
+        "pain in paraspinal muscles": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "LOCA"
+        },
+        "insidious onset pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "acute onset pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "pain worse at night": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "bain better at night": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "pain worse with activity": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "pain better with activity": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "pain radiates to abdomen OR leg OR groin": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "pain does not radiate to abdomen OR leg OR groin": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "age >50": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "ID"
+        },
+        "age <= 50": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "ID"
+        },
+        "male": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "ID"
+        },
+        "female": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "ID"
+        },
+        "injectio drug use": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no injection drug use": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "infective endocarditis": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no infective endocarditis": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "degenerative spine disease": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "degenerative spine disease 2": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "spinal surgery": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no spinal surgery": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "diabetes mellitus": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no diabetes mellitus": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "immunocompromised state": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no immunocompromised state": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "fever": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "no fever": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "tender to percussion of spine": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "non-tender to percussion of spine": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "PHYS"
+        },
+        "elevated erythrocyte sedimentrate": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "normal erythrocyte sediment rate": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "elevated c reactive protein": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "normal c reactive protein": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "positive CT-guided biopsy": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "negative CT-guided biopsy": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "hypointense vertebral body": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG",
+            "modality": "T1 MRI"
+        },
+        "hyperintense disc": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG",
+            "modality": "T2 MRI"        
+        },
+        "normal MRI": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"  
+        },
+        "bony sequestra": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG",
+            "modality": "CT scan"        
+        },
+        "normal CT scan": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        }
+    },
+    "spinal tumor": {
+        "back pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "no back pain": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "SUBJ"
+        },
+        "insidious onset": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "acute onset": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "pain focal over spine": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "pain nonfocal OR paraspinal": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "CHAR"
+        },
+        "cancer": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "no cancer": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "HIST"
+        },
+        "elevated alkaline phosphate": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "normal alkaline phosphate": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "hypercalcemia": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "normal calcium level": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        },
+        "lumbar OR thoracic": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "LOCA"
+        },
+        "paraspinal": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "LOCA"
+        },
+        "bone lesion": {
+            "power": 22.75,
+            "prevalence": NaN,
+            "type": "DIAG",
+            "modality": "MRI"
+        },
+        "normal MRI": {
+            "power": NaN,
+            "prevalence": NaN,
+            "type": "DIAG"
+        }
+    }
+}

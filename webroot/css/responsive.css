@@ -1,0 +1,2002 @@
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/*@media only screen and (min-width:1024px) and (max-width:1169px){...}
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width:1400px) and (max-width:2560px){
+	.login-cover .card {padding: 48px;}
+	.provider-sec .login-cover .card .logo a {font-size: 42px !important;margin-bottom: 10px;}
+    .provider-sec .login-box .logo small {font-size: 20px;font-weight: 500;margin-bottom: 20px;}
+    .provider-sec .login-cover .logo img {max-width: 220px;}
+    .provider-sec .login-box .msg { margin-bottom: 15px;font-size: 18px;}
+    .btt-center {padding: 10px 0px 20px 0px;}
+    .provider-sec .login-box a {font-size: 18px;}
+    .provider-sec {
+    max-width: 490px;}
+    .login-cover {
+    max-width: 490px;}
+}
+
+@media (max-width:1280px){
+	.provider-sec {
+    max-width: 420px;
+	}
+		.login-cover {
+	    max-width: 420px;
+	}
+	.footer-tit {font-size: 18px;margin-bottom: 25px;}
+	.footer-link li {
+	    margin-bottom: 5px;
+	}
+	.footer-logo-box {
+	    padding-right: 30px;
+	}
+	.footer-social {flex-wrap: wrap;}
+	.footer-social li {
+        padding-right: 10px;
+	    padding-bottom: 5px;
+	}
+	.about_video_des {padding: 20px 0px;}
+}
+
+@media (max-width: 1024px){
+	.footer-social li a {width: 35px;min-width: 35px;height: 35px;}
+	.banner-ai-info h6 {font-size: 36px;}
+    .banner-ai-info h5 {font-size: 62px;}
+    .banner-ai-info p {font-size: 18px;}
+    .main-head h2 {font-size: 26px;}
+    .article-work-sec h4 {font-size: 18px;padding-bottom: 20px;margin-bottom: 0px;}
+    .how-it-sec {padding: 40px 0px;}
+    .the-perks-sec {padding: 45px 0px;}
+    .help-with-sec {padding: 40px 0px;}
+    .help-with-text h5 {font-size: 28px;}
+    .sign-up-sec {padding: 45px 0px;}
+    .sign-in-head h6 {font-size: 26px;}
+    .footer-main {padding:40px 0px;}
+    header .navbar .nav-item .nav-link {padding: 5px 15px;}
+    .home-banner {padding: 45px 0px;}
+
+}
+
+@media only screen and (min-width:1024px) and (max-width:1169px){
+
+
+	/*-------Index.html responsice csss-------------*/
+	.section-padding{
+	padding: 55px 0px;
+	}
+	.HomeSlider .carousel-caption article{
+		margin-left: 30px;
+	}
+	.HomeSlider h3{
+		font-size: 36px !important;
+	}
+	.HomeSlider p {
+		font-size: 15px;
+	}
+	.TitleHead{
+		margin-bottom: 45px;
+	}
+	.TitleHead h3{
+		font-size: 30px;
+	}
+	.HowItWorks .col-md-4 article img{
+		width: 120px;
+	}
+	.HowItWorks .col-md-4 figure{
+		margin-bottom: 15px;
+	}
+	.HowItWorks .col-md-4 h4{
+		font-size: 18px;
+	}
+	.AboutHome{
+		padding-top: 0;
+	}
+	.AboutHome .ScrollElements{
+		width: 120px;
+		left: -40px;
+	}
+	.AboutHome .ScrollElements1{
+		width: 70px;
+		left: 920px;
+	}
+	.AboutHome .ScrollElements2{
+		width: 70px;
+		left: 20px;
+	}
+	.AboutHome .col-md-5 img{
+		max-width: 230px;
+	}
+	.AboutHome .col-md-7 .AboutHeadLine{
+		margin-top: 30px;
+		margin-bottom: 15px;
+	}
+	.AboutHome .col-md-7 p{
+		margin-bottom: 15px;
+	}
+	.about_top_head h2{
+		margin-bottom: 0;
+	}
+	.AboutHome .AboutVideo{
+		margin-top: 55px;
+	}
+	.ResultSec .col-md-7{
+		padding-right: 15px;
+	}
+	.ResultAccordian .mb-0{
+		font-size: 17px;
+	}
+	.ResultAccordian .mb-0 img{
+		width: 36px;
+	}
+	.ResultSec article img{
+		width: 350px;
+		margin-top: 40px;
+	}
+	.AlleviaTabel tr td{
+		font-size: 17px;
+	}
+	.AlleviaTabel tr td img{
+		width: 28px;
+	}
+	.OurPartner{
+		padding: 45px 0;
+	}
+	.OurPartnerSlider{
+		width: 800px;
+		margin: 0 auto;
+	}
+	.FootBlue .col-md-2 .btn{
+		font-size: 13px;
+	}
+	.FootLinkBox .FootHead{
+		font-size: 22px;
+	}
+	.FootBlue .col-md-10 h6{
+		font-size: 22px;
+	}
+	.FooterMain{
+		padding: 50px 0;
+	}
+	.FootLinkBox ul li{
+		margin-bottom: 18px;
+	}
+	.FootLinkBox .footSocial li a span{
+		width: 32px;
+		height: 32px;
+		line-height: 32px;
+	}
+	.FooterRight{
+		padding-left: 80px;
+	}
+
+	/*------------------About-us page responsive css---------------*/
+	.about_top_head{
+		padding: 40px 0px;
+		padding-bottom: 0;
+	}
+	.about_ger a img{ width: 540px; }
+	.about_top_des{
+		padding-bottom: 40px;
+	}
+	.video_des{
+		padding: 25px 0 0 0;
+	}
+	.video_des p{
+		padding-bottom: 10px;
+	}
+	.video_des p:last-child{
+		padding-bottom: 0;
+	}
+
+	/*------------------Contact-us page responsive css---------------*/
+	.form_bg_box{
+		padding: 60px 0;
+	}
+	/*------------------dashbaord-page responsive css----------------*/
+	.appointments_box_top{
+		padding: 20px;
+	}
+	.appointments_box_top .appointments_left{
+		width: 100%;
+	}
+	.appointments_box_top .appointments_left h4{
+		text-align: center;
+	}
+	.appointments_box_top .appointments_left span{
+		text-align: center;
+	}
+	.appointments_box_top .appointments_progress{
+		width: 100%;
+		text-align: center;
+		padding-top: 15px;
+	}
+	.appointments_button a{
+		font-size: 14px;
+	}
+	.my_account_button{
+		padding-right: 10px;
+	}
+	.back_next_button{
+		padding: 15px 0 10px 0px;
+	}
+	.dashboard_content{
+		min-height: 100%;width: calc(100% - 170px);
+	}
+	.edit_medical_box .step_head.step_head_deactive .step_tab ul li{
+		width: 130px;
+	}
+	.common_conditions_button{
+		padding: 15px 0 10px 15px !important;
+	}
+	.new_appointment_form .col-md-3 .alert-info{padding:10px 5px; font-size:13px;}
+}	
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*@media only screen and (min-width:768px) and (max-width:1023px){...}
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+@media (max-width: 991px){
+	header {padding: 5px 0px;}
+	header .navbar {padding: 5px 0px;}
+	.navbar.navbar-expand-lg.navbar-light a img{max-width:40px;}
+	.navbar.navbar-expand-lg.navbar-light .schedule-btns {padding-right:50px;position: absolute;top: 7px;right: 0;}
+	.navbar-nav.ml-auto {padding: 15px;}
+	header .navbar .nav-item .nav-link {padding: 5px 10px;}
+	.navbar .navbar-collapse {position: absolute;min-width: 340px;background: #f7fcff;top: 55px;right: 0 !important;
+		left: auto;box-shadow: 0px 10px 10px rgba(39, 46, 123, 0.28);
+		-webkit-transition: 0.5s ease-in-out;
+		-moz-transition: 0.5s ease-in-out;
+		-o-transition: 0.5s ease-in-out;
+		transition: 0.5s ease-in-out;
+	}
+	body.fixed .navbar .navbar-collapse {position: absolute;top: 50px;transition: 0.3s ease-in-out;}
+	.site-wraper {padding-top: 60px;}
+	.banner-ai-info h6 {font-size: 28px;}
+	.banner-ai-info h5 {font-size: 52px;}
+	.banner-ai-info p {font-size: 16px;}
+	.perks-box {padding: 15px;}
+	.help-with-text h5 {font-size: 22px;}
+	.sign-up-sec {padding: 30px 0px;}
+	.sign-in-head h6 {font-size: 22px;}
+	.row.blue-form{margin-right: -5px;margin-left: -5px;}
+	.row.blue-form .col-sm-6{padding-right: 5px;padding-left: 5px;}
+	.navbar .navbar-toggler {padding: 1px 5px !important;border-radius: 2px;
+		background: linear-gradient(135deg, rgb(82, 97, 250) 0%,rgb(26, 45, 243) 100%);
+	}
+	.navbar.navbar-light .navbar-toggler-icon{position: relative;background-image: none;display: flex;align-items: center;justify-content: center;}
+	.navbar.navbar-light .navbar-toggler-icon::after{content: "\EF3E";font-family: remixicon !important;font-style: normal;color: #fff;font-size: 24px;}
+	.schedule-btns .btn{border-radius: 2px;}
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px){
+
+	/*-------------Responsive navbar css-----------------*/
+	body.fixed header { padding: 0; }
+	.navbar-toggler{
+		position: relative;
+		z-index: 1;
+		padding-right: 0 !important;
+	}
+	header .MenuNav{
+		margin-right: 0;
+	}
+	#video-carousel-example2 .carousel-item{
+		height: 75vh;
+	}
+	.navbar-expand-lg{
+		padding-right: 0 !important;
+	}
+	.my_account_box{
+		display: block;
+		width: 100%;
+	}
+	.my_account_button{
+		width: 50%;
+		margin: 0 auto;
+	}
+	.navbar .dropdown-menu{
+		left: 43%;
+	}
+	.navbar-expand-lg{
+		padding-right: 0 !important;
+	}
+	body.fixed  .home_header .logo > img{
+		margin-top: 15px !important;
+	}
+	.navbar.scrolling-navbar.top-nav-collapse{
+		padding-top: 6px;
+		padding-bottom: 0;
+	}
+	.navbar.scrolling-navbar.top-nav-collapse .navbar-toggler-icon{
+		padding-top: 5px;
+	}
+	.navbar.scrolling-navbar.top-nav-collapse .navbar-toggler-icon i{
+		top: 2px !important;
+	}
+	.home_header .navbar .navbar-collapse{
+		display: block !important;
+		position: fixed;
+		width: 300px;
+		background: #f0f5fd;
+		height: 100%;
+		right: -300px;
+		transition: .25s ease-in-out;
+		top: 0;
+		padding-top: 70px;
+	}
+	.navbar-expand-lg ul.login_signup{
+		margin-top: 30px;
+		padding-right: 15px !important;
+	}
+	.navbar-expand-lg ul.login_signup li{
+		margin-bottom: 10px;
+	}
+/* 	header .navbar-expand-lg .navbar-nav{
+		float: none;
+		display: block;
+		text-align: center;
+	} */
+	header .navbar-collapse.show{
+	right: 0 !important;
+	}
+	header .navbar-toggler.collapsed .fa-times{
+		display: none;
+	}
+	header .navbar-toggler.collapsed .fa-bars{
+		display: block;
+	}
+	header .navbar-toggler .fa-times{
+		display: block;
+		color: #484682;
+	}
+	header .navbar-toggler .fa-bars{
+		display: none;
+		color: #484682;
+	}
+	.home_header .navbar .navbar-toggler-icon i{
+		position: relative;
+		top: 5px;
+		right: -5px;
+	}
+	.home_header .logo{
+		margin-top: 5px;
+		padding: 5px 0;
+		width: 36px;
+	}
+	.home_header .logo img{
+		width: 35px;
+	}
+
+	/*---------responsive navbar css end here------------*/
+	.section-padding{
+		padding: 45px 0px;
+	}
+	.btn{
+		font-size: 12px;
+		padding: 8px 18px !important;
+	}
+	.HomeSlider .carousel-caption article{
+		margin-left: 30px;
+		margin-top: 50px;
+	}
+	.HomeSlider h3{
+		font-size: 34px;
+	}
+	.HomeSlider p {
+		font-size: 14px;
+	}
+	.TitleHead{
+		margin-bottom: 30px;
+	}
+	.TitleHead h3{
+		font-size: 27px;
+	}
+	.HowItWorks .col-md-4 article img{
+		width: 110px;
+	}
+	.HowItWorks .col-md-4 p{
+		font-size: 13px;
+	}
+	.HowItWorks .col-md-4 figure{
+		margin-bottom: 15px;
+	}
+	.HowItWorks .col-md-4 h4{
+		font-size: 16px;
+	}
+	.AboutHome{
+		padding-top: 0;
+	}
+	.about_top_head h2{
+		margin-bottom: 0;
+	}
+	.AboutHome .ScrollElements{
+		width: 120px;
+		left: -40px;
+	}
+	.AboutHome .ScrollElements1{
+		width: 70px;
+		left: 685px;
+	}
+	.AboutHome .ScrollElements2{
+		width: 70px;
+		left: 20px;
+	}
+	.AboutHome .col-md-5 img{
+		max-width: 230px;
+	}
+	.AboutHome .col-md-7 .AboutHeadLine{
+		margin-top: 30px;
+		margin-bottom: 15px;
+	}
+	.AboutHome .col-md-7 p{
+		margin-bottom: 15px;
+	}
+	.AboutHome .AboutVideo{
+		margin-top: 55px;
+	}
+	.VideoFrame iframe{
+		height: 320px;
+	}
+	.ResultSec .col-md-7{
+		padding-right: 15px;
+	}
+	.ResultAccordian .mb-0{
+		font-size: 16px;
+	}
+	.ResultAccordian .mb-0 img{
+		width: 32px;
+	}
+	.ResultAccordian .card-body{
+		font-size: 13px;
+	}
+	.ResultSec article img{
+		width: 350px;
+		margin-top: 40px;
+	}
+	.AlleviaTabel tr td{
+		font-size: 14px;
+		padding: 8px;
+	}
+	.AlleviaTabel tr td:last-child{
+		width: 45px;
+	}
+	.AlleviaTabel tr td img{
+		width: 26px;
+	}
+	.AlleviaTabel figure{
+		padding: 15px 0;
+	}
+	.BullteList ul li{
+		font-size: 13px;
+	}
+	.OurPartner{
+		padding: 45px 0;
+	}
+	.OurPartnerSlider{
+		width: 645px;
+		margin: 0 auto;
+	}
+	.footBlue{
+		padding: 30px 0;
+	}
+	.FootBlue .col-md-2 .btn{
+		font-size: 12px;
+	}
+	.FootLinkBox .FootHead{
+		font-size: 17px;
+	}
+	.FootBlue .col-md-10 h6{
+		font-size: 18px;
+		margin-top: 18px;
+	}
+	.FooterMain{
+		padding: 50px 0;
+	}
+	.FootLinkBox ul li{
+		margin-bottom: 18px;
+	}
+	.FootLinkBox ul li a{
+		font-size: 12px;
+	}
+	.FootLinkBox .footSocial li a span{
+		width: 32px;
+		height: 32px;
+		line-height: 32px;
+	}
+	.FootLogo a img{
+		width: 130px;
+	}
+	.FootLogoPart .FootLogo p{
+		font-size: 13px;
+	}
+	.FootLogoPart .FootAddress ul li a span{
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+		padding-top: 8px;
+	}
+	.FootLogoPart .FootAddress ul li a font{
+		font-size: 13px;
+	}
+	.FootCopyright p{
+		font-size: 13px;
+	}
+	.FooterRight{
+		padding-left: 80px;
+	}
+	/*------------------About-us page responsive css---------------*/
+	.inner_page_content{
+		padding-top: 65px;
+	}
+	.about_top_head{
+		padding: 30px 0px;
+		padding-bottom: 0;
+	}
+	.about_top_head h2{
+		font-size: 30px;
+	}
+	.about_des h3{
+		font-size: 18px;
+	}
+	.about_des p{
+		font-size: 13px;
+		line-height: 28px;
+	}
+	.about_ger a img{width: 540px; margin-top: 15px;  }
+	.about_top_des{
+		padding-bottom: 35px;
+	}
+	.video_des{
+		padding: 20px 0 0 0;
+	}
+	.video_des p:last-child{
+		padding-bottom: 0;
+	}
+	.video_des p{
+		padding-bottom: 10px;
+	}
+	.about_video_box .about_video iframe{
+		width: 700px;
+		height: 345px;
+	}
+	/*------------------Contact-us page responsive css---------------*/
+	.form_bg_box{
+		padding: 50px 0;
+	}
+	.form_bg_box .form_box_inner{
+		width: 100%;
+		display: block;
+	}
+	/*------------------dashbaord-page responsive css----------------*/
+	.appointments_box_top{
+		padding: 20px;
+	}
+	.appointments_box_top .appointments_left{
+		width: 100%;
+	}
+	.appointments_box_top .appointments_left h4{
+		text-align: center;
+	}
+	.appointments_box_top .appointments_left span{
+		text-align: center;
+	}
+	.appointments_box_top .appointments_progress{
+		width: 100%;
+		text-align: center;
+		padding-top: 15px;
+	}
+	.appointments_button a{
+		font-size: 14px;
+	}
+	.dashboard_menu, .dashboard_content{
+		float: none;
+		display: block;
+		width: 100%;
+	}
+	.dashboard_menu{
+		margin-bottom: 15px;
+	}
+	.dashboard_menu ul{
+		display: flex;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -o-flex;
+		display: -ms-flex;
+	}
+	.dashboard_menu ul li{
+		flex: 0 0 25%;
+	}
+	.dashboard_menu ul li{
+		border-left: solid 1px #e2e2e2;
+	}
+	.dashboard_menu ul li:last-child{
+		border-left: none;
+		border-bottom: solid 1px #e2e2e2;
+	}
+	.dashboard_menu ul li:last-child a{
+		border-radius: 0 4px 4px 0;
+	}
+	.dashboard_menu ul li:first-child a{
+		border-radius: 4px 0 0 4px;
+	}
+	.dashboard_menu ul li a span{
+		font-size: 13px;
+	}
+	.dashboard_menu ul li.active::before, .dashboard_menu ul li:hover::before{
+		content: "";
+		width: 0;
+		height: 0;
+		border-left: 10px solid transparent;
+		border-right: 10px solid transparent;
+		border-top: 10px solid #384685;
+		top: 100%;
+		z-index: 22;
+		transform: translateX(-50%);
+		left: 50%;
+	}
+	.appointments_box_top .appointments_left h4{
+		font-size: 42px;
+	}
+	.edit_medical_box .step_head.step_head_deactive .step_tab ul li{
+		width: 130px;
+	}
+	.edit_medical_box .step_head{
+		padding: 0 0 20px 0;
+	}
+	.new_appointment_box .edit_medical_box .step_head.step_head_deactive .step_tab::before{
+		width: 80%;
+	}
+	.dashboard_menu ul li{
+		border-left: solid 1px #e2e2e2;
+	}
+	.dashboard_menu ul li:last-child{
+		border-left: none;
+	}
+	.dashboard_menu ul li a{
+		padding: 10px;
+	}
+	.dashboard_menu ul li a i{
+		margin-bottom: 0;
+	}
+	.my_account_button{
+		padding-right: 10px;
+	}
+	.back_next_button{
+		padding: 10px;
+	}
+	.dashboard_content{
+		min-height: auto;
+	}
+	.step_tab{
+		width: 100%;
+		overflow-x: scroll;
+		overflow-y: hidden;
+		display: flex !important;
+		justify-content: center;
+	}
+	.step_tab ul#myTab{
+		width: auto;
+		height: auto;
+		display: table-cell;
+	}
+	.step_head .step_tab ul li{
+		float: none;
+		display: table-cell;
+	}
+	.step_head .step_tab::before{
+		display: none;
+	}
+	.appointment_table_box{
+		max-height: 370px;
+	}
+	.surgicalhistoryfldadd .crose_year .btn, .familyhistoryfldadd .crose_year .btn, .medicalhistoryfldadd .crose_year .btn, .allergyhistoryfldadd .crose_year .btn,
+	.shotshistoryfldadd .crose_year .btn, .otherdrughistoryfldadd .crose_year  {
+		margin-top: 0;
+	}
+	.common_conditions_button{
+		padding: 15px 0 10px 15px !important;
+	}
+	.step_head .step_tab ul li a span{
+		line-height: 17px;
+	}
+	.surgicalhistoryfldadd, .medicalhistoryfldadd, .familyhistoryfldadd, .allergyhistoryfldadd, .shotshistoryfldadd, .otherdrughistoryfldadd{
+		padding-top: 10px;
+	}
+    .new_appointment_form .col-md-3 .alert-info{padding:10px 5px; font-size:13px;}
+    .step_head .step_tab ul li a small { top: 3px;left: 38%; }
+    .step_head .step_tab ul li a { padding-top: 25px; }
+
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+/*@media only screen and (min-width:480px) and (max-width:767px){...}
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+@media (max-width: 767px){
+	.home-banner {padding: 35px 0px;}
+	.banner-ai-info {width: 100%;text-align: center;}
+	.banner-rw-ai {display: flex;justify-content: center; padding-bottom: 45px;}
+	.home-banner .row .col-md-7{display: flex;justify-content: center;}
+	.required-bx {text-align: center;max-width: 100%;margin: auto;padding-bottom: 25px;}
+	.help-with-sec .row .col-md-6 {justify-content: center;}
+	.help-with-sec .row .col-md-6 .help-with-text {
+	    margin: auto;
+	    width: 80%;
+	    padding-top: 40px;
+	}
+	.sign-in-head{width: 100%;text-align: center;padding-bottom: 20px;}
+	.row.blue-form .col-sm-12{text-align: center;}
+	.footer-tit {
+	    font-size: 18px;
+	    margin-bottom: 15px;
+	}
+	.footer-main .row .col-md-3{padding-bottom: 20px;}
+	.the-perks-sec .row{margin-right: -10px;margin-left: -10px;}
+	.the-perks-sec .row .col-md-6 {
+	    padding-bottom: 20px;
+	    display: flex;
+	    flex: 0 0 50%;
+	    max-width: 50%;
+	    padding-left: 10px;
+	    padding-right: 10px;
+	}
+	.perks-box {flex-wrap: wrap;padding: 15px;}
+	.perks-box figcaption h4 {font-size: 16px;}
+    .perks-box figcaption p {font-size: 14px;}
+    .footer-main {padding: 20px 0px;text-align: center;}
+	.footer-social {justify-content: center;}
+	.footer-logo-box .logo-footer {
+	    display: block;
+	    width: 250px;
+	    margin-bottom: 20px !important;
+	    margin: auto;
+	}
+	.footer-logo-box {padding-right: 15px;}
+}
+
+@media only screen and (min-width:480px) and (max-width:767px){
+
+	
+	/*-------------Responsive navbar css-----------------*/
+	body.fixed header { padding: 0; }
+	.navbar-toggler{
+		position: relative;
+		z-index: 1;
+		padding-right: 0;
+	}
+	#contact_form .form_fild_content, #login_form .form_fild_content, #regster_form .form_fild_content{
+		flex-direction: column-reverse;
+	}
+	header .MenuNav{
+		margin-right: 0;
+	}
+	#video-carousel-example2 .carousel-item{
+		height: 75vh;
+	}
+	.navbar-expand-lg{
+		padding-right: 0 !important;
+	}
+	.my_account_box{
+		display: block;
+		width: 100%;
+	}
+	.my_account_button{
+		width: 50%;
+		margin: 0 auto;
+	}
+	.navbar .dropdown-menu{
+		left: 43%;
+	}
+	body.fixed  .home_header .logo > img{
+		margin-top: 15px !important;
+	}
+	.navbar.scrolling-navbar.top-nav-collapse{
+		padding-top: 6px;
+		padding-bottom: 0;
+	}
+	.navbar.scrolling-navbar.top-nav-collapse .navbar-toggler-icon i{
+		top: 2px !important;
+	}
+	.navbar.scrolling-navbar.top-nav-collapse .navbar-toggler-icon{
+		padding-top: 5px;
+	}
+	.home_header .navbar .navbar-collapse{
+		display: block !important;
+		position: fixed;
+		width: 300px;
+		background: #f0f5fd;
+		height: 100%;
+		right: -300px;
+		transition: .25s ease-in-out;
+		top: 0;
+		padding-top: 70px;
+	}
+	.navbar-expand-lg ul.login_signup{
+		margin-top: 30px;
+		padding-right: 15px !important;
+	}
+	.navbar-expand-lg ul.login_signup li{
+		margin-bottom: 10px;
+	}
+	header .navbar-expand-lg .navbar-nav{
+		float: none;
+		display: block;
+		text-align: center;
+	}
+	header .navbar-collapse.show{
+	right: 0 !important;
+	}
+	header .navbar-toggler.collapsed .fa-times{
+		display: none;
+	}
+	header .navbar-toggler.collapsed .fa-bars{
+		display: block;
+	}
+	header .navbar-toggler .fa-times{
+		display: block;
+		color: #484682;
+	}
+	header .navbar-toggler .fa-bars{
+		display: none;
+		color: #484682;
+	}
+	.home_header .navbar .navbar-toggler-icon i{
+		position: relative;
+		top: 5px;
+		right: -5px;
+	}
+	.home_header .logo{
+		margin-top: 5px;
+		padding: 5px 0;
+		width: 36px;
+	}
+	.home_header .logo img{
+		width: 35px;
+	}
+
+	/*---------responsive navbar css end here------------*/
+	.section-padding{
+		padding: 30px 0px;
+	}
+	.btn{
+		font-size: 12px;
+		padding: 8px 18px !important;
+	}
+	.HomeSlider .carousel-caption article{
+		margin-left: 15px;
+		margin-top: 40px;
+	}
+	.HomeSlider h3{
+		font-size: 30px;
+	}
+	.HomeSlider p {
+		font-size: 13px;
+	}
+	.TitleHead{
+		margin-bottom: 20px;
+	}
+	.TitleHead h3{
+		font-size: 23px;
+	}
+	.HowItWorks .col-md-4 article img{
+		width: 100px;
+	}
+	.HowItWorks .col-md-4 p{
+		font-size: 13px;
+	}
+	.HowItWorks .col-md-4 figure{
+		margin-bottom: 15px;
+	}
+	.HowItWorks .col-md-4 h4{
+		font-size: 16px;
+	}
+	.HowItWorks{
+		padding-bottom: 20px;
+	}
+	.AboutHome{
+		padding-top: 0;
+	}
+	.AboutHome .col-md-7 h5{
+		font-size: 16px;
+	}
+	.about_top_head h2{
+		margin-bottom: 0;
+	}
+	.AboutHome .col-md-7 p{
+		font-size: 13px;
+		margin-bottom: 10px;
+	}
+	.AboutHome .ScrollElements{
+		width: 100px;
+		left: -40px;
+	}
+	.AboutHome .ScrollElements1{
+		width: 50px;
+		left: 400px;
+	}
+	.AboutHome .ScrollElements2{
+		width: 50px;
+		left: 20px;
+	}
+	.AboutHome .col-md-5 img{
+		max-width: 215px;
+	}
+	.AboutHome .col-md-7 .AboutHeadLine{
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+	.AboutHome .AboutVideo{
+		margin-top: 30px;
+	}
+	.VideoFrame iframe{
+		height: auto;
+	}
+	.ResultSec .col-md-7{
+		padding-right: 15px;
+	}
+	.ResultAccordian .mb-0{
+		font-size: 15px;
+	}
+	.ResultAccordian .mb-0 img{
+		width: 32px;
+	}
+	.ResultAccordian .card-body{
+		font-size: 13px;
+	}
+	.ResultSec article img{
+		width: 300px;
+		margin-top: 30px;
+	}
+	.AlleviaTabel tr td{
+		font-size: 14px;
+		padding: 8px;
+	}
+	.AlleviaTabel tr td:last-child{
+		width: 150px;
+	}
+	.AlleviaTabel tr td img{
+		width: 24px;
+	}
+	.AlleviaTabel figure{
+		padding: 15px 0;
+	}
+	.AlleviaTabel figure img{
+		width: 130px;
+	}
+	.ProBox h5{
+		font-size: 23px;
+		margin-bottom: 20px;
+	}
+	.BullteList ul li{
+		margin-bottom: 15px;
+	}
+	.HelthcareSec .HelthcareRight{
+		padding-left: 15px;
+		padding-top: 30px;
+
+	}
+	.BullteList ul li{
+		font-size: 13px;
+	}
+	.OurPartnerSlider{
+		width: 420px;
+		margin: 0 auto;
+	}
+	.footBlue{
+		padding: 30px 0;
+	}
+	.FootBlue .col-md-2 .btn{
+		font-size: 13px;
+		width: 220px;
+		margin: 0 auto;
+		display: block;
+	}
+	.FootLinkBox .FootHead{
+		font-size: 17px;
+	}
+	.FootBlue .col-md-10 h6{
+		font-size: 16px;
+		margin-top: 0;
+		margin-bottom: 18px;
+		text-align: center;
+	}
+	.FooterMain{
+		padding: 30px 0;
+	}
+	.FootLinkBox ul li{
+		margin-bottom: 18px;
+	}
+	.FootLinkBox ul li a{
+		font-size: 12px;
+	}
+	.FootLinkBox .footSocial li a span{
+		width: 28px;
+		height: 28px;
+		line-height: 28px;
+		padding-top: 8px;
+		position: relative;
+		top: 1px;
+	}
+	.FootLogo a img{
+		width: 130px;
+		display: block;
+		margin: 0 auto;
+	}
+	.FootLogoPart .FootLogo p{
+		font-size: 13px;
+		text-align: center;
+	}
+	.FootAddress ul{
+		display: block;
+		max-width: 100%;
+	}
+	.FootAddress ul li{
+		flex: 0 0 50%;
+	}
+	.FooterRight{
+		padding-left: 15px;
+		padding-top: 30px;
+	}
+	.FooterRight .row .col-md-6{
+		flex: 0 0 50%;
+	}
+
+	.FootLogoPart .FootAddress ul li a span{
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+		padding-top: 8px;
+	}
+	.FootLogoPart .FootAddress ul li a font{
+		font-size: 13px;
+	}
+	.FootCopyright p{
+		font-size: 12px;
+	}
+	/*------------------About-us page responsive css---------------*/
+	.inner_page_content{
+		padding-top: 65px;
+	}
+	.about_top_head{
+		padding: 30px 0px;
+		padding-bottom: 0;
+	}
+	.about_top_head h2{
+		font-size: 28px;
+	}
+	.about_des{
+		margin-left: 0;
+		margin-top: 15px;
+	}
+	.about_des h3{
+		font-size: 17px;
+	}
+	.about_des p{
+		font-size: 13px;
+		line-height: 28px;
+	}
+	.about_ger a img{display: block; margin: 0 auto; width: 540px; margin-top: 15px; }
+	.about_top_des{
+		padding-bottom: 35px;
+	}
+	.video_des{
+		padding: 15px 0 0 0;
+	}
+	.video_des p:last-child{
+		padding-bottom: 0;
+	}
+	.video_des p{
+		padding-bottom: 10px;
+		font-size: 13px;
+	}
+	.about_video_box .about_video iframe{
+		width: 400px;
+		height: 225px;
+	}
+	/*------------------Contact-us page responsive css---------------*/
+	.form_bg_box{
+		padding: 30px 0;
+	}
+	.form_bg_box .form_box_inner{
+		width: 100%;
+		display: block;
+	}
+	.form_ger img{
+		width: 350px;
+	}
+	.form_bg_box .TitleHead{
+		margin-bottom: 30px;
+	}
+	/*------------------dashbaord-page responsive css----------------*/
+	.appointments_box_top{
+		padding: 10px;
+	}
+	.appointments_box_top .appointments_left{
+		width: 100%;
+	}
+	.appointments_box_top .appointments_left h4{
+		text-align: center;
+	}
+	.appointments_box_top .appointments_left span{
+		text-align: center;
+	}
+	.appointments_box_top .appointments_progress{
+		width: 100%;
+		text-align: center;
+		padding-top: 15px;
+	}
+	.appointments_button a{
+		font-size: 14px;
+	}
+	.dashboard_menu, .dashboard_content{
+		float: none;
+		display: block;
+		width: 100%;
+	}
+	.dashboard_menu{
+		margin-bottom:15px;
+		overflow:auto;
+	}
+	.dashboard_menu ul{
+		display: flex;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -o-flex;
+		display: -ms-flex;
+		width:100%;
+		overflow: hidden;
+	}
+	.dashboard_menu ul li{
+		flex: 0 0 25%;
+		display: flex;
+		min-width: 25%;
+	}
+	.dashboard_menu ul li{
+		border-left: solid 1px #e2e2e2;
+	}
+	.dashboard_menu ul li:last-child{
+	 border-bottom: solid 1px #e2e2e2;
+	}
+	.dashboard_menu ul li:last-child a{
+		border-radius: 0 4px 4px 0;
+	}
+	.dashboard_menu ul li:first-child a{
+		border-radius: 4px 0 0 4px;
+	}
+	.appointments_box{
+		margin-bottom: 20px;
+	}
+	.dashboard_menu ul li a span{font-size:14px;line-height: 15px; min-height: 35px; display: block;}
+	.dashboard_menu ul li.active:before, .dashboard_menu ul li:hover:before{
+		content:none;
+		width: 0;
+		height: 0;
+		border-left: 10px solid transparent;
+		border-right: 10px solid transparent;
+		border-top: 10px solid #384685;
+		top: 100%;
+		z-index: 22;
+		transform: translateX(-50%);
+		left: 50%;
+	}
+	.appointments_box_top .appointments_left h4{
+		font-size: 40px;
+	}
+	.edit_medical_box .step_head.step_head_deactive .step_tab ul li{
+		width: 130px;
+	}
+	.edit_medical_box .step_head{
+		padding: 0 0 38px 0;
+	}
+	.new_appointment_box .edit_medical_box .step_head.step_head_deactive .step_tab::before{
+		width: 540px !important;
+	}
+	.new_appointment_box .chief_complaint_button{
+		padding: 15px 0 15px 0px;
+	}
+	.currentmedicationfldadd{
+		margin-top: 15px;
+	}
+	.currentmedicationfldtimes{
+		padding-left: 15px;
+	}
+	.step_head .step_tab ul li a span{
+		padding-bottom: 10px;
+	}
+	.dashboard_menu ul li a{
+		padding: 10px;
+		width: 100%;
+	}
+	.dashboard_menu ul li a i{
+		margin-bottom: 0;
+	}
+	.my_account_button{
+		padding-right: 10px;
+	}
+	.back_next_button{
+		padding: 10px;
+	}
+	.appointment_table_box table tr td, .appointment_table_box table tr th{
+		padding: 10px;
+	}
+	.edit_medical_box .step_head{
+		padding: 0 0 20px 0;
+	}	
+	.dashboard_content{
+		min-height: auto;
+	}
+	#myTabContent222 h4{
+		font-size: 20px;
+	}
+	.step_tab{
+		width: 100%;
+		overflow-x: scroll;
+		overflow-y: hidden;
+		display: flex !important:;
+		justify-content: center;
+	}
+	.step_tab ul#myTab{
+		width: auto;
+		height: auto;
+		display: table-cell;
+	}
+	.step_head .step_tab ul li{
+		float: none;
+		display: table-cell;
+	}
+	.step_head .step_tab::before{
+		display: none;
+	}
+	.new_appointment_form .form_submit_button button{
+		display: block;
+		margin: 0 auto;
+	}
+	.appointment_table_box{
+		max-height: 350px;
+	}
+	.common_conditions_button ul li{
+		margin-right: 4px;
+	}
+	.common_conditions_button{
+		padding: 15px 0 15px 10px !important;
+	}
+	.common_conditions_button ul li button{
+		padding: 8px !important;
+		font-size: 11px !important;
+	}
+	.crose_year .btn{
+		margin-top: 0 !important;
+		font-size: 13px !important;
+	}
+	.surgicalhistoryfldadd, .medicalhistoryfldadd, .familyhistoryfldadd, .allergyhistoryfldadd, .shotshistoryfldadd, .otherdrughistoryfldadd{
+		padding-top: 10px;
+	}
+	.step_head .step_tab ul li a span{
+		line-height: 15px;
+	}
+	.form_submit_button{
+		margin-top: 10px;
+	}
+	.form_submit_button button{
+		width: 100% !important;
+	}
+    
+	.new_appointment_form{text-align:center;}
+	.new_appointment_form .col-md-3 a img{height:125px;}
+	.step_head .step_tab ul li a small { top: 3px;left: 38%; }
+    .step_head .step_tab ul li a { padding-top: 25px; }
+
+    .shotshistoryfld{border-bottom: 1px solid #c6c6c6; padding-bottom: 15px; padding-top: 15px;}
+     
+   /* .header-sticky-tit { top: 49px !important; }*/
+   .provider-sec {padding: 15px !important;}
+   .nofillborder{border:1px solid #023264 !important;background-color: #fff !important;color:#023264 !important;font-weight: 500;}
+   .successfully-center-sec .about_top_head h1 {
+    font-size: 32px !important;
+    line-height: initial !important;
+    font-weight: 600 !important;}
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------*/
+/*@media only screen and (min-width:0px) and (max-width:479px){...}
+/*----------------------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width:0px) and (max-width:479px){
+
+
+	/*-------------Responsive navbar css-----------------*/
+	body.fixed header { padding: 0; }
+	.navbar-toggler{
+		position: relative;
+		z-index: 1;
+		padding-right: 0;
+	}
+	#contact_form .form_fild_content, #login_form .form_fild_content, #regster_form .form_fild_content{
+		flex-direction: column-reverse;
+	}
+	header .MenuNav{
+		margin-right: 0;
+	}
+	#video-carousel-example2 .carousel-item{
+		height: 75vh;
+	}
+	.navbar-expand-lg{
+		padding-right: 0 !important;
+	}
+	.my_account_box{
+		display: block;
+		width: 100%;
+	}
+	.my_account_button{
+		width: 50%;
+		margin: 0 auto;
+	}
+	.navbar .dropdown-menu{
+		left: 43%;
+	}
+	body.fixed  .home_header .logo > img{
+		margin-top: 15px !important;
+	}
+	.navbar.scrolling-navbar.top-nav-collapse{
+		padding-top: 6px;
+		padding-bottom: 0;
+	}
+	.navbar.scrolling-navbar.top-nav-collapse .navbar-toggler-icon{
+		padding-top: 5px;
+	}
+	.navbar.scrolling-navbar.top-nav-collapse .navbar-toggler-icon i{
+		top: 2px;
+	}
+	.home_header .navbar .navbar-collapse{
+		display: block !important;
+		position: fixed;
+		width: 100%;
+		background: #f0f5fd;
+		height: 100%;
+		right: -100%;
+		transition: .25s ease-in-out;
+		top: 0;
+		padding-top: 70px;
+	}
+	.navbar-expand-lg ul.login_signup{
+		margin-top: 30px;
+		padding-right: 15px !important;
+	}
+	.navbar-expand-lg ul.login_signup li{
+		margin-bottom: 10px;
+	}
+	header .navbar-expand-lg .navbar-nav{
+		float: none;
+		display: block;
+		text-align: center;
+	}
+	header .navbar-collapse.show{
+	right: 0 !important;
+	}
+	header .navbar-toggler.collapsed .fa-times{
+		display: none;
+	}
+	header .navbar-toggler.collapsed .fa-bars{
+		display: block;
+	}
+	header .navbar-toggler .fa-times{
+		display: block;
+		color: #484682;
+	}
+	header .navbar-toggler .fa-bars{
+		display: none;
+		color: #484682;
+	}
+	.home_header .navbar .navbar-toggler-icon i{
+		position: relative;
+		top: 5px;
+		right: -5px;
+	}
+	.home_header .logo{
+		margin-top: 5px;
+		padding: 5px 0;
+		width: 36px;	
+	}
+	.home_header .logo img{
+		width: 35px;
+	}
+
+	/*---------responsive navbar css end here------------*/
+	.section-padding{
+		padding: 25px 0px;
+	}
+	.btn{
+		font-size: 12px;
+		padding: 8px 18px !important;
+	}
+	.HomeSlider .carousel-caption article{
+		margin-left: 15px;
+		margin-top: 10px;
+	}
+	.HomeSlider h3{
+		font-size: 28px;
+	}
+	.HomeSlider p {
+		font-size: 12px;
+	}
+	.TitleHead{
+		margin-bottom: 15px;
+	}
+	.TitleHead h3{
+		font-size: 22px;
+	}
+	.HowItWorks .col-md-4 article img{
+		width: 90px;
+	}
+	.HowItWorks .col-md-4 p{
+		font-size: 12px;
+	}
+	.HowItWorks .col-md-4 figure{
+		margin-bottom: 15px;
+	}
+	.HowItWorks .col-md-4 h4{
+		font-size: 16px;
+	}
+	.HowItWorks{
+		padding-bottom: 20px;
+	}
+	.AboutHome{
+		padding-top: 0;
+	}
+	.AboutHome .col-md-7 h4{
+		font-size: 21px;
+	}
+	.AboutHome .col-md-7 h5{
+		font-size: 15px;
+	}
+	.AboutHome .col-md-7 p{
+		font-size: 12px;
+		margin-bottom: 10px;
+	}
+	.AboutHome .ScrollElements{
+		width: 80px;
+		left: -10px;
+	}
+	.AboutHome .ScrollElements1{
+		width: 30px;
+		left: 280px;
+	}
+	.AboutHome .ScrollElements2{
+		width: 00px;
+		left: 10px;
+	}
+	.AboutHome .col-md-5 img{
+		max-width: 215px;
+	}
+	.AboutHome .col-md-7 .AboutHeadLine{
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+	.AboutHome .AboutVideo{
+		margin-top: 25px;
+	}
+	.VideoFrame iframe{
+		height: auto;
+	}
+	.ResultSec .col-md-7{
+		padding-right: 15px;
+	}
+	.ResultAccordian .mb-0{
+		font-size: 14px;
+	}
+	.ResultAccordian .mb-0 img{
+		width: 32px;
+		margin-right: 6px;
+	}
+	.ResultAccordian .card-body{
+		font-size: 13px;
+	}
+	.ResultAccordian .mb-0 i{
+		position: absolute;
+		right: 0;
+		top: 8px;
+	}
+	.ResultSec article img{
+		width: 250px;
+		margin-top: 30px;
+	}
+	.AlleviaTabel tr td{
+		font-size: 14px;
+		padding: 8px;
+	}
+	.AlleviaTabel tr td:last-child{
+		width: 50px;
+	}
+	.AlleviaTabel tr td img{
+		width: 24px;
+	}
+	.AlleviaTabel figure{
+		padding: 15px 0;
+	}
+	.AlleviaTabel figure img{
+		width: 130px;
+	}
+	.ProBox h5{
+		font-size: 23px;
+		margin-bottom: 20px;
+	}
+	.BullteList ul li{
+		margin-bottom: 15px;
+		padding-left: 30px;
+	}
+	.HelthcareSec .HelthcareRight{
+		padding-left: 15px;
+		padding-top: 30px;
+
+	}
+	.BullteList ul li{
+		font-size: 13px;
+	}
+	.OurPartnerSlider{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.footBlue{
+		padding: 20px 0;
+	}
+	.FootBlue .col-md-2 .btn{
+		font-size: 13px;
+		width: 220px;
+		margin: 0 auto;
+		display: block;
+	}
+	.FootLinkBox .FootHead{
+		font-size: 17px;
+		margin-bottom: 15px;
+	}
+	.FootBlue .col-md-10 h6{
+		font-size: 14px;
+		margin-top: 0;
+		margin-bottom: 18px;
+		text-align: center;
+	}
+	.FooterMain{
+		padding: 30px 0;
+	}
+	.FootLinkBox ul li{
+		margin-bottom: 12px;
+	}
+	.FootLinkBox ul li a{
+		font-size: 12px;
+	}
+	.FootLinkBox .footSocial li a span{
+		width: 28px;
+		height: 28px;
+		line-height: 28px;
+		padding-top: 8px;
+		position: relative;
+		top: 1px;
+	}
+	.FootLogo a img{
+		width: 130px;
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+	.FootLogoPart .FootLogo{
+		margin-bottom: 15px;
+	}
+	.FootLogoPart .FootLogo p{
+		font-size: 13px;
+		text-align: center;
+	}
+	.FootAddress ul{
+		display: block;
+		max-width: 100%;
+		flex-wrap: wrap;
+	}
+	.FootAddress ul li{
+		flex: 0 0 50%;
+	}
+	.FooterRight{
+		padding-left: 15px;
+		padding-top: 30px;
+	}
+	.FooterRight .row .col-md-6{
+		flex: 0 0 100%;
+	}
+	.FooterRight .row .col-md-6:first-child .FootLinkBox{
+		margin-bottom: 20px;
+	}
+
+	.FootLogoPart .FootAddress ul li a span{
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+		padding-top: 8px;
+	}
+	.FootLogoPart .FootAddress ul li a font{
+		font-size: 13px;
+	}
+	.FootCopyright p{
+		font-size: 12px;
+	}
+	/*------------------About-us page responsive css---------------*/
+	.inner_page_content{
+		padding-top: 65px;
+	}
+	.about_top_head{
+		padding: 20px 0px;
+		padding-bottom: 0;
+	}
+	.about_top_head h2{
+		font-size: 22px;
+	}
+	.about_des{
+		margin-left: 0;
+		margin-top: 15px;
+		padding:20px;
+	}
+	.about_top_des{
+		padding-bottom: 30px;
+	}
+	.about_top_head h2{
+		margin-bottom: 0;
+	}
+	.about_des h3{
+		font-size: 17px;
+	}
+	.about_des p, .video_des p{
+		font-size: 12px;
+		line-height: 27px;
+	}
+	.about_ger a img{ width: 540px; margin-top: 15px;}
+	.about_top_des{
+		padding-bottom: 35px;
+	}
+	.video_des{
+		padding: 15px 0 0 0;
+	}
+	.video_des p:last-child{
+		padding-bottom: 0;
+	}
+	.video_des p{
+		font-size: 12px;
+		padding-bottom: 10px;
+	}
+	.about_video_box .about_video iframe{
+		width: 100%;
+		height: 175px;
+	}
+	/*------------------Contact-us page responsive css---------------*/
+	.form_bg_box{
+		padding: 30px 0;
+	}
+	.form_bg_box .form_box_inner{
+		width: 100%;
+		display: block;
+		padding: 15px;
+	}
+	.form_ger img{
+		width: 100%;
+	}
+	.form_bg_box .TitleHead{
+		margin-bottom: 30px;
+	}
+	.back_next_button{
+		padding: 15px 0 10px 0px;
+	}
+	/*------------------dashbaord-page responsive css----------------*/
+	.dashboard_content{
+		padding: 15px;
+	}
+	.dashboard_content_bg{
+		padding: 40px 0;
+	}
+	.appointments_box_top{
+		padding: 10px;
+	}
+	.appointments_box_top .appointments_left{
+		width: 100%;
+	}
+	.appointments_box_top .appointments_left h4{
+		text-align: center;
+	}
+	.appointments_box_top .appointments_left span{
+		text-align: center;
+	}
+	.appointments_box_top .appointments_progress{
+		width: 100%;
+		text-align: center;
+		padding-top: 15px;
+	}
+	.appointments_button a{
+		font-size: 14px;
+	}
+	.dashboard_menu, .dashboard_content{
+		float: none;
+		display: block;
+		width: 100%;
+	}
+	.dashboard_menu{
+		margin-bottom:15px;
+		overflow-x:auto;
+		overflow-y:hidden;
+	}
+	.dashboard_menu ul{
+		display: flex;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -o-flex;
+		display: -ms-flex;
+		flex-wrap: wrap;
+		/*width:768px;*/
+	}
+	.dashboard_menu ul li a span{font-size:14px;line-height: 32px;padding-left: 20px;}
+	.dashboard_menu ul li{
+		flex: 0 0 25%;
+		max-width: 25%;
+	}
+	.dashboard_menu ul li{
+		border-left: solid 1px #e2e2e2;
+		display: flex;
+		display: -webkit-flex;
+	}
+	.dashboard_menu ul li:last-child{
+		border-bottom: solid 1px #e2e2e2;
+	}
+	.dashboard_menu ul li:last-child a{
+		border-radius: 0 4px 4px 0;
+	}
+	.dashboard_menu ul li:first-child a{
+		border-radius: 4px 0 0 4px;
+	}
+	.appointments_box{
+		margin-bottom: 20px;
+	}
+	.dashboard_menu ul li.active::before, .dashboard_menu ul li:hover::before{
+		content:none;
+		width: 0;
+		height: 0;
+		border-left: 10px solid transparent;
+		border-right: 10px solid transparent;
+		border-top: 10px solid #384685;
+		top: 100%;
+		z-index: 22;
+		transform: translateX(-50%);
+		left: 50%;
+	}
+	.appointments_box_top .appointments_left h4{
+		font-size: 40px;
+	}
+	.edit_medical_box .step_head.step_head_deactive .step_tab ul li{
+		width: 130px;
+	}
+	.edit_medical_box .step_head{
+		padding: 0 0 38px 0;
+	}
+	.new_appointment_box .chief_complaint_button{
+		padding: 15px 0 15px 0px;
+	}
+	.currentmedicationfldadd{
+		margin-top: 15px;
+	}
+	.currentmedicationfldtimes{
+		padding-left: 15px;
+	}
+	.step_head .step_tab ul li a span{
+		padding-bottom: 10px;
+	}
+	.dashboard_menu ul li a{
+		padding: 5px 0;
+		width: 100%;
+	}
+	.dashboard_menu ul li a i{
+		margin-bottom: 0;
+		width: 45px;
+		display: block;
+		margin: 0 auto;
+	}
+	.dashboard_menu ul li a span{
+		padding-left: 0;
+		font-size: 10px;
+		line-height: 12px;
+	}
+	.my_account_button{
+		padding-right: 10px;
+	}
+	.back_next_button{
+		padding:10px 0px;
+	}
+	.appointment_table_box table tr td, .appointment_table_box table tr th{
+		padding: 10px;
+		font-size: 13px;
+	}
+	.edit_medical_box .step_head{
+		padding: 0 0 20px 0;
+	}	
+	.dashboard_content{
+		min-height:auto;
+	}
+	.radio_list .form-check{
+		float: none;
+		padding-left: 0;
+		margin-bottom: 5px;
+	}
+	.radio_list .form-check:first-child{
+		margin-top: 5px;
+	}
+	.btn{
+		margin-top: 5px !important;
+		font-size: 15px !important;
+	}
+	.back_next_button ul{display: flex !important;justify-content: space-between;width: 100%;}
+	.back_next_button ul li{
+		width:50%;
+		max-width: 50%;
+		text-align: center;
+		padding-right: 10px
+	}
+	.back_next_button ul li:last-child{padding-right: 0px;}
+	.back_next_button ul li button{width:100%;}
+	.common_conditions_button ul li{
+		margin-right: 30px;
+	}
+	.form-group label, .form-control{
+		font-size: 13px;
+	}
+	#myTabContent222 h4{
+		font-size: 18px;
+	}
+	.edit_medical_box .TitleHead h3{
+		font-size: 17px;
+	}
+	.step_tab{
+		width: 100%;
+		overflow-x: scroll;
+		overflow-y: hidden;
+	}
+	.step_tab ul#myTab{
+		width: auto;
+		height: auto;
+		display: table-cell;
+	}
+	.step_head .step_tab ul li{
+		float: none;
+		display: table-cell;
+	}
+	.step_head .step_tab::before{
+		display: none;
+	}
+	.new_appointment_form .form_submit_button button{
+		display: block;
+		margin: 0 auto;
+	}
+	.appointment_table_box{
+		max-height: 350px;
+	}
+	.common_conditions_button ul li{
+		margin-right: 4px;
+	}
+	.common_conditions_button{
+		padding: 15px 0 10px 15px !important;
+	}
+	.common_conditions_button ul li button{
+		padding: 8px !important;
+		font-size: 15px !important;
+	}
+	.step_head .step_tab ul li a span{
+		line-height: 15px;
+	}
+	.form_submit_button{
+		margin-top: 10px;
+	}
+	.form_submit_button button{
+		width: 100% !important;
+	}
+	
+	.new_appointment_form{text-align:center;}
+	.new_appointment_form .col-md-3 a img{height:115px; margin-bottom:15px;}
+	.step_head .step_tab ul li a small { top: 3px;left: 38%; }
+    .step_head .step_tab ul li a { padding-top: 25px; }
+
+    .shotshistoryfld{border-bottom: 1px solid #c6c6c6; padding-bottom: 15px; padding-top: 15px;}
+
+    .step_head .step_tab ul li a span { font-size: 15px; }
+    .form-group label, .form-control,label { font-size: 15px; }
+    .header-nav .container { padding: 0px 10px; }
+    .name_dob_header_cls { font-size: 13px; }
+    .dashboard_content { padding: 10px; }
+    .FooterMain .container > .row { margin: 0; }
+    .appointment_table_box table tr td, .appointment_table_box table tr th { font-size: 14px; }
+    body { font-size: 15px; }
+    /*.header-sticky-tit { top: 49px !important; }*/
+    .provider-sec {padding: 15px !important;}
+    .login-cover .card {
+    padding: 10px !important;}
+    .provider-sec .login-box .logo small {
+    font-size: 18px;
+    margin-bottom: 10px;
+     }
+    .provider-sec .login-box .logo a {
+    font-size: 28px !important;
+    margin-bottom: 4px !important;
+    }
+    .btt-center {
+    padding: 10px 0px 15px 0px;
+   }
+   .provider-sec .login-box .msg {
+    margin-bottom: 15px;
+    font-size: 14px;}
+    .back_next_button ul {display: flex;}
+    .back_next_button ul li button {
+    min-width: auto;
+    padding: 8px 10px !important;
+    height: 40px;}
+    .nofillborder{border:1px solid #023264 !important;background-color: #fff !important;color:#023264 !important;font-weight: 500;}
+    .back_next_button_sticky {margin-top: 3px;}
+    .successfully-center-sec .about_top_head h1 {
+    font-size:18px !important;
+    line-height: initial !important;
+    font-weight: 600 !important;}
+    .successfully-center-sec figure{max-width: 65px !important;margin: auto !important;}
+    .successfully-center-sec {
+	    min-height: 470px !important;
+	    padding-top: 160px !important;
+	}
+	.navbar.navbar-expand-lg.navbar-light a img {
+	    max-width: 30px;
+	}
+	.schedule-btns .btn {
+        margin-top: 0px !important;
+		font-size: 12px !important;
+		padding: 7px 5px !important;
+	}
+	.navbar.navbar-expand-lg.navbar-light .schedule-btns {
+	    padding-right: 44px;
+	    position: absolute;
+	    top: 5px;
+	    right: 0;
+	    padding-left: 0px;
+	}
+	.navbar .navbar-collapse {min-width: 100%;top: 48px;}
+	body.fixed .navbar .navbar-collapse {top: 43px;}
+	.site-wraper {padding-top: 50px;}
+	.banner-ai-info h5 {font-size: 38px;}
+	.banner-ai-info h6 {font-size: 22px;}
+	.banner-ai-info p {font-size: 15px;}
+	.line-close-tx {line-height: 14px;margin-bottom: 15px;}
+	.home-banner {padding: 20px 0px;}
+	.banner-rw-ai {padding-bottom: 25px;}
+	.how-it-sec {padding: 20px 0px;}
+	.required-bx h5 { font-size: 18px;}
+    .required-bx p {font-size: 15px;}
+    .main-head {padding-bottom: 15px;}
+    .main-head h2 {font-size: 22px;}
+    .article-work-sec h4 {font-size: 16px;padding-bottom: 15px;}
+    .article-work-sec p {font-size: 15px;}
+    .the-perks-sec {padding: 20px 0px;}
+    .the-perks-sec .row {
+        margin-right: -15px;
+	    margin-left: -15px;
+	}
+    .the-perks-sec .row .col-md-6 {
+	    padding-bottom: 15px;
+	    display: flex;
+	    flex: 0 0 100%;
+	    max-width: 100%;
+	    padding-left: 15px;
+	    padding-right: 15px;
+	}
+	.help-with-sec {padding: 20px 0px;}
+	.help-with-sec .row .col-md-6 .help-with-text {
+	    margin: auto;
+	    width: 100%;
+	    padding-top: 30px;
+    }
+    .help-with-text ul li {
+	    font-size: 15px;
+	    margin-bottom: 10px;
+	    position: relative;
+	    padding-left: 30px;
+	}
+	.help-with-text h5 {font-size: 18px;font-weight: 600;}
+	.sign-in-head h6 {font-size: 20px;font-weight: 600;}
+	.footer-tit {font-size: 16px;margin-bottom: 10px;}
+	.footer-link li a {font-size: 15px;}
+}
